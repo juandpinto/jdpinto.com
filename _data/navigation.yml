@@ -1,16 +1,20 @@
-# main links
-main:
-  # - title: "Quick-Start Guide"
-    # url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"
-    url: /about/
-  - title: "Posts"
-    url: /posts/
-  - title: "CV"
-    url: /cv/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# Sample site navigation bar links
+
+- title: Posts
+  url: /
+- title: About
+  url: /about/
+- title: CV
+  url: /cv/
+- title: Search
+  url: /search/
+- title: Social
+  url: http://jdpinto.micro.blog
+# - title: Posts
+#   url: /posts/
+# - title: Categories
+#   url: /categories/
+# - title: Tags
+#   url: /tags/
+# - title: Recipes
+#   url: /recipes/
