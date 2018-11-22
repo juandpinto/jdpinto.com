@@ -3,11 +3,10 @@ title: "Motivation for this blog"
 date: 2018-11-18
 last_modified_at: 2018-11-22
 excerpt_separator: "<!--more-->"
-categories:
-  - Blog
 tags:
   - IndieWeb
   - open web
+  - blog
 ---
 
 I've  been thinking a lot lately about the internet presence I wish to create for myself. With all of this year's revelations on Facebook's serious data mismanagement ([Cambridge Analytica](https://en.wikipedia.org/wiki/Facebook–Cambridge_Analytica_data_scandal)), political interference ([Russian hackers](https://www.nytimes.com/2018/02/17/technology/indictment-russian-tech-facebook.html?module=inline)), failure to control hate speech ([Myanmar genocide](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)), and—most recently—dishonest efforts to shift blame ([oh boy, where to begin](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html)), the backlash against social media platforms as a whole has reached fever pitch. It has caused me to reflect on my own contributions to the direction the web takes and our legacy for future generations of internauts.
