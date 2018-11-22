@@ -1,7 +1,13 @@
 ---
 title: "Motivation for this blog"
 date: 2018-11-18
+last_modified_at: 2018-11-22
 excerpt_separator: "<!--more-->"
+categories:
+  - Blog
+tags:
+  - IndieWeb
+  - open web
 ---
 
 I've  been thinking a lot lately about the internet presence I wish to create for myself. With all of this year's revelations on Facebook's serious data mismanagement ([Cambridge Analytica](https://en.wikipedia.org/wiki/Facebook–Cambridge_Analytica_data_scandal)), political interference ([Russian hackers](https://www.nytimes.com/2018/02/17/technology/indictment-russian-tech-facebook.html?module=inline)), failure to control hate speech ([Myanmar genocide](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)), and—most recently—dishonest efforts to shift blame ([oh boy, where to begin](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html)), the backlash against social media platforms as a whole has reached fever pitch. It has caused me to reflect on my own contributions to the direction the web takes and our legacy for future generations of internauts.
@@ -18,7 +24,7 @@ Now, people have begun to realize that this convenience comes at a hefty price. 
 
 I've become enthralled by the idea of the [IndieWeb](https://indieweb.org). It's an effort that a group of techies have undertaken to make it just as easy and convenient to create an online social presence *on your own domain* as on Facebook or Twitter. This means that everything you put up remains yours and yours alone. You control what goes up and what comes down. You decide who you wish to connect with and in what way. And best of all, when these big platforms fail—because they all eventually do—there's no need to scramble to find the next big thing and start all over again. Everything is on your own domain.
 
-So, that's my motivation for this blog. But what am I going to blog about?
+So, that's my motivation for this blog. **But what am I going to blog about?**
 
 Seeing as this initial post is getting to a bit long-winded, that'll be the topic of my next post. I'll provide a plan for the blog and for this site as a whole. I'll also discuss how I've organized different parts of the site, some of the technology behind it, and why I've chosen what I have.
 
