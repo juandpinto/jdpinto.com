@@ -1,6 +1,6 @@
 # Sample site navigation bar links
 
-- title: Posts
+- title: Blog
   url: /
 - title: About
   url: /about/
@@ -8,7 +8,7 @@
   url: /cv/
 - title: Search
   url: /search/
-- title: Social
+- title: Microblog
   url: http://social.juandpinto.com
 # - title: Posts
 #   url: /posts/

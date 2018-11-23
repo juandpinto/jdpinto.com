@@ -1,7 +1,8 @@
 ---
-title: "Motivation for this blog"
-date: 2018-11-18
-last_modified_at: 2018-11-22
+title: "Motivation for renewed blog"
+slug: "motivation-for-blog"
+date: 2018-11-23
+last_modified_at: 2018-11-23
 excerpt_separator: "<!--more-->"
 tags:
   - IndieWeb
