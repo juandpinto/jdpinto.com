@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% if page.cat == "blog" %}
+    {% for entry in site.categories.blog %}
+      {% include entry.html %}
+    {% endfor %}
+  {% elsif page.cat == "microblog" %}
+    {% for entry in site.categories.microblog %}
+      {% include entry.html %}
+    {% endfor %}
+  {% endif %}
+</div>

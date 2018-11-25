@@ -1,3 +1,15 @@
+
+<!--
+
+Can't figure out how to use the date if a title is missing!
+
+{% if entry.title %}
+{% else %}
+  {% assign title = entry.date %}
+{% endif %}
+
+-->
+
 {% if entry.id %}
   {% assign title = entry.title | markdownify | strip_html %}
 {% else %}

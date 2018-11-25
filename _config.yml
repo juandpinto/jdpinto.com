@@ -41,7 +41,7 @@ liquid:
   error_mode: strict
 
 # Build settings
-permalink: /blog/:year/:month/:title/
+permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
@@ -88,7 +88,7 @@ defaults:
 # Site Author
 author:
   name: Juan D. Pinto
-  picture: /images/avatar.jpg
+  picture: 
   email: jdpinto1@gmail.com
   twitter: jdpinto1
   links:

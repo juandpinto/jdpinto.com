@@ -3,6 +3,7 @@ title: "Motivation for renewed blog"
 slug: "motivation-for-blog"
 date: 2018-11-23
 last_modified_at: 2018-11-23
+category: blog
 excerpt_separator: "<!--more-->"
 tags:
   - IndieWeb
