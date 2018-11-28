@@ -1,9 +1,7 @@
 # Sample site navigation bar links
 
-- title: Home
-  url: /
 - title: Blog
-  url: /blog/
+  url: /
 - title: Microblog
   url: http://social.juandpinto.com
 - title: About
