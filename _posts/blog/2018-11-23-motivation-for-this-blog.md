@@ -1,10 +1,9 @@
 ---
 title: "Motivation for renewed blog"
 slug: "motivation-for-blog"
-date: 2018-11-23
-last_modified_at: 2018-11-23
+date: 2018-11-23 20:00:00 +0200
+last_modified_at: 2018-11-23 20:00:00 +0200
 category: blog
-excerpt_separator: "<!--more-->"
 tags:
   - IndieWeb
   - open web
@@ -14,8 +13,6 @@ tags:
 I've  been thinking a lot lately about the internet presence I wish to create for myself. With all of this year's revelations on Facebook's serious data mismanagement ([Cambridge Analytica](https://en.wikipedia.org/wiki/Facebook–Cambridge_Analytica_data_scandal)), political interference ([Russian hackers](https://www.nytimes.com/2018/02/17/technology/indictment-russian-tech-facebook.html?module=inline)), failure to control hate speech ([Myanmar genocide](https://www.reuters.com/investigates/special-report/myanmar-facebook-hate/)), and—most recently—dishonest efforts to shift blame ([oh boy, where to begin](https://www.nytimes.com/2018/11/14/technology/facebook-data-russia-election-racism.html)), the backlash against social media platforms as a whole has reached fever pitch. It has caused me to reflect on my own contributions to the direction the web takes and our legacy for future generations of internauts.
 
 As a self-described advocate of open science, open data, open educational resources, and open-source software, it comes as no surprise that I am also a big fan of the open web. The so-called "walled gardens"[^gardens] that have taken over the web—those same ones that sell their users and their data for a quick buck—clearly don't have our best interest in mind. How could they? By design, their business model is incompatible with the idea of the open web.
-
-<!--more-->
 
 The internet made it possible to connect to a highway of information. The World Wide Web ensured that this highway would be free from interference by powerful entities bent on controlling the on and off ramps to this highway, the direction that traffic would flow, and the toll stations that would have been placed along the way. Some early forces tried to become the guardians of the internet—they wanted to make the highways smooth and the landscape scenic, but with the understanding that they were in charge. Instead, the web was a lawless land of opportunity. It often led to potholes and dead ends, but it made every car, bicycle, and pedestrian on the highway a free traveler. Most importantly, it made it possible for any traveler to build a home along this highway that anyone could visit.
 
