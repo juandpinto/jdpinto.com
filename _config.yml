@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-theme
 locale: en-US
 title: "Juan D. Pinto"
 description: "Husband, father, language pedagogue, technology enthusiast, open science advocate."
@@ -88,7 +88,7 @@ defaults:
 # Site Author
 author:
   name: Juan D. Pinto
-  picture: 
+  picture:
   email: jdpinto1@gmail.com
   twitter: jdpinto1
   links:
