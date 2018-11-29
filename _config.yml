@@ -89,24 +89,27 @@ defaults:
 author:
   name: Juan D. Pinto
   picture:
-  email: jdpinto1@gmail.com
+  email: juan@juandpinto.com
   twitter: jdpinto1
-  links:
-    - title: Twitter
-      url: https://twitter.com/jdpinto1
-      icon: fab fa-twitter-square
-    - title: GitHub
-      url: https://github.com/juandpinto
-      icon: fab fa-github-square
+  links: false
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/jdpinto1
-    icon: fab fa-twitter-square
   - title: GitHub
     url: https://github.com/juandpinto
-    icon: fab fa-github-square
+    icon: fab fa-github
+  # - title: Micro.blog
+  #   url: https://social.juandpinto.com
+  #   icon: fas fa-link
+  - title: Mastodon
+    url: https://scholar.social/@jdpinto
+    icon: fab fa-mastodon
+  - title: Twitter
+    url: https://twitter.com/jdpinto1
+    icon: fab fa-twitter
+  - title: Linkedin
+    url: https://www.linkedin.com/in/pintobean/
+    icon: fab fa-linkedin
   - title: Feed
     url: atom.xml
-    icon: fas fa-rss-square
+    icon: fas fa-rss
