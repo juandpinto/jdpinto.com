@@ -2,6 +2,7 @@
 title: "Jordan training and thoughts on education"
 slug: "jordan-training-and-thoughts-on-education"
 date: 2018-12-06 06:00:00 +0200
+last_modified_at: 2018-12-06 06:00:00 +0200
 category: blog
 tags:
   - Fulbright
