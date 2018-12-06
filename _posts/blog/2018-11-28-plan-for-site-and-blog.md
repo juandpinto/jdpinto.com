@@ -1,5 +1,6 @@
 ---
 title: "Plan for site and blog"
+slug: "plan-for-site-and-blog"
 date: 2018-11-28 17:11:00 +0200
 category: blog
 tags:

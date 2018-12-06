@@ -1,6 +1,6 @@
 ---
 title: "Motivation for renewed blog"
-slug: "motivation-for-blog"
+slug: "motivation-for-renewed-blog"
 date: 2018-11-23 20:00:00 +0200
 last_modified_at: 2018-11-23 20:00:00 +0200
 category: blog
