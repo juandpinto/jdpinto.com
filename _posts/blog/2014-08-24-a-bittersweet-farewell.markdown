@@ -1,5 +1,5 @@
 ---
-title: A Bittersweet Farewell
+title: A bittersweet farewell
 slug: a-bittersweet-farewell
 date: 2014-08-24 21:10:57+00:00
 category: blog
