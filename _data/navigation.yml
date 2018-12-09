@@ -3,9 +3,11 @@
 - title: Blog
   url: /
 - title: Microblog
-  url: http://social.juandpinto.com
+  url: http://microblog.juandpinto.com
 - title: About
   url: /about/
+- title: Projects
+  url: /projects/
 - title: CV
   url: /cv/
 - title: Search
