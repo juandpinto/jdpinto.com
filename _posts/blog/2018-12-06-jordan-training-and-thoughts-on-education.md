@@ -2,7 +2,6 @@
 title: "Jordan training and thoughts on education"
 slug: "jordan-training-and-thoughts-on-education"
 date: 2018-12-06 06:00:00 +0200
-last_modified_at: 2018-12-06 06:00:00 +0200
 image:
   path: /images/2018-12-06.header.jpg
 category: blog
@@ -10,6 +9,7 @@ tags:
   - Fulbright
   - Jordan
   - education
+  - abroad
 ---
 
 I spent most of last week at a Fulbright training in Amman, Jordan. All the Fulbright English Teaching Assistants from the entire MENA region (Middle East, North Africa) were brought there for an intense few days of training on language acquisition theories, teaching techniques, and lesson planning. And intense it was!

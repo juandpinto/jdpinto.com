@@ -2,7 +2,6 @@
 title: "Bigotry and fear: The chicken and the egg"
 slug: "bigotry-and-fear"
 date: 2016-12-06 06:00:00 +0200
-last_modified_at: 2016-03-01 18:00:00 +0200
 category: blog
 tags:
   - politics
