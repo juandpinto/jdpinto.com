@@ -4,12 +4,12 @@ slug: the-final-stretch
 date: 2014-08-19 22:12:14+00:00
 category: blog
 tags:
-- Cambridge
-- theater
-- Oxford
-- photography
-- Shakespeare
-- abroad
+  - Cambridge
+  - theater
+  - Oxford
+  - photography
+  - Shakespeare
+  - abroad
 ---
 
 With less than a week to go here at Cambridge, I’m definitely feeling the pressure to do some of the things I still haven’t gotten around to. That has so far meant a few days of traveling and visiting some of the most beautiful areas of Cambridge.
@@ -42,7 +42,7 @@ Of course, the best part of the whole day was going to see _The Lion King_ broad
 [![Isn't London beautiful at night?](http://jdpinto.files.wordpress.com/2014/08/dsc_01821.jpg){: style="width: 90%"}{: .align-center}](https://jdpinto.files.wordpress.com/2014/08/dsc_01821.jpg) Isn't London beautiful at night?
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
-### The Oxbridge Debate
+# The Oxbridge Debate
 
 Everyone knows about the (friendly?) rivalry between Cambridge and Oxford. Since I don’t know enough about the academics of one vs. the other, I can make no comment on that. But, since visiting Oxford this last Sunday, I can at least give my two cents on the differences I noticed and my own preferences.
 
@@ -70,7 +70,7 @@ The main thing I wanted to do at Oxford was to visit the _Eagle and Child_ pub,
 [![We ran into some protesters at Oxford.](http://jdpinto.files.wordpress.com/2014/08/dsc_0319.jpg){: style="width: 90%"}{: .align-center}](https://jdpinto.files.wordpress.com/2014/08/dsc_0319.jpg) We ran into some protesters at Oxford.
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
-### Adventures Still to Come
+# Adventures Still to Come
 
 Since all I have to do now is finish revising my supervision paper, I’ve decided to go on one last adventure in England. This morning I took a train up north to Leeds, where I will be spending a couple of days at the house of some friends who will show me around the area. Thursday is our final goodbye formal, and Saturday I fly to my last destination this summer: Switzerland!
 

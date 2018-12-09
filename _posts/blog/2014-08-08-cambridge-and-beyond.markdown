@@ -4,14 +4,14 @@ slug: cambridge-and-beyond
 date: 2014-08-08 21:55:30+00:00
 category: blog
 tags:
-- art
-- museum
-- Cambridge
-- education
-- France
-- London
-- Paris
-- abroad
+  - art
+  - museum
+  - Cambridge
+  - education
+  - France
+  - London
+  - Paris
+  - abroad
 ---
 
 Wow, where to even begin? It's now been just over a month since my last entry, which means I essentially have only two more weeks here at Cambridge. And believe me when I say that what an adventure it has been!
@@ -27,7 +27,7 @@ As a bit of background, our time here is split into two halves called _modules_
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### Recent Adventures
+# Recent Adventures
 
 
 The weekend between modules was a time to celebrate, and celebrate I did! Some friends and I decided we wanted to travel a bit, so after exploring countless options and nearly giving up, we found a great deal for bus tickets to . . . drumroll . . . Paris!
@@ -59,7 +59,7 @@ Really, everything here is so beautiful, that simply walking out in the morning,
 [![DSC_0391](https://jdpinto.files.wordpress.com/2014/08/dsc_0391.jpg){: style="width: 90%"}{: .align-center}](https://jdpinto.files.wordpress.com/2014/08/dsc_0391.jpg)
 
 
-### Didactic Ramblings
+# Didactic Ramblings
 
 
 It's amazing how much I have learned here. Sure, I have learned plenty in my classes, especially Modern European History since it was a topic I hardly knew anything about but have since come to find fascinating. Still, most of what I'm learning is just simply from being here.
