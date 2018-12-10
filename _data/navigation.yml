@@ -1,7 +1,7 @@
 # Sample site navigation bar links
 
 - title: Blog
-  url: /
+  url: /blog/
 - title: Microblog
   url: http://microblog.juandpinto.com
 - title: About
