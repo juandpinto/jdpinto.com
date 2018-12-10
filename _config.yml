@@ -35,6 +35,7 @@ disqus:
   shortname: # Disqus shortname, e.g. "my_disqus_shortname"
 twitter:
   username: "jdpinto1" # site's Twitter username, e.g. "mmistakes"
+repository: juandpinto/juandpinto.com
 
 # Liquid
 liquid:
