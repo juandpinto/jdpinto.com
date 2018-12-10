@@ -42,7 +42,7 @@ We were told about the chance to go to Wadi Rum while we were still in the State
 
 
 
-### Brief History
+# Brief History
 
 
 
@@ -70,7 +70,7 @@ The area is still mostly known for T. E. Lawrence’s part in the Arabian Revolt
 
 
 
-### Weekend Adventure
+# Weekend Adventure
 
 
 

@@ -37,7 +37,7 @@ One word of advice for anyone wanting to visit famous sites: always be aware of 
 As for my two Paris goals:
 
 
-### Have a full conversation on the street with a French person—in French.
+# Have a full conversation on the street with a French person—in French.
 
 
 Well, I can confidently say that I had multiple conversations with French people in French. I mean, "excuse me where is the bathroom?" "over there on the left," "thank you," is a full conversation, no? Oui. But I'm afraid a truly engaging French conversation will have to wait until a future time when it takes me less than five minutes to think of the proper response to a simple question asked to me on the spot.
@@ -46,7 +46,7 @@ Well, I can confidently say that I had multiple conversations with French peopl
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### Get a totally epic picture in front of the Eiffel Tower and send it to someone as a postcard.
+# Get a totally epic picture in front of the Eiffel Tower and send it to someone as a postcard.
 
 
 The epic picture has been taken. Now I just have to send it as a postcard. Details forthcoming (once I find a place to print my picture).

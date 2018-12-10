@@ -38,7 +38,7 @@ Sunday was the day of the rotation, but because two of the students in the other
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### The Tomb
+# The Tomb
 
 
 Nabataean tombs are very filthy places. Well, at least today they are. These tombs have been used by various peoples and for various purposes since the Nabataeans abandoned Petra close to two thousand years ago. The Bedouin have used them for shelter and as stables for the last few hundred years, which is plenty of time for both human and animal waste to accumulate.
@@ -58,7 +58,7 @@ Over the course of the week we have taken turns digging through the southern par
 [![](http://jdpinto.files.wordpress.com/2014/05/dsc_0014.jpg){: style="width: 90%"}{: .align-center}](https://jdpinto.files.wordpress.com/2014/05/dsc_0014.jpg)
 
 
-### The Skeleton
+# The Skeleton
 
 
 I got to pull out the skull—a very unnerving experience considering the extremely fragile state of the bones. We have now removed the bones of the entire upper body and taken them to our lab for examination. Much of yesterday was spent identifying bones and teeth, particularly in order to assess the gender, age, and height of this Nabataean. I attempted to reconstruct the shattered scapula—one of the more complex and thin bones in the human body—and also got to help with identifying and measuring some other bones.
@@ -72,7 +72,7 @@ I got to pull out the skull—a very unnerving experience considering the extrem
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### Ramblings
+# Ramblings
 
 
 I find that sometimes it’s easy to get so caught up in the data-driven aspect of archaeology, that I forget to reflect on the larger picture. These bones once belonged to a living, breathing human being, with goals, troubles, passions, fears, friends. Sure he lived in a very different time, with some very different customs and beliefs, but underneath it all, we share so very much in common.

@@ -33,7 +33,7 @@ It’s not only Hebrew, but the language aspect in general of my studies that I 
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### Nabataean Language
+# Nabataean Language
 
 
 While I don’t wish to bore anyone with a full linguistic introduction, there are a few things I do want to explain. I’ll try to keep things simple and brief—something I often find hard to do. I can tell who my real friends are when they’ll happily sit through my non-sensical but excited ramblings out of duty instead of shared interest.
@@ -54,7 +54,7 @@ So in essence, the Nabataeans adopted Aramaic, modified the alphabet to be more 
 Something else that's cool is that their script continued to be used and modified long after the end of the Nabataean kingdom, and eventually resulted in the classical Arabic script still in use today.
 
 
-### Pocket Change
+# Pocket Change
 
 
 So, why does all this matter? Well first of all, it’s super cool. Secondly, because Aramaic is so closely related to Hebrew, I find it relatively easy to read. The script takes some getting used to, especially when n’s and b’s and l’s all look so similar, d’s and r’s are identical, and the writing in general looks rather messy, but with a little practice it’s gotten much easier and much more enjoyable.
@@ -72,7 +72,7 @@ I was assigned my responsibility with the coins precisely because of my interest
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### Some Thoughts
+# Some Thoughts
 
 
 As I have repeatedly mentioned in some of my previous posts, one of the aspects of archaeology and history I love most is the fact that we get to know a people distant by both space and time, but who lived, experienced joys and sorrows, and died, just like the rest of us. That’s also why I find language so fascinating.
