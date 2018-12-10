@@ -44,7 +44,7 @@ And now, here I am. And not only do I get to visit it every day, come to know th
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-### The Bedul and the Middle East
+# The Bedul and the Middle East
 
 
 These Bedouin, who form a tribe known as the Bedul, lived in Petra itself not long ago. They lived in the ancient caves and controlled the markets for souvenirs, donkey rides, and other tourist attractions that still line the streets. But after Petra became a UNESCO World Heritage Site in 1985, the Jordanian government relocated the Bedul to Umm Sayhoun, a village adjacent to Wadi Musa. It’s this small village that will be my home for the next few weeks. Most of the Bedul I've met were born in the caves, but they're now building their lives here. They still go down to Petra each day and make their living off of tourism, but are no longer allowed to live in the Nabataean capital.
@@ -61,7 +61,7 @@ Today I also made some new Bedul friends. One of the students has been getting 
 There is something very special about this place. The Middle East has a very different feel than anywhere else I’ve been, and it’s a feel that I find strangely like—well—like _home_. I love the warmth of the people, the smell of home-cooked meals full of spices, the children who seem so free—always playing out on the street, dirty, and happy as can be—and the vast landscapes of red desert, shrubs, and wild goats. I love the sense of family and community that is so strong in this part of the world. I love that a people so poor in material comforts and so aged by hardships that are clearly visible in each of their faces, are so quick to laugh and enjoy their moments together. I love the religious devotion, the love for God and his constant blessings, the love of prayer and fasting and scripture—things that bind them together and increase their love toward one other.
 
 
-### Preparation and hard work
+# Preparation and hard work
 
 
 So far we’ve only been preparing for our excavations by touring around the city, getting accustomed to our new home, and doing lots of readings and homework. But tomorrow we begin the hard work. Tomorrow we will actually be taking equipment up and beginning to set up our work areas. The group has been divided into two crews, one to begin work with Dr. Johnson in the tombs of Wadi Mataha, and the other to start with Dr. Finlayson on the Ad-Deir Plateau. I’ve been assigned to the Ad-Deir Plateau. In a few weeks we’ll rotate and get to work in the other area, which will allow us to experience two different ways of doing archaeology under two different site directors.
