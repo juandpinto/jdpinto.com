@@ -103,13 +103,13 @@ footer_links:
   #   url: https://social.juandpinto.com
   #   icon: fas fa-link
   - title: Mastodon
-    url: https://scholar.social/@jdpinto
+    url: https://mastodon.social/@juandpinto
     icon: fab fa-mastodon
   - title: Twitter
-    url: https://twitter.com/jdpinto1
+    url: https://twitter.com/_juandpinto
     icon: fab fa-twitter
   - title: Linkedin
-    url: https://www.linkedin.com/in/pintobean/
+    url: https://www.linkedin.com/in/juandpinto/
     icon: fab fa-linkedin
   - title: Feed
     url: atom.xml
