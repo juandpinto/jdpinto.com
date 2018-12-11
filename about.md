@@ -17,6 +17,6 @@ When I'm not working on my personal projects, sharpening my Python / statistical
 
 This site serves a central hub for the goings-on of my life. Primarily, I plan to use it so like-minded academics, educators, and internauts can contact me easily and learn more about my latest projects. I'm always looking for fellow collaborators, so feel free to [reach out](mailto: juan@juandpinto.com).
 
-But aside from providing basic information about me, this site hosts my [blog](./blog/) and [microblog](https://social.juandpinto.com). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
+But aside from providing basic information about me, this site hosts my [blog](./blog/) and [microblog](https://microblog.juandpinto.com). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
 
 Everything you see is constantly changing as much as my life is. You'll find the repo for this site [here](https://github.com/juandpinto/juandpinto.github.io), and the repo for the Jekyll theme I use [here](https://github.com/mmistakes/so-simple-theme).
