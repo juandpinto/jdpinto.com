@@ -1,0 +1,3 @@
+[submodule "themes/internet-weblog"]
+	path = themes/internet-weblog
+	url = https://github.com/juandpinto/internet-weblog.git
