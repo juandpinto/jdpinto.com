@@ -1,0 +1,39 @@
+baseurl = "https://juandpinto.com"
+languageCode = "en-us"
+title = "internet weblog"
+theme = "internet-weblog"
+# pygmentsstyle = "emacs"
+Paginate = 15
+SectionPagesMenu = "main"
+
+[author]
+	Handle = "Juan Pinto"
+	FirstName = "Juan"
+	LastName = "Pinto"
+	AboutPage = "/about"
+	# Location = "Provo, UT"
+	# FlickrID = "87151163@N00"
+
+[params]
+	Description = "Juan Pinto's internet weblog."
+	ShowCopyright = true
+	RSSEnabled = true
+	RSSSections = [ "Blog", "Microblog"]
+	RSSMicropostTitles = false
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	series = "series"
+
+[[menu.main]]
+	name = "Blog"
+	weight = 1
+	identifier = "blog"
+	url = "/blog/"
+
+[[menu.main]]
+	name = "Microblog"
+	weight = 2
+	identifier = "microblog"
+	url = "/microblog/"
