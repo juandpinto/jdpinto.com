@@ -1,0 +1,182 @@
+
+/* Page Updates */
+
+.page ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.page li {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.page h4 {
+  margin: 20px 0 0 0;
+  color: #a0a0a0;
+  font-size: 16pt;
+  font-weight: normal;
+}
+
+.page h2 {
+  margin: 40px 0 0 0;
+}
+
+article div.postmeta {
+  margin: 0 0 10px 0;
+}
+
+article.micropost p > img {
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
+  padding: 10px;
+}
+
+/* Post */
+
+figure {
+  margin: 0 0 20px 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption {
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  color: #999999;
+}
+
+.highlight {
+  overflow: scroll;
+}
+
+.yellow-highlight {
+  background-color: #FFFEDC;
+}
+
+.inline-svg {
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  /* top: 0.15rem; */
+  position: relative;
+  padding: 0 0.1em;
+}
+
+.footer_links {
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+
+intro {
+  /* background-color: #545454; */
+  /* color: #ffffff; */
+  width: 800px;
+  padding: 2em 2em;
+  margin: auto;
+}
+
+.intro_text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 720px;
+}
+
+.intro_text > div {
+  flex: 1;
+  margin: 10px;
+}
+
+.site-logo {
+  /* display: inline-block; */
+  position: relative;
+  justify-content: center;
+  /* padding-right: 3em; */
+  /* z-index: 10; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-logo-img {
+  width: 50%;
+  /* height: 30%; */
+  border: 5px solid white;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Alignment
+   ========================================================================== */
+
+.align-baseline {
+  vertical-align: baseline !important;
+} /* Browser default */
+.align-top {
+  vertical-align: top !important;
+}
+.align-middle {
+  vertical-align: middle !important;
+}
+.align-bottom {
+  vertical-align: bottom !important;
+}
+.align-text-bottom {
+  vertical-align: text-bottom !important;
+}
+.align-text-top {
+  vertical-align: text-top !important;
+}
+
+/*
+   Image Alignment
+   ========================================================================== */
+
+.align-center,
+div.align-center,
+a img.align-center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+figure.align-center {
+  img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  figcaption {
+    text-align: center;
+  }
+}
+
+.align-right,
+a img.align-right {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  float: right;
+}
+
+.align-left,
+a img.align-left {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+}
