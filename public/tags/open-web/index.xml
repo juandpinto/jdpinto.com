@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open Web on internet weblog</title>
+    <link>https://juandpinto.com/tags/open-web/</link>
+    <description>Recent content in Open Web on internet weblog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Nov 2018 20:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://juandpinto.com/tags/open-web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Motivation for renewed blog</title>
+      <link>https://juandpinto.com/blog/motivation-for-renewed-blog/</link>
+      <pubDate>Fri, 23 Nov 2018 20:00:00 +0200</pubDate>
+      
+      <guid>https://juandpinto.com/blog/motivation-for-renewed-blog/</guid>
+      <description>I&amp;rsquo;ve been thinking a lot lately about the internet presence I wish to create for myself. With all of this year&amp;rsquo;s revelations on Facebook&amp;rsquo;s serious data mismanagement (Cambridge Analytica), political interference (Russian hackers), failure to control hate speech (Myanmar genocide), and—most recently—dishonest efforts to shift blame (oh boy, where to begin), the backlash against social media platforms as a whole has reached fever pitch. It has caused me to reflect on my own contributions to the direction the web takes and our legacy for future generations of internauts.</description>
+    </item>
+    
+  </channel>
+</rss>
