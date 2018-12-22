@@ -7,7 +7,7 @@ Paginate = 15
 SectionPagesMenu = "main"
 
 [author]
-	Handle = "Juan Pinto"
+	Handle = "Juan"
 	FirstName = "Juan"
 	LastName = "Pinto"
 	AboutPage = "/about"
