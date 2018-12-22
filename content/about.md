@@ -22,11 +22,11 @@ When I'm not working on my personal projects, sharpening my Python / statistical
 
 # About this site
 
-This site serves a central hub for the goings-on of my life. Primarily, I plan to use it so like-minded academics, educators, and internauts can contact me easily and learn more about my latest projects. I'm always looking for fellow collaborators, so feel free to [reach out](mailto: juan@juandpinto.com).
+This site serves a central hub for the goings-on of my life. Primarily, I plan to use it so like-minded academics, educators, and internauts can contact me easily and learn more about my latest projects. I'm always looking for fellow collaborators, so feel free to [reach out](mailto: juan@juanpinto.me).
 
 <br />
 
-But aside from providing basic information about me, this site hosts my [blog](./blog/) and [microblog](https://microblog.juandpinto.com). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
+But aside from providing basic information about me, this site hosts my [blog](./blog/) and [microblog](https://microblog.juanpinto.me). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
 
 <br />
 
