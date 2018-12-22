@@ -26,8 +26,8 @@ This site serves a central hub for the goings-on of my life. Primarily, I plan t
 
 <br />
 
-But aside from providing basic information about me, this site hosts my [blog](./blog/) and [microblog](https://microblog.juanpinto.me). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
+But aside from providing basic information about me, this site hosts my [blog](/blog/) and [microblog](/microblog/). These are the best places to read about my educational endeavors and my ramblings about adventures, travel, and the like.
 
 <br />
 
-Everything you see is constantly changing as much as my life is. You'll find the repo for this site [here](https://github.com/juandpinto/juandpinto.github.io), and the repo for the Jekyll theme I use [here](https://github.com/mmistakes/so-simple-theme).
+Everything you see is constantly changing as much as my life is. You'll find the repo for this site [here](https://github.com/juandpinto/juanpinto.me), and the repo for the Hugo theme I use [here](https://github.com/juandpinto/internet-weblog).
