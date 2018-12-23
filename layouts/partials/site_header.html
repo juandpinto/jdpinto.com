@@ -11,6 +11,10 @@
     {{ $.Scratch.Add "title" .Site.Title }}
     <title>{{ with .Title }}{{ if ne . ($.Scratch.Get "title") }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Author.handle }}’s {{ .Site.Title }}</title>
 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/weblog.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/css/lightgallery.min.css" type="text/css" />
     {{ partial "custom_stylesheets.html" . }}

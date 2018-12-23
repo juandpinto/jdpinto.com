@@ -1,16 +1,28 @@
 <header>
 
   <div id="navbar">
-    <div style="padding-left:30px;">
-      <a class="left" href="/">Juan Pinto</a>
-    </div>
-    <div style="padding-right:30px;">
-      <a href="/cv/">CV</a>
-      <a href="/projects/">Projects</a>
-      <a href="/about/">About</a>
-      <a href="/microblog/">Microblog</a>
-      <a href="/blog/">Blog</a>
-    </div>
+    <span class="navbar-toggle" id="js-navbar-toggle">
+      <!-- <i class="fas fa-bars"></i> -->
+      {{ partial "fontawesome.html" "bars-solid" }}
+    </span>
+    <a class="left" href="/">Juan Pinto</a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="/blog/">Blog</a>
+      </li>
+      <li>
+        <a href="/microblog/">Microblog</a>
+      </li>
+      <li>
+        <a href="/about/">About</a>
+      </li>
+      <li>
+        <a href="/projects/">Projects</a>
+      </li>
+      <li>
+        <a href="/cv/">CV</a>
+      </li>
+    </ul>
   </div>
 
   <!-- <nav>
