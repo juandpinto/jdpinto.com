@@ -2,8 +2,6 @@
 title = "About"
 +++
 
-# About Me
-
 I'm currently living in Israel and working as a Fulbright English Teaching Assistant. I get to teach wonderful students, lead conversation groups, and help out at after-school programs with wild kids who have too much energy. I love it.
 
 <br />

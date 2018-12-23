@@ -3,8 +3,6 @@ title: Projects
 menu: main
 ---
 
-# Projects
-
 ### Frequency Dictionary of Spoken Hebrew (FDOSH)
 
 My MA thesis at the University of Texas at Austin was the creation of a frequency dictionary of spoken Hebrew. All of the scripts and data for the project can be found at the [project GitHub page](https://github.com/juandpinto/frequency-dictionary) or as supplementary materials at [Zenodo](https://zenodo.org/record/1239886#.XAyLU6eB0Wo). The manuscript itself, written entirely in Markdown and LaTeX, has its own [GitHub repository](https://github.com/juandpinto/thesis-manuscript), but the final manuscript can be accessed directly [here](./docs/Pinto_MA_thesis.pdf).

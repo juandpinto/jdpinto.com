@@ -1,5 +1,5 @@
 <main class="content">
-  <h1 style="text-align:center;">{{ .Section }}</h1>
+  <h1 style="text-align:center;">{{ humanize .Section }}</h1>
   <article class="post-groups">
     <div class="post-group">
     {{ range .Data.Pages.GroupByDate "2006" }}

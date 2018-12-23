@@ -1,0 +1,14 @@
+{{ partial "site_header.html" . }}
+{{ partial "page_header.html" . }}
+
+  <main class="content">
+    <h1 style="text-align:center;">{{ .Title }}</h1>
+    <article class="page">
+      <p>
+        {{ .Content }}
+      </p>
+    </article>
+  </main>
+
+{{ partial "page_footer.html" . }}
+{{ partial "site_footer.html" . }}
