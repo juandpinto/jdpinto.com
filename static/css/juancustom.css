@@ -62,8 +62,6 @@ figcaption {
 
 .inline-svg {
   display: inline-block;
-  height: 2rem;
-  width: 2rem;
   height: 1em;
   width: 1em;
   /* top: 0.15rem; */
@@ -75,6 +73,11 @@ figcaption {
   flex-wrap: wrap;
   margin: auto;
   text-align: center;
+}
+
+.footer_links .inline-svg{
+  height: 2rem;
+  width: 2rem;
 }
 
 intro {
