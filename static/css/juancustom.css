@@ -80,24 +80,27 @@ figcaption {
   width: 2rem;
 }
 
-intro {
+.intro {
   /* background-color: #545454; */
   /* color: #ffffff; */
-  width: 800px;
+  width: 100%;
   padding: 2em 2em;
   margin: auto;
+  background-color: #545454;
+  color: #ffffff;
+  /* margin: 0; */
 }
 
 .intro_text {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   margin: auto;
-  width: 720px;
+  /* width: 720px; */
 }
 
 .intro_text > div {
   flex: 1;
-  margin: 10px;
+  /* margin: 10px; */
 }
 
 .site-logo {
@@ -112,9 +115,9 @@ intro {
 }
 
 .site-logo-img {
-  width: 50%;
+  width: 70%;
   /* height: 30%; */
-  border: 5px solid white;
+  border: 3px solid #ffffff;
   border-radius: 100%;
   display: block;
   margin: auto;
@@ -198,6 +201,7 @@ a img.align-left {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 10;
 }
 
 /* Navbar links */
