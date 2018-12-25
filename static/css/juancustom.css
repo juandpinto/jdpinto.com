@@ -262,17 +262,19 @@ a img.align-left {
   padding-right:20px;
   margin: 0;
   flex-direction: column;
+  text-align: center;
 }
 
 .main-nav li {
-    text-align: center;
-    margin: 15px auto;
-    margin-top: 30px;
+    /* text-align: center; */
+    margin: auto;
+    /* margin-top: 30px; */
 }
 
 .active {
-  display: inline-block;
+  display: inline-flex;
   padding: 0;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
