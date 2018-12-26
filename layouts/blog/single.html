@@ -10,7 +10,7 @@
         <h2><a rel="remote-article" href="{{ .Params.externalurl }}" class="p-name">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
       {{ end }}
 
-      <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="" class="dt-published">{{ .Date.Format "January 2, 2006" }}</time> in
+      <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="" class="dt-published">{{ .Date.Format "January 2, 2006" }}</time>
         <span class="categories">
           {{ range $i, $v := .Params.categories }}
             <a class="category" href="/categories/{{ $v | urlize }}">{{ $v }}</a>{{ if ne (len $.Params.categories) (add $i 1) }}, {{ end }}
