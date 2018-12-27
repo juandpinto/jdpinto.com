@@ -16,8 +16,12 @@
     {{ partial "custom_stylesheets.html" . }}
 
     {{ if .Site.Params.rssenabled }}
-	<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-	{{ end }}
+	     <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	  {{ end }}
+
+
+    <link rel="webmention" href="https://webmention.io/juanpinto.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/juanpinto.me/xmlrpc" />
 
     <span style="display:none" class="h-card">
       <img class="u-photo" src="https://juanpinto.me/images/juan.jpg" alt="Photo of Juan Daniel Pinto" />
