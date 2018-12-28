@@ -83,24 +83,28 @@ figcaption {
 .intro {
   /* background-color: #545454; */
   /* color: #ffffff; */
-  width: 100%;
-  padding: 2em 2em;
-  margin: auto;
+  max-width: 780px;
+  padding: 10px;
+  margin: 40px auto;
   background-color: #545454;
   color: #ffffff;
   /* margin: 0; */
 }
 
 .intro_text {
-  /* display: flex; */
+  display: flex;
   flex-wrap: wrap;
   margin: auto;
-  /* width: 720px; */
+  width: 720px;
+}
+
+.intro_text a {
+  color: #cccccc;
 }
 
 .intro_text > div {
   flex: 1;
-  /* margin: 10px; */
+  margin: 10px;
 }
 
 .site-logo {
@@ -108,14 +112,15 @@ figcaption {
   position: relative;
   justify-content: center;
   /* padding-right: 3em; */
-  /* z-index: 10; */
   display: flex;
   align-items: center;
   justify-content: center;
+  /* max-width: 300px; */
+  flex: 0 auto;
 }
 
 .site-logo-img {
-  width: 70%;
+  width: 150px;
   /* height: 30%; */
   border: 3px solid #ffffff;
   border-radius: 100%;
