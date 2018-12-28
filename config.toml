@@ -1,6 +1,6 @@
 baseurl = "https://juanpinto.me/"
 languageCode = "en-us"
-title = "internet weblog"
+title = "Juan Pinto"
 theme = "internet-weblog"
 # pygmentsstyle = "emacs"
 Paginate = 15
@@ -15,7 +15,7 @@ SectionPagesMenu = "main"
 	# FlickrID = "87151163@N00"
 
 [params]
-	Description = "Juan Pinto's internet weblog."
+	Description = "Juan Pinto"
 	ShowCopyright = true
 	RSSEnabled = true
 	RSSSections = [ "Blog", "Microblog"]
