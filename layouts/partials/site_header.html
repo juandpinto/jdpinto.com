@@ -9,8 +9,9 @@
     {{ .Hugo.Generator }}
 
     {{ $.Scratch.Add "title" .Site.Title }}
-    <title>{{ with .Title }}{{ if ne . ($.Scratch.Get "title") }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Author.handle }}’s {{ .Site.Title }}</title>
+    <title>{{ with .Title }}{{ if ne . ($.Scratch.Get "title") }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
 
+    <link rel="shortcut icon" href="/favicon.ico">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/weblog.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/css/lightgallery.min.css" type="text/css" />
     {{ partial "custom_stylesheets.html" . }}
