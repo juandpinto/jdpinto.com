@@ -35,10 +35,22 @@ article.micropost p > img {
   padding: 10px;
 }
 
+.micropost {
+  background-color: #F0F2F5;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 675px;
+}
+
+.post, .page, .post-groups {
+  margin: 40px auto;
+  max-width: 675px;
+}
+
 /* Post */
 
 figure {
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 
 figure img {
