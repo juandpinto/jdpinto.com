@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ .Site.Title }}</title>
-    <link>{{ .Site.BaseURL }}{{ .Permalink }}</link>
-    <description>All entries {{ with .Title }}in {{.}} {{ end }}on {{ .Site.Title }}</description>
+    <link>{{ .Permalink }}</link>
+    <description>All entries in {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
     {{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
     {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
