@@ -321,3 +321,27 @@ a img.align-left {
     display: none;
   }
 }
+
+
+
+.micropost > ol, .micropost > ul, .post > ol, .post > ul {
+  color: #666666;
+  /* font-size: 18px; */
+  line-height: 28px;
+}
+
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 1em;
+  align-items: center;
+  }
+.grid img {
+  /* border: 1px solid #ccc; */
+  /* box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); */
+  max-width: 100%;
+}
