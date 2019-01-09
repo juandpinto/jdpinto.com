@@ -19,7 +19,7 @@ Your browser does not support the video.
 
 ## Family
 
-We celebrated our third anniversary early in the year. We began our adventures in Israel as part of my Fulbright Fellowship, which has been quite a wild journey. Our son and daughter turned two and one respectively. This was our first full year raising two kids, and we've realized that two is twice as hard but also twice as fun! Who knows what having three kids will bring?
+My wife and I celebrated our third anniversary early in the year. We began our adventures in Israel as part of my Fulbright Fellowship, which has been quite a wild journey. Our son and daughter turned two and one respectively. This was our first full year raising two kids, and we've realized that two is twice as hard but also twice as fun! Who knows what having three kids will bring?
 
 <div class="grid">
   <a href="/images/2019-01-06_3.jpg"><img src="/images/2019-01-06_3.jpg"></a>
@@ -102,7 +102,7 @@ I managed to read 15 books this year. This is close to my yearly average, though
 
 ## Future
 
-It sure was a great year. But I also failed to accomplish many of the things I set out to do. Reflecting on the past should always serve as an opportunity to set goals for the future. Here is just a brief list of some the things I set out to do this year but failed.
+It sure was a great year. But I also failed to accomplish many of the things I set out to do. Reflecting on the past should always serve as an opportunity to set goals for the future. Here is just a brief list of some of the things I set out to do this year but failed:
 
 - Fine-tune and publish the research portion of my M.A. thesis in an academic journal.
 - Fine-tune and publish the frequency dictionary that I created as part of my M.A. thesis.
