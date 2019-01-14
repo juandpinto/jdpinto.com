@@ -345,3 +345,24 @@ a img.align-left {
   /* box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3); */
   max-width: 100%;
 }
+
+
+
+
+.post-mentions {
+    padding-top: 15px;
+    margin-top: 10px;
+    border-top: 1px solid #AEADAD;
+    border-bottom: 1px solid #AEADAD;
+    font-size: 16px;
+}
+.post-mentions ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 0;
+    color: #666666;
+}
+.post-mentions li {
+    margin: 10px;
+    background-color: #F0F2F5;
+}
