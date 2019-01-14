@@ -10,7 +10,7 @@ In 2018, I celebrated my 30th birthday 😮! I also created this, my personal we
 
 But first, a fun video.
 
-<video width="100%" controls class="align-center">
+<video width="100%" controls class="u-video align-center">
   <source src="/videos/Pinto-Memories-2018_480p.mp4" type="video/mp4">
 Your browser does not support the video.
 </video>
