@@ -352,8 +352,7 @@ a img.align-left {
 .post-mentions {
     padding-top: 15px;
     margin-top: 10px;
-    border-top: 1px solid #AEADAD;
-    border-bottom: 1px solid #AEADAD;
+    border-top: 2px solid #AEADAD;
     font-size: 16px;
 }
 .post-mentions ul {
