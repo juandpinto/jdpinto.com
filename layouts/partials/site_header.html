@@ -8,6 +8,10 @@
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     {{ .Hugo.Generator }}
 
+
+    {{ template "_internal/opengraph.html" . }}
+
+
     {{ $.Scratch.Add "title" .Site.Title }}
     <title>{{ with .Title }}{{ if ne . ($.Scratch.Get "title") }}{{ . }} &middot; {{ end }}{{ end }}{{ .Site.Title }}</title>
 
