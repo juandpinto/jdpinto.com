@@ -5,9 +5,9 @@
 
     <article class="post h-entry">
       {{ if (not (isset .Params "externalurl")) }}
-        <h2><a rel="full-article" href="{{ .Permalink }}" class="p-name u-url">{{ .Title }}</a></h2>
+        <h2 class="p-name"><a rel="full-article" class="u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
       {{ else }}
-        <h2><a rel="remote-article" href="{{ .Params.externalurl }}" class="p-name">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
+        <h2><a rel="remote-article" class="p-name" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
       {{ end }}
 
       <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="" class="dt-published">{{ .Date.Format "January 2, 2006" }}</time>

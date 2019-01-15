@@ -1,0 +1,32 @@
+<article class="post h-entry">
+  {{ if (not (isset .Params "externalurl")) }}
+    <h2 class="p-name"><a rel="full-article" class="u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  {{ else }}
+    <h2><a rel="remote-article" class="p-name" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
+  {{ end }}
+
+  <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="" class="dt-published">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ if (isset .Params "categories") }}
+       in
+      <span class="categories">
+        {{ range $i, $v := .Params.categories }}
+          <a class="category" href="/categories/{{ $v | urlize }}">{{ $v }}</a>{{ if ne (len $.Params.categories) (add $i 1) }}, {{ end }}
+        {{ end }}
+      </span>
+    {{ end }}
+  </div>
+
+  <p class="p-summary">
+    {{ if (not (isset .Params "externalurl")) }}
+      {{ .Summary }}
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </p>
+
+  {{ if .Truncated }}
+    {{ if (not (isset .Params "externalurl")) }}
+      <a class="continue" rel="full-article" href="{{ .Permalink }}">Continue Reading »</a>
+    {{ end }}
+  {{ end }}
+</article>
