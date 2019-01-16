@@ -7,6 +7,16 @@
        {{ .Content }}
      </div>
      <a href='{{ .Permalink }}' class='u-url'><aside class="dates dt-published">{{ .Date.Format "2006-01-02 3:04 PM MST" }}</aside></a>
+     {{ if isset .Params "twitter" }}
+       <a href="{{ .Params.twitter }}" class="u-syndication">
+         <span class="inline-svg" >
+         {{- $fname:=print "fontawesome/twitter.svg" -}}
+         {{- $path:="<path" -}}
+         {{- $fill:="<path fill=\"#888888\"" -}}
+         {{ replace (readFile $fname) $path $fill | safeHTML }}
+         </span>
+       </a>
+     {{ end }}
    </article>
 
    <span style="display:none" class="p-author h-card">
