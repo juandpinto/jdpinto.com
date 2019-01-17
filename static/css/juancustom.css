@@ -372,3 +372,18 @@ a img.align-left {
   margin: auto;
   max-width: 675px;
 }
+
+
+.micropost-footer {
+  display: flex;
+}
+
+.micropost-footer > a{
+  font-size: 12px;
+  color: #888888;
+  /* margin: 0; */
+}
+
+.u-syndication {
+  margin-left: 1em;
+}
