@@ -369,3 +369,8 @@ a img.align-left {
     margin: 10px;
     background-color: #F0F2F5;
 }
+
+.micro-responses {
+  margin: auto;
+  max-width: 675px;
+}

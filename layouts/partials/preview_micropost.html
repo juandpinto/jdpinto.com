@@ -34,7 +34,7 @@
     {{ .Content }}
     <a rel="full-article" class="u-url" href="{{ .Permalink }}"><aside class="dates dt-published">→ {{ .Date.Format "2006/01/02 3:04 PM MST" }}</aside></a>
     {{ if isset .Params "twitter" }}
-      <a href="{{ .Params.twitter }}" class="u-syndication">
+      <a class="u-syndication" href="{{ .Params.twitter }}">
         <span class="inline-svg" >
         {{- $fname:=print "fontawesome/twitter.svg" -}}
         {{- $path:="<path" -}}
