@@ -126,7 +126,7 @@ nav ul > li {
   max-width: 780px;
 }
 
-.micropost > p, .post p, .page > p {
+.micropost p, .post p, .page > p {
   color: #666666;
   font-size: 18px;
   line-height: 28px;

@@ -1,4 +1,4 @@
-<article class="micropost h-entry e-content">
+<article class="micropost h-entry">
   {{ if isset .Site.Params "summarizemicroposts" | and ( eq .Site.Params.summarizemicroposts true ) }}
     {{ if (not (isset .Params "externalurl")) }}
       <h2><a rel="full-article" href="{{ .Permalink }}">{{ .Title }}</a></h2>
@@ -31,7 +31,9 @@
       {{ end }}
     {{ end }}
   {{ else }}
+    <div class="e-content">
     {{ .Content }}
+    </div>
     <a rel="full-article" class="u-url" href="{{ .Permalink }}"><aside class="dates dt-published">→ {{ .Date.Format "2006/01/02 3:04 PM MST" }}</aside></a>
     {{ if isset .Params "twitter" }}
       <a class="u-syndication" href="{{ .Params.twitter }}">
