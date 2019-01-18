@@ -85,6 +85,11 @@ figcaption {
   flex-wrap: wrap;
   margin: auto;
   text-align: center;
+  font-size: 2em;
+}
+
+.footer_links > a {
+  color: #ffffff;
 }
 
 .footer_links .inline-svg{
