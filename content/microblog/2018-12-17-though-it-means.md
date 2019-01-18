@@ -1,6 +1,7 @@
 ---
 date: 2018-12-17 15:49:00 +0200
-twitter: "https://twitter.com/juanpinto88/status/1074662804362354689"
+mf-syndication:
+  - "https://twitter.com/juanpinto88/status/1074662804362354689"
 ---
 
 Though it means spending Christmas without snow this year, I’m super excited about acting as tour guide for my family in the holy land. But first, I’ve got to survive a hectic evening of teaching and presenting next year’s plan to all our student mentors. Wish me luck. 😅
