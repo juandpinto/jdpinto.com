@@ -55,6 +55,11 @@
           </span>
         </a>
       {{ end }}
+      {{ if isset .Params "mf-syndication" }}
+        {{ range (index .Params "mf-syndication") }}
+          <a class="u-syndication" href="{{ . }}"></a>
+        {{ end }}
+      {{ end }}
     </div>
   {{ end }}
 </article>
