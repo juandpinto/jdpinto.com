@@ -5,8 +5,8 @@ tags: familysunday
 mf-syndication:
   - 'https://www.instagram.com/p/BZKJs5ThKrX/'
 mf-photo:
-  - 'https://juanpinto.me/static/images/2017-09-17_ig-n7vk-m2.jpg'
-  - 'https://juanpinto.me/static/images/2017-09-17_ig-xa7q-vr.jpg'
+  - 'https://juanpinto.me/images/2017-09-17_ig-n7vk-m2.jpg'
+  - 'https://juanpinto.me/images/2017-09-17_ig-xa7q-vr.jpg'
 persontags:
   - 'https://juanpinto.me/'
 ---

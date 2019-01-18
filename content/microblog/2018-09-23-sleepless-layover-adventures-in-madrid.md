@@ -9,6 +9,6 @@ mf-syndication:
 mf-place_name:
   - 'Madrid, Spain'
 mf-photo:
-  - 'https://juanpinto.me/static/images/2018-09-23_ig-xwn-mqb.jpg'
+  - 'https://juanpinto.me/images/2018-09-23_ig-xwn-mqb.jpg'
 ---
 Sleepless layover adventures in Madrid. #selfiesarehard #angrytiredkiddos
