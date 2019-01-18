@@ -5,6 +5,6 @@ tags: jiljadid2018 jiljadidconference utaustin
 mf-syndication:
   - 'https://www.instagram.com/p/BfRkdkNBuEp/'
 mf-photo:
-  - 'https://juanpinto.me/static/images/2018-02-16_igp-a9bd-e.jpg'
+  - 'https://juanpinto.me/images/2018-02-16_igp-a9bd-e.jpg'
 ---
 Another great conference attended, another presentation given and survived. #jiljadid2018 #jiljadidconference #utaustin

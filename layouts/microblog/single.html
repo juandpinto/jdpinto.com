@@ -5,6 +5,15 @@
    <article class="micropost">
      <div class="micropost e-content p-name" style="padding:0; margin:0;">
        {{ .Content }}
+       {{ if isset .Params "mf-photo" }}
+         {{ range (index .Params "mf-photo") }}
+           <figure>
+             <a href="{{ . }}">
+               <img src="{{ . }}" style="width: 80%;" class="u-photo align-center">
+             </a>
+           </figure>
+         {{ end }}
+       {{ end }}
      </div>
      <div class="micropost-footer">
        <a class="micropost-date u-url" href="{{ .Permalink }}"><aside class="dates dt-published">{{ .Date.Format "2006/01/02 3:04 PM MST" }}</aside></a>
