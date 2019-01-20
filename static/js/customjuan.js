@@ -18,11 +18,11 @@ $(document).ready(function() {
         var men_content = "";
         if (activity_type && activity_type == "like") {
           if (!social_media_likes) {
-            social_media_likes = "<li class=\"mention-social\"> ";
+            social_media_likes = "<li class=\"mention-social\"> Liked by: ";
           }
           social_media_likes = social_media_likes +
             "<a href=\"" + data.links[i].data.url + "\">" +
-            "<img src=\"" + data.links[i].data.author.photo + "\" />" + "</a>, ";
+            "<img src=\"" + data.links[i].data.author.photo + "\" width=\"40\" />" + "</a> ";
         } else if (activity_type && activity_type == "repost") {
           if (!social_media_repost) {
             social_media_repost = "<li class=\"mention-social\"> ";
@@ -69,7 +69,7 @@ $(document).ready(function() {
     }
     if (social_media_likes) {
       social_media_likes = social_media_likes.substr(0, social_media_likes.length - 2);
-      social_media_likes = social_media_likes + " <span class=\"commented\">liked this.</span></li>";
+      // social_media_likes = "<span class=\"commented\">Liked by: </span> " + social_media_likes + "</li>";
       $("ul#mentions-list").prepend(social_media_likes);
     }
   });
