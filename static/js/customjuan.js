@@ -42,11 +42,11 @@ $(document).ready(function() {
           if (data.links[i].data.content) {
             men_content = data.links[i].data.content;
           }
-          $("ul#mentions-list").prepend("<li class=\"mention\">" +
+          $("ul#mentions-list").prepend("<li class=\"mention p-comment h-cite\">" +
             "<div class=\"mention-author u-author\">" +
-            "<img src=\"" + data.links[i].data.author.photo + "\" class=\"u-photo\"" +
+            "<img class=\"u-photo\" src=\"" + data.links[i].data.author.photo + "\" class=\"u-photo\"" +
             "title=\"" + data.links[i].data.author.name + "\" width=\"40\" >" +
-            "<a href=\"" + data.links[i].data.author.url + "\" >" +
+            "<a class=\"p-name u-url\" href=\"" + data.links[i].data.author.url + "\" >" +
             data.links[i].data.author.name + "</a> replied:</div>" +
             "<div class=\"mention-text\">" + men_content + "</div>" +
             "<a href=\"" + data.links[i].data.url + "\">" +
