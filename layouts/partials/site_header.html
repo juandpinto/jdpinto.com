@@ -19,7 +19,7 @@
     <link rel="icon" href="{{ .Site.BaseURL }}/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/weblog.css" media="screen" charset="utf-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/css/lightgallery.min.css" type="text/css" />
     {{ partial "custom_stylesheets.html" . }}
@@ -36,6 +36,10 @@
 
     <link rel="webmention" href="https://webmention.io/juanpinto.me/webmention" />
     <link rel="pingback" href="https://webmention.io/juanpinto.me/xmlrpc" />
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
 
   </head>
   <body class="site{{ if .IsHome }} h-feed{{ end }}">
