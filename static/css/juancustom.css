@@ -100,12 +100,15 @@ figcaption {
 .intro {
   /* background-color: #545454; */
   /* color: #ffffff; */
-  max-width: 780px;
+  /* max-width: 780px; */
+  /* width: 100%; */
+  min-height: 300px;
   padding: 10px;
-  margin: 40px auto;
+  /* margin: 40px auto; */
   background-color: #545454;
   color: #ffffff;
-  /* margin: 0; */
+  margin: 0;
+  display: flex;
 }
 
 .intro_text {
@@ -459,4 +462,37 @@ height: 100vh;
   height: 100vh;
   background-image: url(/images/background-image.jpg);
   background-size: cover;
+  background-position: 25% 50%;
+  /* filter: grayscale(20%) sepia(10%) opacity(90%); */
+}
+
+#changingWord {
+  position: absolute;
+  font-size: 30px;
+  font-family: Helvetica, Sans-Serif;
+  color: #0278be;
+  top: 170px;
+  right: 45px;
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 400px;
+  }
+
+  #changingWord {
+    top: 135px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    width: 300px;
+  }
+
+  #changingWord {
+    font-size: 25px;
+    top: 100px;
+    right: 30px;
+  }
 }
