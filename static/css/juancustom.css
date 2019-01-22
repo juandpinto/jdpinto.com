@@ -111,6 +111,20 @@ figcaption {
   display: flex;
 }
 
+.intro-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 720px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+.intro-card > div {
+  flex: 1;
+  margin: 10px;
+}
+
 .intro_text {
   display: flex;
   flex-wrap: wrap;
@@ -126,6 +140,31 @@ figcaption {
   flex: 1;
   margin: 10px;
 }
+
+@media screen
+and (max-width: 780px) {
+
+  .intro_text {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .intro_text > div {
+    flex: auto;
+    width: 100%;
+  }
+
+  .intro-card {
+    width: 100%;
+    border: none;
+  }
+
+  .intro-card > div {
+    flex: auto;
+    width: 100%;
+  }
+}
+
 
 .site-logo {
   /* display: inline-block; */
