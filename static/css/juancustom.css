@@ -496,3 +496,26 @@ height: 100vh;
     right: 30px;
   }
 }
+
+
+
+
+
+
+
+.home-blog-preview {
+  margin: 0 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+}
+
+.home-social-preview {
+  margin: 0 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-auto-rows: minmax(300px, 1fr); */
+  /* grid-auto-flow: dense; */
+}
