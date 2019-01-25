@@ -35,6 +35,18 @@
         <span class="dt-bday">1988-06</span>
         <span class="p-sex">Male</span>
       </span>
+
+      {{ if isset .Params "mf-syndication" }}
+        <div stype="display:none;">
+          {{ range (index .Params "mf-syndication") }}
+            {{ $syn := . }}
+            {{ with (hasPrefix . "https://twitter.com") }}
+              <a class="u-syndication" href="{{ $syn }}"></a>
+            {{ end }}
+          {{ end}}
+      </div>
+      {{ end }}
+
     </article>
 
 
