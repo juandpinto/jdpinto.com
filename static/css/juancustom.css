@@ -602,3 +602,14 @@ height: 100vh;
   opacity: 1;
   right: 0;
 }
+
+
+
+
+.photos {
+  margin: 0px 30px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: auto;
+}
