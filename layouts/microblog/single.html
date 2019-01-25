@@ -6,15 +6,13 @@
      <div class="micropost e-content p-name" style="padding:0; margin:0;">
        {{ .Content }}
        {{ if isset .Params "mf-photo" }}
-         <div class="photos">
-           {{ range (index .Params "mf-photo") }}
-             <figure>
-               <a href="{{ . }}">
-                 <img src="{{ . }}" class="u-photo align-center">
-               </a>
-             </figure>
-           {{ end }}
-         </div>
+         {{ range (index .Params "mf-photo") }}
+           <figure>
+             <a href="{{ . }}">
+               <img src="{{ . }}" style="width: 80%;" class="u-photo align-center">
+             </a>
+           </figure>
+         {{ end }}
        {{ end }}
      </div>
      <div class="micropost-footer">
