@@ -42,4 +42,4 @@
 
 
   </head>
-  <body class="site">
+  <body class="site{{ if and (eq .Section "microblog") (eq .Kind "section") }} h-feed{{ end }}">
