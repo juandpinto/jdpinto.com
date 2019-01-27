@@ -1,6 +1,6 @@
 <div class="pagination">
   {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}">« Newer</a>
+    <a rel="next" href="{{ .Paginator.Prev.URL }}">« Newer</a>
   {{ end }}
 
   {{ if and .Paginator.HasNext .Paginator.HasPrev }}
@@ -8,6 +8,6 @@
   {{ end }}
 
   {{ if .Paginator.HasNext }}
-    <a rel="feed" href="{{ .Paginator.Next.URL }}">Older »</a>
+    <a rel="prev" href="{{ .Paginator.Next.URL }}">Older »</a>
   {{ end }}
 </div>
