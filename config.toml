@@ -37,3 +37,8 @@ SectionPagesMenu = "main"
 	weight = 2
 	identifier = "microblog"
 	url = "/microblog/"
+
+
+# [mediaTypes]
+#   [mediaTypes."application/javascript"]
+#   suffixes = ["js"]
