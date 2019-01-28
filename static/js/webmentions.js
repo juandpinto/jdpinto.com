@@ -1,4 +1,5 @@
 var post_url = window.location.href;
+// var post_url = 'https://juanpinto.me{{ .RelPermalink }}'
 
 $(document).ready(function() {
   $("ul#mentions-list").empty();
@@ -38,11 +39,7 @@ $(document).ready(function() {
             "<a href=\"" + data.links[i].data.url + "\">" +
             data.links[i].data.author.name + "</a>, ";
         } else if (activity_type && activity_type == "reply") {
-          // if (data.links[i].data.published == null) {
-          //   let mention_date = new Date(data.links[i].verified_date);
-          // } else {
           let mention_date = new Date(data.links[i].data.published);
-          // }
           if (data.links[i].data.content) {
             men_content = data.links[i].data.content;
           }
