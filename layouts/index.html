@@ -132,6 +132,10 @@
                       </a>
                     </figure>
                   {{ end }}
+                  {{ if not ($.Page.Scratch.Get "photoswipeloaded") }}
+                    {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
+                    {{ partial "load-photoswipe.html" (dict "page" . ) }}
+                  {{ end }}
                 </div>
               {{ end }}
             </div>

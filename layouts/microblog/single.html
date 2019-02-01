@@ -12,6 +12,10 @@
                <img src="{{ . }}" style="width: 80%;" class="u-photo align-center">
              </a>
            </figure>
+           {{ if not ($.Page.Scratch.Get "photoswipeloaded") }}
+             {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
+             {{ partial "load-photoswipe.html" (dict "page" . ) }}
+           {{ end }}
          {{ end }}
        {{ end }}
      </div>
