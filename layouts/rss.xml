@@ -16,7 +16,20 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         <author>{{ with .Site.Author.email }}{{.}} - {{end}}{{ with .Site.Author.firstname }}{{.}}{{ end }} {{ with .Site.Author.lastname }}{{.}}{{end}}</author>
         <guid>{{ .Permalink }}</guid>
-        <description>{{ .Content | html }}</description>
+        <description>
+          {{ .Content | html }}
+          {{ if isset .Params "mf-photo" }}
+            <div class="photos">
+              {{ range (index .Params "mf-photo") }}
+                <figure>
+                  <a href="{{ . }}">
+                    <img src="{{ . }}" class="u-photo align-center" />
+                  </a>
+                </figure>
+              {{ end }}
+            </div>
+          {{ end }}
+        </description>
       </item>
       {{ end }}
     {{ end }}
