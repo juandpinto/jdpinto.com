@@ -7,6 +7,8 @@ mf-syndication:
 
 Sleep and I have never been good friends. I've been blessed with the ability to fall asleep easily when I want to, but that's just it—I don't usually want to. During my adolescence and much of my adult life, sleep has been a nuisance.
 
+<!--more-->
+
 <a href="/images/2019-01-25-why-we-sleep.jpg"><img src="/images/2019-01-25-why-we-sleep.jpg" style="width: 30%;" class="u-photo align-left"></a>
 
 My motto for sleep has always been the classic "sleep is for the weak." Or, "I'll sleep when I'm dead." Or how about this quote popularly (but [probably wrongly](http://www.thepoeblog.org/did-poe-really-say-that/)) attributed to Edgar Allen Poe: "Sleep, those little slices of death—how I loathe them." Can you relate?

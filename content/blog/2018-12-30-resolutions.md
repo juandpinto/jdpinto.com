@@ -4,7 +4,7 @@ slug: "new-years-resolutions"
 date: 2018-12-30 12:19:00 +0200
 ---
 
-So, 2019 begins this week! In preparation for the new year, I've recently taken the time to reflect on some of my accomplishments and failures of 2018. Some of these include the new year's resolutions that I made one year ago. I've never been one for making new year's resolutions, usually considering the start of a new year a silly reason for making changes in one's life. If there's something you want to change, why not just set a goal at any time and just go for it? But at the end of 2017 I decided to give this whole thing a try. Now, one year later, I've come to learn a few things.
+So, 2019 begins this week! In preparation for the new year, I've recently taken the time to reflect on some of my accomplishments and failures of 2018. Some of these include the new year's resolutions that I made one year ago.<!--more--> I've never been one for making new year's resolutions, usually considering the start of a new year a silly reason for making changes in one's life. If there's something you want to change, why not just set a goal at any time and just go for it? But at the end of 2017 I decided to give this whole thing a try. Now, one year later, I've come to learn a few things.
 
 First, a recap of how I organized my 2018 resolutions. I decided one year ago to divide my goals into three categories: daily goals, other things I wanted to accomplish, and a broad theme to work on. My daily checklist consisted of six tasks. My "others" list had 12 items on it, ranging from really broad goals ("be more friendly") to much more specific ones ("finish thesis and graduate"—success!). My theme was summarized in a short phrase ("be in the moment") with an accompanying explanatory paragraph.
 
