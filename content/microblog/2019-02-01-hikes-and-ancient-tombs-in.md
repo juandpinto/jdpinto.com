@@ -4,7 +4,7 @@ title: ''
 mf-syndication:
   - 'https://www.instagram.com/p/BtWOpaChB3r/'
 mf-photo:
-  - 'https://juanpinto.me/static/images/2019-02-01_igg5rbm-n.jpg'
-  - 'https://juanpinto.me/static/images/2019-02-01_ig6m9s1i.jpg'
+  - '/images/2019-02-01.jpg'
+  - '/images/2019-02-01_2.jpg'
 ---
 Hikes and ancient tombs. In our very own backyard! ⛰💀
