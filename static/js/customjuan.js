@@ -11,7 +11,7 @@ window.addEventListener("scroll", function() {
 $(function () {
   oldWord = 0;
   newWord = 0;
-  wordsArray = ["husband", "father", "believer", "educator", "teacher", "nerd", "scholar", "linguist", "learner", "polyglot", "techie", "writer", "adventurer", "traveler", "creator", "coder"];
+  wordsArray = ["husband", "father", "believer", "educator", "teacher", "nerd", "scholar", "linguist", "learner", "polyglot", "techie", "writer", "adventurer", "traveler", "creator", "coder", "blogger"];
   setInterval(function () {
     while (newWord == oldWord){
       newWord = Math.floor(Math.random() * 19);
