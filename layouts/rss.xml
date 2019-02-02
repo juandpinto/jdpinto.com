@@ -22,9 +22,7 @@
             <div class="photos">
               {{ range (index .Params "mf-photo") }}
                 <figure>
-                  <a href="{{ . }}">
-                    <img src="{{ . }}" class="u-photo align-center" />
-                  </a>
+                    <img src="{{ . }}" class="u-photo" />
                 </figure>
               {{ end }}
             </div>
