@@ -150,6 +150,9 @@
                   {{ with (hasPrefix . "https://www.instagram.com") }}
                     <a class="u-syndication" href="{{ $syn }}"><i class="fab fa-instagram"></i></a>
                   {{ end }}
+                  {{ with (hasPrefix . "https://mastodon.social") }}
+                    <a class="u-syndication" href="{{ $syn }}"><i class="fab fa-mastodon"></i></a>
+                  {{ end }}
                 {{ end }}
               {{ end }}
             </div>
