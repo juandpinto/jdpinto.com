@@ -1,7 +1,7 @@
 baseurl = "https://juanpinto.me/"
 languageCode = "en-us"
 title = "Juan Pinto"
-theme = "internet-weblog"
+# theme = "internet-weblog"
 # pygmentsstyle = "emacs"
 Paginate = 15
 SectionPagesMenu = "main"
