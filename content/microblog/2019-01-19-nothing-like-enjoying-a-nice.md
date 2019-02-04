@@ -1,5 +1,5 @@
 ---
-date: '2019-01-19T10:52:35.000Z'
+date: '2019-01-19T12:52:35.000+0200'
 title: ''
 mf-syndication:
   - 'https://twitter.com/juanpinto88/status/1086852444477378560'
