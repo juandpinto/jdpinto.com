@@ -3,7 +3,82 @@ title: Projects
 menu: main
 ---
 
-### Frequency Dictionary of Spoken Hebrew (FDOSH)
+# Academic Presentations
+
+**Language Learning for the 21st Century: Interpersonal Communication Through Digital Communities**
+
+*16 October 2018 --- Texas Language Center: "Language Matters!" Lecture Series*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2018-10-16-language-learning-for-the-21st-century.pdf">See slides.</a></li>
+</ul>
+
+<div style="width:80%; margin:auto;">
+  {{< youtube h9B8IBJ5BOA >}}
+</div>
+
+<br/>
+
+**Creating a Conversational Hebrew Vocabulary List: A Reproducible Use of Technology to Overcome Scarcity of Data**
+
+*22 April 2018 --- National Council of Less Commonly Taught Languages (NCOLCTL) 21st Annual Conference*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2018-04-22-creating-a-conversational-Hebrew-vocabulary-list.pdf">See slides.</a></li>
+</ul>
+
+<br/>
+
+**Transitional Semi-Allophonic Spirantization in Tiberian Hebrew**
+
+*16 February 2018 --- Jil Jadid Graduate Student Conference in Middle Eastern Languages and Literatures*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2018-02-16-transitional-semi-allophonic-spirantization-in-Tiberian-Hebrew.pdf">See slides.</a></li>
+</ul>
+
+<br/>
+
+**Lexical Variation in the Understanding of ברא: Homonymy or Polysemy**
+
+*30 January 2015 --- Students of the Ancient Near East 8th Annual Symposium*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2015-01-30-lexical-variation-in-the-understanding-of-bara.pdf">See slides.</a></li>
+</ul>
+
+<br/>
+
+
+# Other Presentations
+
+**#merica: Culture and Diversity**
+
+*12 February 2019 --- Galilee Dreamers Project—Sparks of Change*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2019-02-12-merica.pdf">See slides.</a></li>
+</ul>
+
+<br/>
+
+**Words, Collocations, and Technology: Teaching and Learning Vocabulary**
+
+*13 January 2019 --- Workshop for Masa Israel Teaching Fellows*
+
+<ul style="margin-left: 40px; list-style-type: circle;">
+<li><a href="/presentations/2019-01-13-words-collocations-and-technology.pdf">See slides.</a></li>
+</ul>
+
+
+<br/>
+<br/>
+<hr/>
+<br/>
+
+
+
+# Frequency Dictionary of Spoken Hebrew (FDOSH)
 
 My MA thesis at the University of Texas at Austin was the creation of a frequency dictionary of spoken Hebrew. All of the scripts and data for the project can be found at the [project GitHub page](https://github.com/juandpinto/frequency-dictionary) or as supplementary materials at [Zenodo](https://zenodo.org/record/1239886#.XAyLU6eB0Wo). The manuscript itself, written entirely in Markdown and LaTeX, has its own [GitHub repository](https://github.com/juandpinto/thesis-manuscript), but the final manuscript can be accessed directly [here](./docs/Pinto_MA_thesis.pdf).
 
