@@ -1,5 +1,5 @@
 ---
-date: '2019-02-20T19:19:59.000Z'
+date: '2019-02-20T19:19:59.000+0200'
 title: ''
 mf-syndication:
   - 'https://www.instagram.com/p/BuHXc8AhJ70/'
