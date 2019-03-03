@@ -4,9 +4,9 @@ title: ''
 mf-syndication:
   - 'https://www.instagram.com/p/BujeyQ5BQqa/'
 mf-photo:
-  - 'https://juanpinto.me/static/images/2019-03-03_ig-eh-ct3g.jpg'
-  - 'https://juanpinto.me/static/images/2019-03-03_igou-d3mh.jpg'
-  - 'https://juanpinto.me/static/images/2019-03-03_ig-qc-v0a8.jpg'
-  - 'https://juanpinto.me/static/images/2019-03-03_ig-mu-ditz.jpg'
+  - '/images/2019-03-03_ig-eh-ct3g.jpg'
+  - '/images/2019-03-03_igou-d3mh.jpg'
+  - '/images/2019-03-03_ig-qc-v0a8.jpg'
+  - '/images/2019-03-03_ig-mu-ditz.jpg'
 ---
 Adventures in the Galilee.
