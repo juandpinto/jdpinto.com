@@ -3,6 +3,8 @@ date: '2019-03-06T14:55:03.000Z'
 title: ''
 mf-syndication:
   - 'https://www.instagram.com/p/Buq8QrShuid/'
+  - 'https://twitter.com/juanpinto88/status/1103370834041888769'
+  - 'https://mastodon.social/web/statuses/101705255400567604'
 mf-photo:
   - '/images/2019-03-06_igcuym-cx.jpg'
 ---
