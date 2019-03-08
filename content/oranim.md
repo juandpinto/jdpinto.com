@@ -12,17 +12,24 @@ My office is located on the bottom floor of building 58. Enter the International
 
 <br />
 
-I hold regular office hours at the following times:
+During the spring semester, I hold regular student office hours at the following times:
 
 <ul style="text-indent:40px;">
-  <li>Sundays, 13:00–15:00</li>
   <li>Mondays, 10:00–12:00</li>
+  <li>Wednesdays, 13:00–15:00</li>
 </ul>
 
 <br />
 
-If you would like to meet with me, you will find me in my office during these times. I prefer that you let me know beforehand that you are coming since I often have specific students scheduled in for these times. However, feel free to come by and see if I'm available.
+If you would like to meet with me, please sign up for an available time slot below (or [here](https://calendly.com/juanpinto)).
 
 <br />
 
-If the above times don't work and you would like to meet outside my regular office hours, please send me an email at [jdpinto1@gmail.com](mailto:jdpinto1@gmail.com).
+If the available times don't work for you and you would like to meet outside my regular office hours, please send me an email at [jdpinto1@gmail.com](mailto:jdpinto1@gmail.com). I try to be accommodating but make no guarantees.
+
+<br />
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/juanpinto" style="min-width:320px;height:580px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
