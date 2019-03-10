@@ -1,8 +1,13 @@
 ---
 title: Oranim
+url: /oranim/
 ---
 
 As part of my Fulbright Fellowship, I'm spending the 2018–2019 school-year as a Fulbright English Teaching Assistant at [Oranim Academic College of Education](http://www.oranim.ac.il/). My responsibilities are split between the International School and the Department of English Language and Literature.
+
+<br />
+
+For those involved with the **Masa English for the Workplace** program, you can find information on past and upcoming Conversation Clubs [*here*](/oranim/conversationclub/).
 
 <br />
 
@@ -14,7 +19,7 @@ My office is located on the bottom floor of building 58. Enter the International
 
 During the spring semester, I hold regular student office hours at the following times:
 
-<ul style="text-indent:40px;">
+<ul style="text-indent:40px; list-style: circle inside;">
   <li>Mondays, 10:00–12:00</li>
   <li>Wednesdays, 13:00–15:00</li>
 </ul>
