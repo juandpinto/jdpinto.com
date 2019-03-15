@@ -34,6 +34,10 @@ If the available times don't work for you and you would like to meet outside my 
 
 <br />
 
+## Schedule an appointment with me
+
+<br />
+
 <!-- Calendly inline widget begin -->
 <div class="calendly-inline-widget" data-url="https://calendly.com/juanpinto" style="min-width:320px;height:580px;"></div>
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
