@@ -3,6 +3,8 @@ title: Curriculum Vitae
 menu: main
 ---
 
+<a href="/Pinto-CV.pdf">Download PDF</a>
+
 <center>
-<iframe src="https://docs.google.com/file/d/130JuQRZdHEE5fOOs1nzJLiL5l6n20lTH/preview" width="100%" height="800em"></iframe>
+<iframe src="/Pinto-CV.pdf" width="100%" height="800em"></iframe>
 </center>
