@@ -19,8 +19,7 @@ Some useful links:
 # Upcoming meetings
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li><strong>Week 4 (27/3): Feminism?</strong></li>
-  <li><strong>Week 5 (3/4): Directions</strong></li>
+  <li><strong>Week 5 (3/4): Directions and Weather</strong></li>
   <li><strong>Week 6 (10/4): Hobbies</strong></li>
   <li><strong>Week 7 (17/4): Food</strong></li>
   <li><strong>Week 9 (1/5): Travel</strong></li>
@@ -60,5 +59,14 @@ Some useful links:
       <li><a href="https://www.youtube.com/watch?v=wVA1BYYwL2g" target="_blank">Video from class (pronunciation of <em>schedule</em>)</a></li>
       <li><a href="https://quizlet.com/216920255" target="_blank">Quizlet set from class (prepositions)</a></li>
       <li><strong>Homework:</strong> <em>How to remember when to use ON, IN and AT correctly</em>: <a href="https://www.youtube.com/watch?v=VaTVklkzFPI" target="_blank">Part 1</a> and <a href="https://www.youtube.com/watch?v=AuIzPgb3vvo" target="_blank">Part 2</a></li>
+    </ul>
+  <li><strong>Week 4 (27/3): Feminism and Racism</strong></li>
+    <ul style="text-indent:80px; list-style: square inside;">
+      <li>
+        <iframe src="/presentations/conversationclub/4-feminism-and-racism.pdf" width="80%" height="300em"></iframe>
+      </li>
+      <li><a href="/presentations/conversationclub/4-feminism-and-racism.pdf" target="_blank">Download PDF of slides</a></li>
+      <li><a href="https://forvo.com" target="_blank">Forvo.com</a></li>
+      <li><a href="http://reverso.net" target="_blank">Reverso.net</a></li>
     </ul>
 </ul>
