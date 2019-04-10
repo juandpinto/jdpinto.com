@@ -10,7 +10,7 @@ If you are a 2019 Masa student studying English for the Workplace at Oranim, our
 Some useful links:
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li><a href="https://quizlet.com/jdpinto/folders/e4wp-conversation-club" target="_blank">Quizlet Sets</a></li>
+  <li><a href="https://quizlet.com/class/10607276/" target="_blank">Quizlet Class</a></li>
   <li><a href="https://www.youtube.com/channel/UClPyOwXLnSMejFdLvJXjA5A" target="_blank">Hadar's YouTube Channel—pronunciation and accent explanations</a></li>
 </ul>
 
@@ -19,8 +19,6 @@ Some useful links:
 # Upcoming meetings
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li><strong>Week 5 (3/4): Directions and Weather</strong></li>
-  <li><strong>Week 6 (10/4): Hobbies</strong></li>
   <li><strong>Week 7 (17/4): Food</strong></li>
   <li><strong>Week 9 (1/5): Travel</strong></li>
   <li><strong>Week 11 (15/5): Business</strong></li>
@@ -69,4 +67,20 @@ Some useful links:
       <li><a href="https://forvo.com" target="_blank">Forvo.com</a></li>
       <li><a href="http://reverso.net" target="_blank">Reverso.net</a></li>
     </ul>
+    <li><strong>Week 5 (3/4): Weather and Travel</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li>
+          <iframe src="/presentations/conversationclub/4-feminism-and-racism.pdf" width="80%" height="300em"></iframe>
+        </li>
+        <li><a href="/presentations/conversationclub/5-weather-and-travel.pdf" target="_blank">Download PDF of slides</a></li>
+        <li><a href="https://quizlet.com/_6euako" target="_blank">Quizlet set from class</a></li>
+      </ul>
+    <li><strong>Week 6 (10/4): Hobbies and Health</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li>
+          <iframe src="/presentations/conversationclub/6-hobbies-and-health.pdf" width="80%" height="300em"></iframe>
+        </li>
+        <li><a href="/presentations/conversationclub/4-feminism-and-racism.pdf" target="_blank">Download PDF of slides</a></li>
+        <li><a href="https://quizlet.com/390186226/" target="_blank">Quizlet set from class</a></li>
+      </ul>
 </ul>
