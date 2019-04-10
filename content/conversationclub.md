@@ -70,7 +70,7 @@ Some useful links:
     <li><strong>Week 5 (3/4): Weather and Travel</strong></li>
       <ul style="text-indent:80px; list-style: square inside;">
         <li>
-          <iframe src="/presentations/conversationclub/4-feminism-and-racism.pdf" width="80%" height="300em"></iframe>
+          <iframe src="/presentations/conversationclub/5-weather-and-travel.pdf" width="80%" height="300em"></iframe>
         </li>
         <li><a href="/presentations/conversationclub/5-weather-and-travel.pdf" target="_blank">Download PDF of slides</a></li>
         <li><a href="https://quizlet.com/_6euako" target="_blank">Quizlet set from class</a></li>
@@ -80,7 +80,7 @@ Some useful links:
         <li>
           <iframe src="/presentations/conversationclub/6-hobbies-and-health.pdf" width="80%" height="300em"></iframe>
         </li>
-        <li><a href="/presentations/conversationclub/4-feminism-and-racism.pdf" target="_blank">Download PDF of slides</a></li>
+        <li><a href="/presentations/conversationclub/6-hobbies-and-health.pdf" target="_blank">Download PDF of slides</a></li>
         <li><a href="https://quizlet.com/390186226/" target="_blank">Quizlet set from class</a></li>
       </ul>
 </ul>
