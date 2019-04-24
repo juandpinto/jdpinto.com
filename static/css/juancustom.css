@@ -36,9 +36,10 @@ article.micropost p > img {
 }
 
 .micropost {
-  background-color: #F0F2F5;
+  background-color: var(--pst-bkg-clr);
+  border-radius: 10px;
   margin: 40px auto;
-  padding: 10px;
+  padding: 13px;
   max-width: 675px;
 }
 
@@ -105,7 +106,7 @@ figcaption {
   min-height: 300px;
   padding: 10px;
   /* margin: 40px auto; */
-  background-color: #545454;
+  background-color: var(--ftr-clr);
   color: #ffffff;
   margin: 0;
   display: flex;
@@ -261,7 +262,7 @@ a img.align-left {
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: var(--nav-clr);
   position: fixed;
   top: 0;
   width: 100%;
@@ -285,9 +286,11 @@ a img.align-left {
 
 #navbar .left {
     float: left;
-    font-size: 18pt;
-    font-weight: lighter;
-    padding-left:30px;
+    /* font-size: 18pt; */
+    /* font-weight: lighter; */
+    /* padding-left:30px; */
+    width: 77px;
+    padding: 2px 20px 0px 20px;
 }
 
 /* Page content */
@@ -508,7 +511,7 @@ height: 100vh;
   position: absolute;
   font-size: 30px;
   font-family: Helvetica, Sans-Serif;
-  color: #0278be;
+  color: var(--nav-clr);
   top: 170px;
   right: 45px;
 }
@@ -565,8 +568,8 @@ height: 100vh;
 
 .see-more {
   display: inline-block;
-  border-radius: 4px;
-  background-color: #39589a;
+  border-radius: 10px;
+  background-color: var(--nav-clr);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -592,6 +595,11 @@ height: 100vh;
   top: 0;
   right: -20px;
   transition: 0.5s;
+}
+
+.see-more:hover {
+  background-color: var(--ftr-clr);
+  border-radius: 30px;
 }
 
 .see-more:hover span {

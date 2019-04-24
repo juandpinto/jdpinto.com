@@ -1,9 +1,52 @@
+:root {
+  --main-color1: #D79922; /* orange */
+  --main-color2: #EFE2BA; /* light yellow */
+  --main-color3: #F13C20; /* red */
+  --main-color4: #4056A1; /* blue */
+  --main-color5: #C5CBE3; /* light purple */
+  --main-color6: #f2f0eb; /* grayish yellow tint */
+  --main-color7: #545149;
+  --main-color8: #d48a00; /* yellow */
+  --main-color9: #b1492f; /* orange */
+
+  --bkg-clr: var(--main-color6);
+  --nav-clr: var(--main-color4);
+  --ftr-clr: var(--main-color9);
+  --pst-bkg-clr: var(--main-color2);
+  --txt-clr: var(--main-color7);
+  --hdr-txt-clr: var(--main-color8);
+
+
+}
+
+@font-face {
+    font-family: "Absara Sans";
+    src: url("/fonts/absarasans-light.woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Absara Sans";
+    src: url("/fonts/absarasans-lightitalic.woff");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Absara Sans";
+    src: url("/fonts/absarasans-medium.woff");
+    font-weight: 600;
+    font-style: normal;
+}
 
 /* Page */
 
 body {
-  font: 16px/24px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  /* font: 16px/24px "Avenir Next", "Helvetica Neue", Arial, Helvetica, sans-serif; */
+  font: 16px/24px "Absara Sans",Avenir,"Helvetica Neue",Arial,sans-serif;
   line-height: 24px;
+  background-color: var(--bkg-clr);
 }
 
 a[href] {
@@ -16,7 +59,7 @@ a:hover {
 }
 
 h1, h2, h3, h4 {
-  color: #666666;
+  color: var(--hdr-txt-clr);
 }
 
 img {
@@ -242,7 +285,7 @@ article .postmeta {
 /* Footer */
 
 footer {
-  background-color: #545454;
+  background-color: var(--ftr-clr);
   color: #ffffff;
   margin: 0;
 }
