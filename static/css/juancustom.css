@@ -181,7 +181,7 @@ figcaption {
 and (max-width: 780px) {
 
   .logo-div {
-    bottom: -5%;
+    bottom: 0;
   }
 
   .intro_text {
@@ -306,7 +306,8 @@ a img.align-left {
   top: 0;
   width: 100%;
   z-index: 10;
-  height: 52px;
+  /* height: 52px; */
+  color: #f5edd3;
 }
 
 /* Navbar links */
@@ -379,15 +380,11 @@ a img.align-left {
 }
 
 
-
-
-
 .navbar-toggle {
   position: absolute;
   top: 12px;
   right: 20px;
   cursor: pointer;
-  color: rgba(255, 255, 255, 0.8);
   font-size: 24px;
 }
 
