@@ -1,9 +1,17 @@
+$(".micropost-all").each(function() {
+  var thisArticle = this;
+  var post_url = $(".micropost-date", thisArticle).attr('href');
+  // console.log(post_url);
+// });
+
+
+
 var replies = 0;
-var post_url = window.location.href;
+// var post_url = window.location.href;
 // post_url = "https://juanpinto.me/" + post_url.slice(22);
 
 $(document).ready(function() {
-  $("ul#mentions-list").empty();
+  $("ul#mentions-list", thisArticle).empty();
   $.getJSON("https://webmention.io/api/mentions?jsonp=?&sort-by=published&per-page=500", {
     target: post_url
   }, function(data) {
@@ -48,7 +56,7 @@ $(document).ready(function() {
           if (replies == 0) {
             replies = 1;
           }
-          $("ul#mentions-list").prepend("<li class=\"mention p-comment h-cite\">" +
+          $("ul#mentions-list", thisArticle).prepend("<li class=\"mention p-comment h-cite\">" +
             "<div class=\"mention-author u-author\">" +
             "<img class=\"u-photo\" src=\"" + data.links[i].data.author.photo + "\" class=\"u-photo\"" +
             "title=\"" + data.links[i].data.author.name + "\" width=\"40\" >" +
@@ -80,8 +88,14 @@ $(document).ready(function() {
     }
 
     if (replies == 1) {
-      $("#post-mentions").show();
-      $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
+      $("#post-mentions", thisArticle).show();
+      $(".micropost", thisArticle).attr("style", "border-radius:10px 10px 0px 0px");
+      // $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
     }
   });
+});
+
+
+
+
 });
