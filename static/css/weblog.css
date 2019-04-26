@@ -97,7 +97,7 @@ blockquote p:last-child {
 /* Header */
 
 header {
-  padding: 40px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 header h1 {
@@ -374,12 +374,12 @@ and (max-width: 780px) {
 
   article {
     margin: 0;
-    padding: 20px;
+    /* padding: 20px; */
   }
 
-  header {
+  /* header {
     padding: 0;
-  }
+  } */
 
   header h1 {
     font-size: 22px;
