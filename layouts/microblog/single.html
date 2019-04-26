@@ -20,7 +20,7 @@
        {{ end }}
      </div>
      <div class="micropost-footer">
-       <a class="micropost-date u-url" href="{{ .Permalink }}"><aside class="dates dt-published">{{ .Date.Format "2006/01/02 3:04 PM MST" }}</aside></a>
+       <a class="micropost-date u-url" href="{{ .Permalink }}"><aside class="dates dt-published">{{ .Date.Format "Mon, Jan 2, 2006 15:04:05 MST" }}</aside></a>
        {{ if isset .Params "mf-syndication" }}
          {{ range (index .Params "mf-syndication") }}
            {{ $syn := . }}
