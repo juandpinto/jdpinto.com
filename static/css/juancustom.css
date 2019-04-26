@@ -1,3 +1,9 @@
+.logo-div {
+  position: relative;
+  bottom: 13%;
+  left: 5%
+}
+
 .scroll {
   position: absolute;
   bottom: 2%;
@@ -171,6 +177,10 @@ figcaption {
 
 @media screen
 and (max-width: 780px) {
+
+  .logo-div {
+    bottom: -5%;
+  }
 
   .intro_text {
     width: 100%;
@@ -531,7 +541,7 @@ height: 100vh;
   height: 100vh;
   background-image: url(/images/site/background-image.jpg);
   background-size: cover;
-  background-position: 25%;
+  background-position: 30%;
 }
 
 #changingWord {
