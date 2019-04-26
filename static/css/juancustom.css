@@ -74,6 +74,8 @@ article.micropost p > img {
   margin: 40px auto;
   padding: 13px;
   max-width: 675px;
+  border: solid 1px;
+  border-color: #bf9b2c;
 }
 
 .post, .page, .post-groups {
@@ -467,15 +469,22 @@ li.p-comment div.u-author img {
   float: left;
   border-radius: 5px;
   margin: 0px 5px 0px -50px;
+  word-wrap: break-word;
 }
 
 li.p-comment {
   font-size: 95%;
-  margin-left: 50px;
+  margin-left: 5%;
+}
+
+.mention-author {
+  margin-bottom: 6px;
+  line-height: 1.1em;
 }
 
 a.author-url {
   color: #888;
+  font-size: 80%;
 }
 
 a.comment-time {
@@ -490,12 +499,14 @@ a.comment-time {
 
 
 .micro-responses {
-  margin: -40px auto 40px;
+  margin: -41px auto 40px;
   max-width: 675px;
   font-size: 16px;
-  background-color: #f0cec5;
+  background-color: #ede5d5;
   padding: 13px;
   border-radius: 0px 0px 10px 10px;
+  border: solid 1px;
+  border-color: #bf9b2c;
 }
 
 
@@ -636,7 +647,13 @@ height: 100vh;
   /* grid-auto-flow: dense; */
 }
 
+.home-social-preview .micropost {
+  margin: 0px;
+}
 
+.home-social-preview .micro-responses {
+  margin: -1px auto 0px;
+}
 
 
 
