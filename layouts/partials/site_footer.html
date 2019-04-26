@@ -2,7 +2,7 @@
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.2.14/js/lightgallery-all.min.js" charset="utf-8"></script> -->
     <!-- <script src="/js/weblog.js" charset="utf-8"></script> -->
     <script src="/js/navbar.js" charset="utf-8"></script>
-    <script src="/js/customjuan.js" charset="utf-8"></script>
+    {{ if .IsHome }}<script src="/js/parallax.js" charset="utf-8"></script>{{ end }}
     <script src="/js/webmentions.js" charset="utf-8"></script>
     <script src="/js/load-photoswipe.js"></script>
     {{ partial "custom_javascript.html" . }}

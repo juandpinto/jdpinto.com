@@ -5,9 +5,6 @@ window.addEventListener("scroll", function() {
   parallax.style.backgroundPositionY = offset * 0.7 + "px";
 })
 
-
-
-
 $(function () {
   oldWord = 0;
   newWord = 0;
