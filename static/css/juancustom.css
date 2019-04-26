@@ -310,15 +310,15 @@ a img.align-left {
 #navbar a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: #f5edd3;
   text-align: center;
   padding: 14px;
   text-decoration: none;
 }
 
 #navbar a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #f5edd3;
+  color: var(--nav-clr);
 }
 
 #navbar .left {

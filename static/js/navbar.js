@@ -37,3 +37,11 @@ let navBarToggle = document.getElementById('js-navbar-toggle');
 navBarToggle.addEventListener('click', function () {
   mainNav.classList.toggle('active');
 });
+
+
+$(document).ready(function(){
+    $("#navImage").hover(
+        function() {$(this).attr("src","/images/site/logo_small.png");},
+        function() {$(this).attr("src","/images/site/logo_small_light.png");
+    });
+});
