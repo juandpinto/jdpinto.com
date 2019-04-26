@@ -5,9 +5,13 @@
       <!-- <i class="fas fa-bars"></i> -->
       {{ partial "fontawesome.html" "bars-solid" }}
     </span>
-    <a class="left" rel="author" href="{{ .Site.BaseURL }}">
-      <img id="navImage" src="/images/site/logo_small_light.png" alt="Juan Pinto">
+    <a class="nav-left" rel="author" href="{{ .Site.BaseURL }}">
+      <img class="nav-logo" src="/images/site/logo_small_light.png" alt="Juan Pinto">
+      <img class="nav-logo-hover" src="/images/site/logo_small.png" alt="Juan Pinto">
     </a>
+    <!-- <a class="nav-logo-hover" rel="author" href="{{ .Site.BaseURL }}">
+      <img id="navImage" src="/images/site/logo_small_light.png" alt="Juan Pinto">
+    </a> -->
     <ul class="main-nav" id="js-menu">
       <li>
         <a href="/blog/">Blog</a>
