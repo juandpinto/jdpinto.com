@@ -1,6 +1,11 @@
 {{ partial "site_header.html" . }}
 {{ partial "page_header.html" . }}
 
+{{ if not ($.Page.Scratch.Get "photoswipeloaded") }}
+  {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
+  {{ partial "load-photoswipe.html" (dict "page" . ) }}
+{{ end }}
+
   <main class="content">
 
     <article class="post h-entry">
