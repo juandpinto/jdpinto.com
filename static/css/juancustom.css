@@ -306,6 +306,7 @@ a img.align-left {
   top: 0;
   width: 100%;
   z-index: 10;
+  height: 52px;
 }
 
 /* Navbar links */
@@ -323,13 +324,37 @@ a img.align-left {
   color: var(--nav-clr);
 }
 
-#navbar .left {
+#navbar .nav-left {
     float: left;
     /* font-size: 18pt; */
     /* font-weight: lighter; */
     /* padding-left:30px; */
     width: 77px;
+    height: 52px;
     padding: 2px 20px 0px 20px;
+}
+
+#navbar .nav-logo {
+  width: 77px;
+  /* padding: 2px 20px 0px 20px; */
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  /* z-index: 10; */
+}
+
+#navbar .nav-logo-hover {
+  width: 77px;
+  /* padding: 2px 20px 0px 20px; */
+  position: absolute;
+  top: 3px;
+  left: 20px;
+  z-index: 10;
+  opacity: 0;
+}
+
+#navbar a:hover .nav-logo-hover {
+  opacity: 1;
 }
 
 /* Page content */
