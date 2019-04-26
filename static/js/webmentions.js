@@ -1,22 +1,19 @@
+var replies = 0;
 var post_url = window.location.href;
-// var post_url = 'https://juanpinto.me{{ .RelPermalink }}'
+// post_url = "https://juanpinto.me/" + post_url.slice(22);
 
 $(document).ready(function() {
   $("ul#mentions-list").empty();
   $.getJSON("https://webmention.io/api/mentions?jsonp=?&sort-by=published&per-page=500", {
-    target: "post_url"
-    // target: "https://juanpinto.me/microblog/2019-04-23-solo-hiking-up-mt-carmel/"
+    target: post_url
   }, function(data) {
     var social_media_likes = "";
     var social_media_repost = "";
     var social_media_post = "";
-    if (data.links.length !== 0) {
-      $("#post-mentions").show();
-      // document.getElementsByClassName("micropost").style.borderRadius = "10px 10px 0px 0px";
-      // $("#micropost").css("border-radius", "10px 10px 0px 0px");
-      $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
-      // document.getElementById( "mydiv" ).style.color = "green"
-    }
+    // if (data.links.length !== 0) {
+    //   $("#post-mentions").show();
+    //   $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
+    // }
     $.each(data.links, function(i, v) {
       var activity_type = data.links[i].activity.type;
 
@@ -48,6 +45,9 @@ $(document).ready(function() {
           if (data.links[i].data.content) {
             men_content = data.links[i].data.content;
           }
+          if (replies == 0) {
+            replies = 1;
+          }
           $("ul#mentions-list").prepend("<li class=\"mention p-comment h-cite\">" +
             "<div class=\"mention-author u-author\">" +
             "<img class=\"u-photo\" src=\"" + data.links[i].data.author.photo + "\" class=\"u-photo\"" +
@@ -77,6 +77,11 @@ $(document).ready(function() {
       social_media_likes = social_media_likes.substr(0, social_media_likes.length - 2);
       // social_media_likes = "<span class=\"commented\">Liked by: </span> " + social_media_likes + "</li>";
       $("ul#mentions-list").prepend(social_media_likes);
+    }
+
+    if (replies == 1) {
+      $("#post-mentions").show();
+      $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
     }
   });
 });
