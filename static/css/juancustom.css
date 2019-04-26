@@ -439,25 +439,63 @@ a img.align-left {
 
 
 .post-mentions {
-    padding-top: 15px;
-    margin-top: 10px;
-    border-top: 2px solid #AEADAD;
-    font-size: 16px;
+    /* padding-top: 15px; */
+    /* margin-top: 10px; */
+    /* border-top: 2px solid #AEADAD; */
+    /* font-size: 16px;
+    background-color: #f0cec5;
+    margin-top: -40px;
+    padding: 13px; */
 }
 .post-mentions ul {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
     margin-left: 0;
     color: #666666;
 }
 .post-mentions li {
     margin: 10px;
-    background-color: #F0F2F5;
 }
 
+.mentions-list {
+  /* background-color: #f0cec5;
+  margin-top: -40px;
+  padding: 13px; */
+}
+
+li.p-comment div.u-author img {
+  float: left;
+  border-radius: 5px;
+  margin: 0px 5px 0px -50px;
+}
+
+li.p-comment {
+  font-size: 95%;
+  margin-left: 50px;
+}
+
+a.author-url {
+  color: #888;
+}
+
+a.comment-time {
+  color: #888;
+  font-size: 80%;
+}
+
+
+
+
+
+
+
 .micro-responses {
-  margin: auto;
+  margin: -40px auto 40px;
   max-width: 675px;
+  font-size: 16px;
+  background-color: #f0cec5;
+  padding: 13px;
+  border-radius: 0px 0px 10px 10px;
 }
 
 

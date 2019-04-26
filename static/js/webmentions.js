@@ -4,13 +4,18 @@ var post_url = window.location.href;
 $(document).ready(function() {
   $("ul#mentions-list").empty();
   $.getJSON("https://webmention.io/api/mentions?jsonp=?&sort-by=published&per-page=500", {
-    target: post_url
+    target: "post_url"
+    // target: "https://juanpinto.me/microblog/2019-04-23-solo-hiking-up-mt-carmel/"
   }, function(data) {
     var social_media_likes = "";
     var social_media_repost = "";
     var social_media_post = "";
     if (data.links.length !== 0) {
       $("#post-mentions").show();
+      // document.getElementsByClassName("micropost").style.borderRadius = "10px 10px 0px 0px";
+      // $("#micropost").css("border-radius", "10px 10px 0px 0px");
+      $("<style>.micropost {border-radius : 10px 10px 0px 0px}</style>" ).appendTo( "head" )
+      // document.getElementById( "mydiv" ).style.color = "green"
     }
     $.each(data.links, function(i, v) {
       var activity_type = data.links[i].activity.type;
@@ -18,28 +23,28 @@ $(document).ready(function() {
       if (data.links[i].data.author && data.links[i].data.author.name) {
         var men_content = "";
         if (activity_type && activity_type == "like") {
-          if (!social_media_likes) {
-            social_media_likes = "<li class=\"mention-social\"> Liked by: ";
-          }
-          social_media_likes = social_media_likes +
-            "<a href=\"" + data.links[i].data.url + "\">" +
-            "<img src=\"" + data.links[i].data.author.photo + "\" width=\"40\" />" + "</a> ";
+          // if (!social_media_likes) {
+          //   social_media_likes = "<li class=\"mention-social\"> Liked by: ";
+          // }
+          // social_media_likes = social_media_likes +
+          //   "<a href=\"" + data.links[i].data.url + "\">" +
+          //   "<img src=\"" + data.links[i].data.author.photo + "\" width=\"40\" />" + "</a> ";
         } else if (activity_type && activity_type == "repost") {
-          if (!social_media_repost) {
-            social_media_repost = "<li class=\"mention-social\"> ";
-          }
-          social_media_repost = social_media_repost +
-            "<a href=\"" + data.links[i].data.url + "\">" +
-            data.links[i].data.author.name + "</a>, ";
+          // if (!social_media_repost) {
+          //   social_media_repost = "<li class=\"mention-social\"> ";
+          // }
+          // social_media_repost = social_media_repost +
+          //   "<a href=\"" + data.links[i].data.url + "\">" +
+          //   data.links[i].data.author.name + "</a>, ";
         } else if (activity_type && activity_type == "link") {
-          if (!social_media_post) {
-            social_media_post = "<li class=\"mention-social\"> ";
-          }
-          social_media_post = social_media_post +
-            "<a href=\"" + data.links[i].data.url + "\">" +
-            data.links[i].data.author.name + "</a>, ";
+          // if (!social_media_post) {
+          //   social_media_post = "<li class=\"mention-social\"> ";
+          // }
+          // social_media_post = social_media_post +
+          //   "<a href=\"" + data.links[i].data.url + "\">" +
+          //   data.links[i].data.author.name + "</a>, ";
         } else if (activity_type && activity_type == "reply") {
-          let mention_date = new Date(data.links[i].data.published);
+          // let mention_date = new Date(data.links[i].data.published);
           if (data.links[i].data.content) {
             men_content = data.links[i].data.content;
           }
@@ -48,12 +53,12 @@ $(document).ready(function() {
             "<img class=\"u-photo\" src=\"" + data.links[i].data.author.photo + "\" class=\"u-photo\"" +
             "title=\"" + data.links[i].data.author.name + "\" width=\"40\" >" +
             "<a class=\"p-name u-url\" href=\"" + data.links[i].data.author.url + "\" >" +
-            data.links[i].data.author.name + "</a> replied:</div>" +
+            data.links[i].data.author.name + "</a> " +
+            "<a class=\"author-url\" href=\"" + data.links[i].data.author.url + "\" >" +
+            data.links[i].data.author.url + "</a></div>" +
             "<div class=\"mention-text\">" + men_content + "</div>" +
-            "<a href=\"" + data.links[i].data.url + "\">" +
-            "<time>" + mention_date.getUTCDate() + "/" + (mention_date.getUTCMonth() + 1) +
-            "/" + mention_date.getUTCFullYear() +
-            "</time></a>" +
+            "<a class=\"comment-time\" href=\"" + data.links[i].data.url + "\">" +
+            "<time>" + data.links[i].data.published + "</time></a>" +
             "</li>");
         }
       }
