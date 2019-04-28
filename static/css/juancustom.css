@@ -747,3 +747,11 @@ height: 100vh;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
+
+
+
+.microblog-nav {
+  text-align: center;
+  margin: 0px auto;
+  font-size: 18px;
+}

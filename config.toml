@@ -39,6 +39,12 @@ SectionPagesMenu = "main"
 	url = "/microblog/"
 
 
+
+[permalinks]
+	blog = "/blog/:slug"
+	microblog = "/microblog/:filename"
+
+
 # [mediaTypes]
 #   [mediaTypes."application/javascript"]
 #   suffixes = ["js"]
