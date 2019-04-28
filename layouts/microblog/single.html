@@ -1,10 +1,7 @@
 {{ partial "site_header.html" . }}
 {{ partial "page_header.html" . }}
 
-{{ if not ($.Page.Scratch.Get "photoswipeloaded") }}
-  {{ $.Page.Scratch.Set "photoswipeloaded" 1 }}
-  {{ partial "load-photoswipe.html" (dict "page" . ) }}
-{{ end }}
+{{ partial "load-photoswipe.html" (dict "page" . ) }}
 
   <main class="content">
 
