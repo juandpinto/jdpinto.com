@@ -2,6 +2,14 @@
   <div class="micropost">
     <div class="e-content p-name">
       {{ .Content }}
+
+      {{ if isset .Params "mf-read-status" }}
+        <p class="p-summary"><data class="p-x-read-status" value="finished">📕 Finished reading</data> <span class="p-read-of h-cite"><cite class="p-name"><em>{{ .Param "mf-read-of.properties.name" }}</em></cite> by <span class="p-author">{{ .Param "mf-read-of.properties.author" }}</span>.{{ if isset (index .Params "mf-read-of").properties "uid" }} (ISBN: <span class="p-uid">{{ substr (.Param "mf-read-of.properties.uid") 5 }}</span>){{ end }}</p>
+      {{ end }}
+
+
+
+
       {{ if isset .Params "mf-photo" }}
         <div class="photos">
           {{ range (index .Params "mf-photo") }}

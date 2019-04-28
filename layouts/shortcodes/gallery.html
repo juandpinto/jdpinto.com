@@ -25,7 +25,9 @@ Documentation and licence at https://github.com/liwenyip/hugo-easy-gallery/
 				{{ range where $.Page.Site.RegularPages "Section" "microblog" }}
 					{{ if eq (substr .Date 0 10) (substr $name 0 10) }}
 						{{ $scratch.Set "caption" (print "<a href='" .Permalink "'>" (substr .Date 0 10) "</a>" .Content) }}
-						{{ $scratch.Set "caption2" (print (substr .Date 0 10) " | " (substr .Content 3 -5)) }}
+						{{ if not (eq (len .Content) 0) }}
+							{{ $scratch.Set "caption2" (print (substr .Date 0 10) " | " (substr .Content 3 -5)) }}
+						{{ end }}
 					{{ end }}
 				{{ end }}
 
