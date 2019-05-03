@@ -7,7 +7,7 @@
     {{ with .Site.LanguageCode }}<language>{{.}}</language>{{end}}
     {{ with .Site.Copyright }}<copyright>{{.}}</copyright>{{end}}
     {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    <atom:link href="{{.Site.BaseURL}}" rel="self" type="application/rss+xml" />
+    <atom:link href="{{.Site.BaseURL}}index.xml" rel="self" type="application/rss+xml" />
     {{ range .Data.Pages }}
       {{ if ne .Type "page" }}
       <item>
@@ -19,6 +19,11 @@
         <description>
           {{ `<![CDATA[ ` | safeHTML }}
             {{ .Content -}}
+
+            {{- if isset .Params "mf-read-status" -}}
+              <p class="p-summary"><data class="p-x-read-status" value="finished">📚 Finished reading</data> <span class="p-read-of h-cite"><cite class="p-name"><em>{{ .Param "mf-read-of.properties.name" }}</em></cite> by <span class="p-author">{{ .Param "mf-read-of.properties.author" }}</span>.{{ if isset (index .Params "mf-read-of").properties "uid" }} (ISBN: <span class="p-uid">{{ substr (.Param "mf-read-of.properties.uid") 5 }}</span>){{ end }}</p>
+            {{ end -}}
+
             {{ if isset .Params "mf-photo" }}
             <div class="photos">
               {{- range (index .Params "mf-photo") }}
