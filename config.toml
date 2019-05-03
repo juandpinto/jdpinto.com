@@ -11,6 +11,7 @@ SectionPagesMenu = "main"
 	FirstName = "Juan"
 	LastName = "Pinto"
 	AboutPage = "/about"
+	Email = "juan@juanpinto.me"
 	# Location = "Provo, UT"
 	# FlickrID = "87151163@N00"
 
