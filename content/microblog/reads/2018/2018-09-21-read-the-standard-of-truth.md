@@ -1,5 +1,5 @@
 ---
-date: '2018-09-21T12:00Z'
+date: '2018-09-21T12:00:00Z'
 title: ''
 mf-read-status: 'finished'
 mf-read-of:
