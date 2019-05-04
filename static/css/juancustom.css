@@ -755,3 +755,9 @@ height: 100vh;
   margin: 0px auto;
   font-size: 18px;
 }
+
+.p-reply {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10px;
+}
