@@ -18,6 +18,9 @@
         <guid>{{ .Permalink }}</guid>
         <description>
           {{ `<![CDATA[ ` | safeHTML }}
+            {{ if isset .Params "mf-in-reply-to" -}}
+            <a class="u-in-reply-to" href="{{ index (.Param "mf-in-reply-to") 0 }}"></a>
+            {{- end }}
             {{ .Content -}}
 
             {{- if isset .Params "mf-read-status" -}}
