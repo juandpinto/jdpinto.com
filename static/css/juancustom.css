@@ -361,6 +361,7 @@ a img.align-left {
 /* Page content */
 .content {
   padding-top: 3em;
+  margin: 0 30px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -653,7 +654,7 @@ height: 100vh;
 
 
 .home-blog-preview {
-  margin: 0 30px;
+  /* margin: 0 30px; */
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -661,7 +662,7 @@ height: 100vh;
 }
 
 .home-social-preview {
-  margin: 0 30px;
+  /* margin: 0 30px; */
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
