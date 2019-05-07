@@ -1,7 +1,7 @@
 <main class="content list">
    <h1 style="text-align:center;">{{ humanize .Section }}</h1>
 
-   <div class="microblog-nav"><a href="/microblog/">All</a> | <a href="{{ .Site.BaseURL }}microblog/notes/">📔 Notes</a> | <a href="{{ .Site.BaseURL }}microblog/photos">📷 Photos</a> | <a href="{{ .Site.BaseURL }}microblog/reads/">📖 Reads</a></div>
+   <div class="microblog-nav"><a href="/microblog/">All</a> | <a href="{{ .Site.BaseURL }}microblog/notes/">📔 Notes</a> | <a href="{{ .Site.BaseURL }}microblog/photos">📷 Photos</a> | <a href="{{ .Site.BaseURL }}microblog/reads/">📖 Reads</a> | <a href="{{ .Site.BaseURL }}microblog/replies/">💬 Replies</a></div>
 
    {{ partial "preview_list.html" . }}
 
