@@ -1,10 +1,9 @@
 <article class="h-entry micropost-all">
   <div class="micropost">
+    {{ if isset .Params "mf-in-reply-to" }}
+    <div class="p-reply">💬 In reply to: <a class="u-in-reply-to" href="{{ index (.Param "mf-in-reply-to") 0 }}">{{ index (.Param "mf-in-reply-to") 0 }}</a></div>
+    {{ end }}
     <div class="e-content p-name">
-      {{ if isset .Params "mf-in-reply-to" }}
-      <div class="p-reply">💬 In reply to: <a class="u-in-reply-to" href="{{ index (.Param "mf-in-reply-to") 0 }}">{{ index (.Param "mf-in-reply-to") 0 }}</a></div>
-      {{ end }}
-
       {{ .Content }}
 
       {{ if isset .Params "mf-read-status" }}
