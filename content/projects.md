@@ -17,8 +17,6 @@ menu: main
   {{< youtube h9B8IBJ5BOA >}}
 </div>
 
-<br/>
-
 **Creating a Conversational Hebrew Vocabulary List: A Reproducible Use of Technology to Overcome Scarcity of Data**
 
 *22 April 2018 --- National Council of Less Commonly Taught Languages (NCOLCTL) 21st Annual Conference*
@@ -26,8 +24,6 @@ menu: main
 <ul style="margin-left: 40px; list-style-type: circle;">
 <li><a href="/presentations/2018-04-22-creating-a-conversational-Hebrew-vocabulary-list.pdf">See slides.</a></li>
 </ul>
-
-<br/>
 
 **Transitional Semi-Allophonic Spirantization in Tiberian Hebrew**
 
@@ -37,8 +33,6 @@ menu: main
 <li><a href="/presentations/2018-02-16-transitional-semi-allophonic-spirantization-in-Tiberian-Hebrew.pdf">See slides.</a></li>
 </ul>
 
-<br/>
-
 **Lexical Variation in the Understanding of ברא: Homonymy or Polysemy**
 
 *30 January 2015 --- Students of the Ancient Near East 8th Annual Symposium*
@@ -46,8 +40,6 @@ menu: main
 <ul style="margin-left: 40px; list-style-type: circle;">
 <li><a href="/presentations/2015-01-30-lexical-variation-in-the-understanding-of-bara.pdf">See slides.</a></li>
 </ul>
-
-<br/>
 
 
 # Other Presentations
@@ -59,8 +51,6 @@ menu: main
 <ul style="margin-left: 40px; list-style-type: circle;">
 <li><a href="/presentations/2019-02-12-merica.pdf">See slides.</a></li>
 </ul>
-
-<br/>
 
 **Words, Collocations, and Technology: Teaching and Learning Vocabulary**
 
@@ -74,15 +64,11 @@ menu: main
 <br/>
 <br/>
 <hr/>
-<br/>
-
 
 
 # Frequency Dictionary of Spoken Hebrew (FDOSH)
 
 My MA thesis at the University of Texas at Austin was the creation of a frequency dictionary of spoken Hebrew. All of the scripts and data for the project can be found at the [project GitHub page](https://github.com/juandpinto/frequency-dictionary) or as supplementary materials at [Zenodo](https://zenodo.org/record/1239886#.XAyLU6eB0Wo). The manuscript itself, written entirely in Markdown and LaTeX, has its own [GitHub repository](https://github.com/juandpinto/thesis-manuscript), but the final manuscript can be accessed directly [here](./docs/Pinto_MA_thesis.pdf).
-
-<br />
 
 Though my thesis is now complete, this project is ongoing as I work to optimize the code, simplify the process, conduct further statistical analyses, and publish my final results. The abstract for the thesis can be found below:
 
