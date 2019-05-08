@@ -4,7 +4,7 @@ title = "About"
 
 Hi, I'm Juan. My greatest joys in life are my superhero wife and our wonderful (crazy) children. We have a boy, a girl, and another one on the way.
 
-{{< myfig "http://localhost:1313/images/2019-01-06_2.jpg" "I have the best family!" >}}
+{{< myfig "/images/2019-01-06_2.jpg" "I have the best family!" >}}
 
 I'm currently working as a Fulbright English Teaching Assistant in Israel. I get to teach great students, lead conversation groups, and help out at after-school programs with wild kids who have too much energy. I love it.
 
