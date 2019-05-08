@@ -5,16 +5,13 @@ url: /oranim/conversationclub/
 
 If you are a 2019 Masa student studying English for the Workplace at Oranim, our Conversation Club meets on Wednesdays at building 46, classroom 302.
 
-<br />
-
 Some useful links:
 
-<ul style="text-indent:40px; list-style: circle inside;">
+<ul style="text-indent:40px; list-style: circle inside; margin-top: -15px;">
   <li><a href="https://quizlet.com/class/10607276/" target="_blank">Quizlet Class</a></li>
   <li><a href="https://www.youtube.com/channel/UClPyOwXLnSMejFdLvJXjA5A" target="_blank">Hadar's YouTube Channel—pronunciation and accent explanations</a></li>
 </ul>
 
-<br />
 
 # Upcoming meetings
 
@@ -28,7 +25,6 @@ Some useful links:
   <li><strong>Week 15 (12/6): Politics</strong></li>
 </ul>
 
-<br />
 
 # Past meetings
 
