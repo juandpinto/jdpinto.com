@@ -762,3 +762,13 @@ height: 100vh;
   color: grey;
   margin-bottom: 10px;
 }
+
+
+
+
+.hi {
+  font-size: 2em;
+  display: block;
+  margin-bottom: .5em;
+  text-align: center;
+}
