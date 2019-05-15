@@ -15,7 +15,7 @@ My office is located on the bottom floor of building 58. Enter the International
 During the spring semester, I hold regular student office hours at the following times:
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li>Mondays, 10:00–12:00</li>
+  <li>Sundays, 12:00–14:00</li>
   <li>Wednesdays, 13:00–15:00</li>
 </ul>
 
