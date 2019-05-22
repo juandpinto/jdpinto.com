@@ -5,10 +5,14 @@ url: /oranim/conversationclub/
 
 If you are a 2019 Masa student studying English for the Workplace at Oranim, our Conversation Club meets on Wednesdays at building 46, classroom 302.
 
-Some useful links:
+**Some useful links:**
 
 <ul style="text-indent:40px; list-style: circle inside; margin-top: -15px;">
   <li><a href="https://quizlet.com/class/10607276/" target="_blank">Quizlet Class</a></li>
+  <li><a href="https://docs.google.com/document/d/1E6aAdbA39NWt87Ed3H7jeSXgJEmX99YhE-snHftxGXU/edit?usp=sharing" target="_blank">Shared grammar resources</a></li>
+    <ul style="text-indent:0px; margin-left:80px; list-style: square inside;">
+      <li>Feel free to add online resources that you have found helpful! These can be videos, explanations, practice quizzes, or anything else.</li>
+    </ul>
   <li><a href="https://www.youtube.com/channel/UClPyOwXLnSMejFdLvJXjA5A" target="_blank">Hadar's YouTube Channel—pronunciation and accent explanations</a></li>
 </ul>
 
@@ -16,10 +20,9 @@ Some useful links:
 # Upcoming meetings
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li><strong>Lesson 10 (22/5): Productivity</strong></li>
-  <li><strong>Lesson 11 (29/5): Movies and music</strong></li>
-  <li><strong>Lesson 12 (5/6): Education and career</strong></li>
-  <li><strong>Lesson 13 (12/6): Politics</strong></li>
+  <li><strong>Lesson 11 (29/5): Education and Career</strong></li>
+  <li><strong>Lesson 12 (5/6): Politics</strong></li>
+  <li><strong>Lesson 13 (12/6): Final Review</strong></li>
 </ul>
 
 
@@ -77,5 +80,10 @@ Some useful links:
       <ul style="text-indent:80px; list-style: square inside;">
         <li><a href="/presentations/conversationclub/9-time-management.pdf" target="_blank">PDF of slides</a></li>
         <li><a href="https://quizlet.com/_6on3hk" target="_blank">Quizlet set from class</a></li>
+      </ul>
+    <li><strong>Lesson 10 (22/5): Entertainment Media</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li><a href="/presentations/conversationclub/10-entertainment-media.pdf" target="_blank">PDF of slides</a></li>
+        <li><a href="https://quizlet.com/406445275" target="_blank">Quizlet set from class</a></li>
       </ul>
 </ul>
