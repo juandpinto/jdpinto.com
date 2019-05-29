@@ -20,7 +20,6 @@ If you are a 2019 Masa student studying English for the Workplace at Oranim, our
 # Upcoming meetings
 
 <ul style="text-indent:40px; list-style: circle inside;">
-  <li><strong>Lesson 11 (29/5): Education and Career</strong></li>
   <li><strong>Lesson 12 (5/6): Politics</strong></li>
   <li><strong>Lesson 13 (12/6): Final Review</strong></li>
 </ul>
@@ -85,5 +84,10 @@ If you are a 2019 Masa student studying English for the Workplace at Oranim, our
       <ul style="text-indent:80px; list-style: square inside;">
         <li><a href="/presentations/conversationclub/10-entertainment-media.pdf" target="_blank">PDF of slides</a></li>
         <li><a href="https://quizlet.com/406445275" target="_blank">Quizlet set from class</a></li>
+      </ul>
+    <li><strong>Lesson 11 (29/5): Education and Career</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li><a href="/presentations/conversationclub/11-education-and-career.pdf" target="_blank">PDF of slides</a></li>
+        <li><a href="https://quizlet.com/408259510" target="_blank">Quizlet set from class</a></li>
       </ul>
 </ul>
