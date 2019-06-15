@@ -3,7 +3,7 @@ title: Conversation Club
 url: /oranim/conversationclub/
 ---
 
-If you are a 2019 Masa student studying English for the Workplace at Oranim, our Conversation Club meets on Wednesdays at building 46, classroom 302.
+This page served as the repository of resources for the 2019 Masa E4WP Conversation Club. I'm leaving these up so that the students can continue to use them to practice their English.
 
 **Some useful links:**
 
@@ -14,14 +14,7 @@ If you are a 2019 Masa student studying English for the Workplace at Oranim, our
       <li>Feel free to add online resources that you have found helpful! These can be videos, explanations, practice quizzes, or anything else.</li>
     </ul>
   <li><a href="https://www.youtube.com/channel/UClPyOwXLnSMejFdLvJXjA5A" target="_blank">Hadar's YouTube Channel—pronunciation and accent explanations</a></li>
-</ul>
-
-
-# Upcoming meetings
-
-<ul style="text-indent:40px; list-style: circle inside;">
-  <li><strong>Lesson 12 (5/6): Politics</strong></li>
-  <li><strong>Lesson 13 (12/6): Final Review</strong></li>
+  <li><a href="/oranim/conversationclub/randomq" target="_blank">Random question generator</a></li>
 </ul>
 
 
@@ -89,5 +82,15 @@ If you are a 2019 Masa student studying English for the Workplace at Oranim, our
       <ul style="text-indent:80px; list-style: square inside;">
         <li><a href="/presentations/conversationclub/11-education-and-career.pdf" target="_blank">PDF of slides</a></li>
         <li><a href="https://quizlet.com/408259510" target="_blank">Quizlet set from class</a></li>
+      </ul>
+    <li><strong>Lesson 12 (5/6): Politics</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li><a href="/presentations/conversationclub/12-politics.pdf" target="_blank">PDF of slides</a></li>
+        <li><a href="https://quizlet.com/409867775" target="_blank">Quizlet set from class</a></li>
+      </ul>
+    <li><strong>Lesson 13 (12/6): Review</strong></li>
+      <ul style="text-indent:80px; list-style: square inside;">
+        <li><a href="/presentations/conversationclub/13-review.pdf" target="_blank">PDF of slides</a></li>
+        <li><a href="/oranim/conversationclub/randomq" target="_blank">Random question generator</a></li>
       </ul>
 </ul>
