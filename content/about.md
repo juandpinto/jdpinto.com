@@ -2,13 +2,11 @@
 title = "About"
 +++
 
-Hi, I'm Juan. My greatest joys in life are my superhero wife and our wonderful (crazy) children. We have a boy, a girl, and another one on the way.
+Hi, I'm Juan. My greatest joys in life are my superhero wife and our wonderful (crazy) children. We have a kiddo sandwich consisting of a boy, then a girl, and finally a second little boy to complete our family.
 
-{{< myfig "/images/2019-01-06_2.jpg" "I have the best family!" >}}
+{{< myfig "/images/site/about.jpg" "I have the best family!" >}}
 
-I'm currently working as a Fulbright English Teaching Assistant in Israel. I get to teach great students, lead conversation groups, and help out at after-school programs with wild kids who have too much energy. I love it.
-
-I recently received my master's in Middle Eastern Languages and Cultures (my emphasis being Hebrew Applied Linguistics) from the University of Texas at Austin. I hope to pursue a Ph.D. in the near future, my research focus being the use of educational technology for second language acquisition. I'm fascinated by the prospect of using learning analytics to improve the effectiveness of computer assisted language learning.
+I'm currently a graduate student at the University of Michigan, where I get to learn about the past, the present, and the future of education. I also get to intern at the university's [Center for Academic Innovation](https://ai.umich.edu), where we're making the future of learning happen *now*. My plan is to continue working towards educational equity and increased access around the world combining technology and research on the science of learning.
 
 I also consider myself an advocate of open science, open data, open source software, open educational resources, and everything in between. Research needs to be as accessible and reproducible as possible, and I do what I can in my own spheres of influence to further that aim. Similarly, furthering the goals of the open web—primarily through advocacy for and incorporation of [IndieWeb](https://indieweb.org) protocols—is an important goal of mine. You can check out my personal open repositories, along with my latest projects, at [my GitHub account](https://github.com/juandpinto).
 
