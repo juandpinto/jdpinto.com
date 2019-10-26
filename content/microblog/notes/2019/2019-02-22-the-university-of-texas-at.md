@@ -4,7 +4,7 @@ title: ''
 mf-location:
   - 'geo:32.70763,35.12563;u=65'
 mf-syndication:
-  - 'https://twitter.com/juanpinto88/status/1098909369574608896'
+  - 'https://twitter.com/thejuanpinto/status/1098909369574608896'
 ---
 The University of Texas at Austin has finally put up my M.A. thesis on their online thesis repository: http://hdl.handle.net/2152/72487
 
