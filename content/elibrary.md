@@ -12,6 +12,4 @@ Of course, due to copyright laws, I can't share this library publicly. A usernam
 </center>
 
 
-## Technical note
-
-This library is kept organized with the wonderful open-source tool [Calibre](https://calibre-ebook.com). I can't recommend it enough. For the web server, I use [calibre-web](https://github.com/janeczku/calibre-web) because I find it much more aesthetically pleasing and user friendly than the built-in Calibre Server. I host the server locally on a [Raspberry Pi 4](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/).
+<span style="font-size:16px; color:#888888">⌨️ For technical details about the Pinto eLibrary, see my projects [here](http://localhost:1313/projects/#technical-projects).</span>
