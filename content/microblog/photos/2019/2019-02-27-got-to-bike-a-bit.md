@@ -3,7 +3,7 @@ date: '2019-02-27T16:52:31.000+0200'
 title: ''
 mf-syndication:
   - 'https://www.instagram.com/p/BuY6aArhKbH/'
-  - 'https://twitter.com/juanpinto88/status/1100969638026829824'
+  - 'https://twitter.com/thejuanpinto/status/1100969638026829824'
 mf-photo:
   - '/images/2019-02-27_ig-tvecyg.jpg'
 ---

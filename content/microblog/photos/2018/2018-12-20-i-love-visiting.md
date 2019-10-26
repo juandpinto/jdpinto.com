@@ -1,7 +1,7 @@
 ---
 date: 2018-12-20 17:46:00 +0200
 mf-syndication:
-  - "https://twitter.com/juanpinto88/status/1075779553669365761"
+  - "https://twitter.com/thejuanpinto/status/1075779553669365761"
 mf-photo:
   - '/images/2018-12-20.jpg'
 ---

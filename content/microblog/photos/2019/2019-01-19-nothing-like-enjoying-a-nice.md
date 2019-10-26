@@ -2,7 +2,7 @@
 date: '2019-01-19T12:52:35.000+0200'
 title: ''
 mf-syndication:
-  - 'https://twitter.com/juanpinto88/status/1086852444477378560'
+  - 'https://twitter.com/thejuanpinto/status/1086852444477378560'
   - 'https://www.instagram.com/p/Bs0D8qQBipw/'
 mf-photo:
   - 'https://juanpinto.me/images/2019-01-19.jpg'
