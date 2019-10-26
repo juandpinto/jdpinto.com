@@ -78,11 +78,11 @@ blockquote p {
   padding: 0 10px;
 }
 
-blockquote p:last-child {
+/* blockquote p:last-child {
   font-style: normal;
   padding-left: 30px;
 
-}
+} */
 
 .site {
   display: flex;
