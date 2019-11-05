@@ -49,3 +49,16 @@ SectionPagesMenu = "main"
 # [mediaTypes]
 #   [mediaTypes."application/javascript"]
 #   suffixes = ["js"]
+
+
+
+[outputFormats]
+  [outputFormats.jsonfeed]
+    mediaType = "application/json"
+    baseName = "feed"
+    isPlainText = true
+
+
+[outputs]
+  home = ["HTML", "RSS", "jsonfeed"]
+  page = ["HTML"]
