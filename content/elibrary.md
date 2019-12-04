@@ -12,4 +12,4 @@ Of course, due to copyright laws, I can't share this library publicly. A usernam
 </center>
 
 
-<span style="font-size:16px; color:#888888">⌨️ For technical details about the Pinto eLibrary, see my projects [here](http://localhost:1313/projects/#technical-projects).</span>
+<span style="font-size:16px; color:#888888">⌨️ For technical details about the Pinto eLibrary, see my projects [here](/projects/#technical-projects).</span>
