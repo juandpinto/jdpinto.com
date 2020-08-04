@@ -1,8 +1,0 @@
-<main class="content list">
-   <h1 style="text-align:center;">{{ humanize .Section }}</h1>
-
-   <div class="microblog-nav"><a href="/microblog/">All</a> | <a href="{{ .Site.BaseURL }}microblog/notes/" style="white-space: nowrap;">📔 Notes</a> | <a href="{{ .Site.BaseURL }}microblog/photos" style="white-space: nowrap;">📷 Photos</a> | <a href="{{ .Site.BaseURL }}microblog/reads/" style="white-space: nowrap;">📖 Reads</a> | <a href="{{ .Site.BaseURL }}microblog/replies/" style="white-space: nowrap;">💬 Replies</a></div>
-
-   {{ partial "preview_list.html" . }}
-
-</main>

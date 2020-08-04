@@ -1,9 +1,0 @@
----
-date: 2018-12-20 17:46:00 +0200
-mf-syndication:
-  - "https://twitter.com/thejuanpinto/status/1075779553669365761"
-mf-photo:
-  - '/images/2018-12-20.jpg'
----
-
-I love visiting the Old City of Jerusalem. There’s something about it that always makes me feel so alive. Maybe it’s the busy markets, or the devoted pilgrims, or the eclectic smells and sounds. But most of all, it’s the stories—both sacred and mundane—that these rocks can tell.

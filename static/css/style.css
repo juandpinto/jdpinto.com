@@ -1,0 +1,484 @@
+:root {
+    --color1: rgba(231, 79, 95, 255);
+    --color2: rgba(39, 39, 39, 255);
+    --color3: rgba(206, 206, 206, 255);
+    --color4: rgba(122, 122, 122, 255);
+    --color5: rgba(255, 255, 255, 255);
+    --color6: rgba(221, 213, 127, 255);
+}
+
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background-color: var(--color2);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 50px;
+}
+
+body section:before {
+    display: block;
+    height: 40px;
+    margin-top: -40px;
+    visibility: hidden;
+    content: "";
+}
+
+body section {
+    margin: 120px auto 20px auto;
+    max-width: 800px;
+    padding: 0 40px;
+}
+
+body p {
+    color: var(--color3);
+    font-size: 1em;
+    line-height: 1.7em;
+}
+
+nav {
+    z-index: 100;
+    overflow: hidden;
+    background-color: var(--color1);
+    position: fixed;
+    width: 100%;
+    /* height: 30px; */
+    top: 0;
+    color: var(--color5);
+    text-decoration: none;
+}
+
+nav .nav-left {
+    float: left;
+    padding-left: 20px;
+}
+
+nav .navbar-toggle {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    /* display: none; */
+}
+
+.nav-main {
+    display: none;
+    /* flex-direction: row;
+    justify-content: flex-end; */
+    list-style-type: none;
+    margin: 0;
+    padding-right: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav-main li {
+    /* text-align: center; */
+    margin: auto;
+    /* margin-top: 30px; */
+}
+
+nav a {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    color: var(--color5);
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--color1);
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+h1:before {
+    content: "";
+    display: block;
+    width: 30%;
+    padding-bottom: 30px;
+    border-top: 2px solid var(--color1);
+}
+
+section>div {
+    padding-left: 40px;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    vertical-align: middle;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/pinto_cropped2.png);
+    background-size: cover;
+    background-position: 45%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: -5px 0 0 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+.intro {
+    padding-left: 60px;
+}
+
+.intro-box {
+    border: 2px;
+    border-color: var(--color1);
+    border-style: solid;
+    position: relative;
+    /* top: 200px; */
+    /* padding: 50px 30px; */
+    width: 240px;
+    height: 240px;
+    /* margin-left: 60px; */
+}
+
+.intro-text {
+    /* display: table-cell;
+    vertical-align: middle; */
+    position: relative;
+    /* bottom: 13%;
+    left: 5% */
+    /* padding: 15px;
+    margin-left: 60px; */
+    font-size: 36px;
+    color: var(--color5);
+    font-weight: 400;
+    left: 40px;
+    bottom: 210px;
+}
+
+.hello {
+    color: var(--color1);
+    font-style: italic;
+}
+
+.animated-text {
+    margin-top: 30px;
+}
+
+.cd-words-wrapper>b {
+    font-style: italic;
+    font-weight: 200;
+}
+
+#changingWord {
+    position: absolute;
+    font-size: 30px;
+    font-family: Helvetica, Sans-Serif;
+    color: var(--nav-clr);
+    top: 170px;
+    right: 45px;
+}
+
+#sect-ed .ed-item {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#sect-ed .ed-logo {
+    float: left;
+    margin-right: 30px;
+    height: 80px;
+}
+
+#sect-ed .ed-text {
+    overflow: auto;
+}
+
+#sect-ed .ed-text p {
+    margin: 0;
+}
+
+#sect-ed .ed-degree {
+    color: var(--color1);
+}
+
+#sect-ed .ed-university {
+    font-weight: 500;
+}
+
+#sect-ed .ed-info p {
+    color: var(--color4);
+    line-height: 1.2em;
+}
+
+.email-link {
+    font-size: 35px;
+    font-weight: 400;
+    color: var(--color1);
+    text-decoration: none;
+    /* padding-top: 40px; */
+}
+
+
+/* ========= Start Experience ======= */
+
+.experience-chart {
+    list-style: none;
+    /* padding: 0px 0px 0px 6px; */
+    margin-top: 40px;
+}
+
+ul.experience-chart li {
+    padding-left: 30px;
+    border-left: 2px solid var(--color4);
+    padding-bottom: 10px;
+    position: relative;
+}
+
+ul.experience-chart li:last-child {
+    padding-bottom: 0;
+}
+
+ul.experience-chart li:after {
+    position: absolute;
+    top: -1px;
+    left: -12px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid var(--color4);
+    background: var(--color2);
+    content: '';
+    -webkit-transition: all 0.3s;
+    transition: all 0.7s;
+}
+
+ul.experience-chart li:hover:after {
+    background: var(--color5);
+}
+
+ul.experience-chart h4 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: var(--color1);
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.experience-chart li span {
+    /* font-weight: 700;
+color: #6f6f6f; */
+    color: var(--color4);
+    font-weight: 200;
+}
+
+.experience-chart li p {
+    color: var(--color3);
+    font-weight: 200;
+    /* margin-top: 0; */
+}
+
+.single-experience {
+    position: relative;
+    top: -2px;
+}
+
+
+/* ========= Start Skill ======= */
+
+.skill {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.skill-progress-bar {
+    margin-top: 41px;
+}
+
+
+/* .skillbar {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+width: 100%;
+border: 2px solid var(--color4);
+height: 18px;
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+-webkit-transition: 0.2s linear;
+transition: 0.2s linear;
+-webkit-transition-property: width, background-color;
+transition-property: width, background-color;
+} */
+
+.skillbar-title {
+    color: var(--color1);
+    font-weight: 500;
+    /* font-size: 16px; */
+    display: inline-block;
+    margin-bottom: 7px;
+    min-width: 150px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.skill-bar-level {
+    /* font-size: 16px; */
+    color: var(--color3);
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 7px;
+    min-width: 150px;
+    margin: 0 20;
+    padding-left: 20px;
+    border-left: 1px solid var(--color4);
+}
+
+
+/* .skillbar-bar {
+height: 10px;
+margin: 0px 2px;
+width: 0px;
+background: var(--color1);
+border-radius: 22px;
+-moz-border-radius: 22px;
+-webkit-border-radius: 22px;
+} */
+
+.skillbar-bar {
+    /* color:var(--color1);
+    height: 3px; */
+    border: 2px solid var(--color1);
+    /* border-radius: 5px; */
+}
+
+.skillbar {
+    display: flex;
+    align-items: center;
+    /* justify-items: left; */
+    width: 100%;
+}
+
+.skill hr {
+    margin-bottom: 15px;
+}
+
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+footer {
+    margin: 120px auto 20px auto;
+    max-width: 800px;
+    padding: 0 40px;
+    color: var(--color1);
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+footer a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+    .intro {
+        padding-left: 20px;
+        margin-top: 10%;
+    }
+    .intro-box {
+        width: 200px;
+        height: 200px;
+    }
+    .intro-text {
+        font-size: 28px;
+        left: 20px;
+        bottom: 170px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .intro {
+        padding-left: 20px;
+        margin-top: 80%;
+    }
+    .intro-box {
+        width: 200px;
+        height: 200px;
+    }
+    .intro-text {
+        font-size: 28px;
+        left: 20px;
+        bottom: 170px;
+    }
+    .email-link {
+        font-size: 25px;
+    }
+}
+
+.active {
+    display: inline-flex;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        /* padding-bottom: 0; */
+        /* height: 70px; */
+        align-items: center;
+    }
+    nav .nav-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    nav .nav-main li {
+        margin: 0;
+    }
+    nav .navbar-toggle {
+        display: none;
+    }
+}
