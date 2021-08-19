@@ -7,6 +7,9 @@ lightgallery: true
 
 math:
   enable: true
+
+comments:
+  enable: false
 ---
 
 <!-- {{< image src="beach.jpg" caption="Sunset in Haifa" width=60% >}} -->
