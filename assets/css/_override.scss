@@ -1,0 +1,13 @@
+// ==============================
+// Override Variables
+// ==============================
+.home {
+    .home-profile {
+        .home-disclaimer {
+            color: $global-font-color !important;
+            [theme=dark] & {
+                color: $global-font-color-dark !important;
+            }
+        }
+    }
+}
