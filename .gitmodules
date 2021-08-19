@@ -1,3 +1,3 @@
-[submodule "themes/internet-weblog"]
-	path = themes/internet-weblog
-	url = https://github.com/juandpinto/internet-weblog.git
+[submodule "themes/LoveIt"]
+	path = themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
