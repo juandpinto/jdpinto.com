@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Pinto Family Update | December 2021"
-date: 2021-12-23
+date: 2021-12-31
 draft: false
 categories: ["family newsletter"]
 lightgallery: true
@@ -37,7 +37,7 @@ As 2021 draws to a close, we wanted to share some of what our family has been up
 ![](2021-12_3.jpg "Prairie biking")
 
 
-And, as usual, [here is our end-of-year memories video for 2021](). It feels like each year we take less and less pictures/videos of anything other than our kids. And now we also have some cute animals to add to the mix.
+And, as usual, [here is our end-of-year memories video for 2021](/videos/Pinto-Memories-2021_720p.mp4). It feels like each year we take less and less pictures/videos of anything other than our kids. And now we also have some cute animals to add to the mix.
 
 We wish all our friends and family a happy new year 🎉🍾! May 2022 be your best year yet!
 
