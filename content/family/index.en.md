@@ -47,7 +47,7 @@ In an effort to keep family and friends up to date with our lives (without havin
 
 We have an end-of-year family tradition in which we put together one second of video for each day of the year—or at least the days we have video footage (or occasionally still photos) from. We love making these and hope you enjoy them as well!
 
-- Pinto Memories 2021
+- [Pinto Memories 2021](/videos/Pinto-Memories-2021_720p.mp4)
 - [Pinto Memories 2020](/videos/Pinto-Memories-2020_720p.mp4)
 - [Pinto Memories 2019](/videos/Pinto-Memories-2019_720p.mp4)
 - [Pinto Memories 2018](/videos/Pinto-Memories-2018_720p.mp4)
