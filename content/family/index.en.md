@@ -36,8 +36,8 @@ In an effort to keep family and friends up to date with our lives (without havin
     <input type="radio" name="subscribe" value="yes" checked>
     <label for="subsribe">Subscribe</label><br>
     <input type="radio" name="subscribe" value="no">
-    <label for="fname">Unsubscribe</label><br>
-    <button type="submit" style="height:1.7em;width:130px">Submit</button>
+    <label for="fname">Unsubscribe</label><br><br>
+    <button type="submit" style="height:1.8em;width:130px">Submit</button>
 </form>
 
 {{< /admonition >}}
@@ -47,8 +47,27 @@ In an effort to keep family and friends up to date with our lives (without havin
 
 We have an end-of-year family tradition in which we put together one second of video for each day of the year—or at least the days we have video footage (or occasionally still photos) from. We love making these and hope you enjoy them as well!
 
-- [Pinto Memories 2021](/videos/Pinto-Memories-2021_720p.mp4)
-- [Pinto Memories 2020](/videos/Pinto-Memories-2020_720p.mp4)
-- [Pinto Memories 2019](/videos/Pinto-Memories-2019_720p.mp4)
-- [Pinto Memories 2018](/videos/Pinto-Memories-2018_720p.mp4)
-- [Pinto Memories 2017](/videos/Pinto-Memories-2017_720p.mp4)
+
+## Pinto Memories 2021
+
+{{< youtube LluJFo1gQZ8 >}}
+
+
+## Pinto Memories 2020
+
+{{< youtube mmflxWUVcFw >}}
+
+
+## Pinto Memories 2019
+
+{{< youtube lSC3fEGzz4U >}}
+
+
+## Pinto Memories 2018
+
+{{< youtube Q40u_2o7elY >}}
+
+
+## Pinto Memories 2017
+
+{{< youtube 1toGtLkRUxM >}}

@@ -44,7 +44,9 @@ Can you guess Lucia's favorite TV show from this interaction?
 
  ![](2020-12_4.jpg "Lucia loves pigtails . . . and bandages")
 
-Finally, as has become our end-of-year tradition, here is a mashup video of one second for *almost* every day this year in the Pinto family: [Pinto Memories 2020](/videos/Pinto-Memories-2020_720p.mp4). Clearly, our lives very much revolve around our kids. And we love it.
+Finally, as has become our end-of-year tradition, here is a mashup video of one second for *almost* every day this year in the Pinto family. Clearly, our lives very much revolve around our kids. And we love it.
+
+{{< youtube mmflxWUVcFw >}}
 
 We hope you're all staying healthy and happy through these turbulent times. Brighter days are coming. And as always, **we would love to hear from you!** Let's welcome the new year with open arms, determined to make it something wonderful.
 
