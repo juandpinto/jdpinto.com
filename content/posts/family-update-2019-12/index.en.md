@@ -39,7 +39,11 @@ And now, for our individual update blurbs:
 
 ![](2019-12_3.jpg "Collage of Joaquin making faces")
 
-Finally, here's a fun four-minute video made up of one second for *almost* every day this year in the Pinto family: [Pinto Memories 2019](/videos/Pinto-Memories-2019_720p.mp4). Creating these video collages has become a sort of end-of-year tradition for us. We can now add this one to our [2018](/videos/Pinto-Memories-2018_720p.mp4) and [2017](/videos/Pinto-Memories-2017_720p.mp4) memory videos.
+Finally, here's a fun four-minute video made up of one second for *almost* every day this year in the Pinto family:
+
+{{< youtube lSC3fEGzz4U >}}
+
+Creating these video collages has become a sort of end-of-year tradition for us. We can now add this one to our [2018](https://www.youtube.com/watch?v=Q40u_2o7elY) and [2017](https://www.youtube.com/watch?v=1toGtLkRUxM) memory videos.
 
 So that's 2019 in a nutshell! Hope you've all had a Merry Christmas, a Hag Sameach, and that 2020 brings you many blessings and much joy. If we haven't heard from you recently, feel free to respond to this email—we'd love to hear how you're doing!
 
