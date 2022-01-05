@@ -8,7 +8,7 @@ lightgallery: true
 toc: false
 ---
 
-**Querida familia y amigos,,**
+**Querida familia y amigos,**
 
 Esperamos que durante esta pandemia todos estén manteniéndose física, mental y espiritualmente saludables. Sabemos que las cosas han cambiado drásticamente para todos desde que enviamos nuestra última actualización familiar en diciembre, pero esperamos que muchos de los propios cambios en sus vidas hayan sido positivos.
 
