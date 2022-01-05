@@ -23,7 +23,7 @@ enableEmoji = true
     # language code
     languageCode = "en"
     # language name
-    languageName = "English"
+    languageName = "🇺🇸 English"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
@@ -153,9 +153,140 @@ enableEmoji = true
         Goodreads = ""
         RSS = true
 
-  [languages.zh-cn]
-
-  [languages.fr]
+  [languages.es]
+    weight = 2
+    # language code
+    languageCode = "es"
+    # language name
+    languageName = "🇪🇸 Español"
+    # whether to include Chinese/Japanese/Korean
+    hasCJKLanguage = false
+    # default amount of posts in each pages
+    paginate = 12
+    # [UA-XXXXXXXX-X] google analytics code
+    googleAnalytics = ""
+    # copyright description used only for seo schema
+    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+    # Menu config
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "quien"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        post = ""
+        name = "Quien soy"
+        url = "/about/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.es.menu.main]]
+        identifier = "investigación"
+        pre = ""
+        post = ""
+        name = "Investigación"
+        url = "https://scholar.google.com/citations?user=dzeXpP8AAAAJ"
+        title = ""
+        weight = 2
+      [[languages.es.menu.main]]
+        identifier = "CV"
+        pre = ""
+        post = ""
+        name = "CV"
+        url = "/Pinto-CV.pdf"
+        title = ""
+        weight = 3
+      [[languages.es.menu.main]]
+        identifier = "contacto"
+        pre = ""
+        post = ""
+        name = "Contacto"
+        url = "/contact/"
+        title = ""
+        weight = 4
+    #   [[languages.es.menu.main]]
+    #     identifier = "family"
+    #     pre = ""
+    #     post = ""
+    #     name = "Family"
+    #     url = "/family/"
+    #     title = ""
+    #     weight = 5
+    [languages.es.params]
+      # site description
+      description = "Juan D. Pinto"
+      # site keywords
+      keywords = ["Juan Pinto", "UIUC", "minería de datos educativos", "analítica de aprendizaje", "ciencia del aprendizaje"]
+      # App icon config
+      [languages.es.params.app]
+        # optional site title override for the app when added to an iOS home screen or Android launcher
+        title = "Juan D. Pinto"
+        # whether to omit favicon resource links
+        noFavicon = false
+        # modern SVG favicon to use in place of older style .png and .ico files
+        svgFavicon = ""
+        # Android browser theme color
+        themeColor = "#ffffff"
+        # Safari mask icon color
+        iconColor = "#5bbad5"
+        # Windows v8-10 tile color
+        tileColor = "#da532c"
+      # Search config
+      [languages.es.params.search]
+        enable = false
+        # type of search engine ("lunr", "algolia")
+        type = "algolia"
+        # max index length of the chunked content
+        contentLength = 4000
+        # placeholder of the search bar
+        placeholder = ""
+        # max number of results length
+        maxResultLength = 10
+        # snippet length of the result
+        snippetLength = 30
+        # HTML tag name of the highlight part in results
+        highlightTag = "em"
+        # whether to use the absolute URL based on the baseURL in search index
+        absoluteURL = false
+        [languages.es.params.search.algolia]
+          index = "index.en"
+          appID = "PASDMWALPK"
+          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+      # Home page config
+      [languages.es.params.home]
+        # amount of RSS pages
+        rss = 10
+        # Home page profile
+        [languages.es.params.home.profile]
+          enable = true
+          # Gravatar Email for preferred avatar in home page
+          gravatarEmail = ""
+          # URL of avatar shown in home page
+          avatarURL = "/images/juandpinto-small.jpg"
+          # title shown in home page (HTML format is supported)
+          title = "Juan D. Pinto"
+          # subtitle shown in home page
+          subtitle = "Científico de Aprendizaje 🧠 ∙ Educador 🎓 ∙ Ninja de Datos 🥷"
+          # whether to use typeit animation for subtitle
+          typeit = true
+          # whether to show social links
+          social = true
+          # disclaimer (HTML format is supported)
+          disclaimer = "Estudiante de posgrado en la Universidad de Illinois en Urbana-Champaign que estudia entornos digitales para el aprendizaje, la enseñanza, y la agencia. Mi investigación se especializa en ciencia de datos educativos, sistemas de aprendizaje adaptativo y el uso del aprendizaje automático en entornos educativos."
+        # Home page posts
+        [languages.es.params.home.posts]
+          enable = false
+          # special amount of posts in each home posts page
+          paginate = 6
+      # Social config in home page
+      [languages.es.params.social]
+        Email = "juan@juandpinto.com"
+        Googlescholar = "user=dzeXpP8AAAAJ"
+        GitHub = "juandpinto"
+        Linkedin = "juandpinto"
+        Twitter = "thejuanpinto"
+        Strava = "2609385"
+        Goodreads = ""
+        RSS = true
 
 [params]
   # LoveIt theme version
