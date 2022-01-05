@@ -15,43 +15,41 @@ Esta página aún no ha sido traducida al español.
 {{< /admonition >}}
 
 
-**Dear family and friends,**
+**Querida familia y amigos,,**
 
-We hope you're all staying physically, mentally, and spiritually healthy during this pandemic. Things have changed quite drastically for everyone since we sent out our last family update in December, but we hope that many of your own life changes have been positive.
+Esperamos que durante esta pandemia todos estén manteniéndose física, mental y espiritualmente saludables. Sabemos que las cosas han cambiado drásticamente para todos desde que enviamos nuestra última actualización familiar en diciembre, pero esperamos que muchos de los propios cambios en sus vidas hayan sido positivos.
 
- ![](2020-07_1.jpg "Visiting Michigan's School of Education")
+ ![](2020-07_1.jpg "Visitando el edificio de la Escuela de Educación de Michigan")
 
-Here are some of our own life changes:
+Estos son algunos de los giros que ha dado nuestra vida durante los últimos seis meses:
 
-- Joaquin's final surgery in January went perfectly, and he's been pooping like a normal human ever since. 💩 Well, he poops *much* more often than most humans, but that's normal for his condition. He started army crawling about two months ago, but this week has figured out how to crawl upright and is now unstoppable!
-- Ishmael and Lucia continue to love tormenting each other. Luckily, they also enjoy playing together. 🙃
-- Since Michigan's stay-at-home order began in March, it's actually been really nice for Juan to work from home all the time. He's not looking forward to going back to campus when this is all over.
-- Juan completed his second master's degree and has already begun working on his PhD in digital learning environments (specializing in educational data science) at the University of Illinois at Urbana-Champaign. He is now well on his way to becoming a degree collector. 🎓
-- We moved to Illinois this week! Jaime is especially excited to live near her sister now, with whom she's begun taking morning walks.
+- La cirugía final de Joaquín en enero estuvo perfecta, y desde entonces ha estado defecando como un humano normal. 💩 Bueno, hace caca con *mucha* más frecuencia que la mayoría de las personas, pero eso es normal para su condición. ¡Comenzó a gatear arrastrándose y empujándose con sus bracitos hace unos dos meses, pero esta semana ha descubierto cómo gatear en cuatro "paticas" y ahora es imparable!
+- A Ishmael y Lucía les sigue encantando atormentarse mutuamente. Afortunadamente, también les encanta jugar juntos. 🙃
+- Desde que la cuarentena en Michigan comenzó en marzo, en realidad ha sido muy agradable para Juan Daniel trabajar desde casa todo el tiempo. Ahora no tiene muchas ganas de volver al campus cuando todo esto termine. Juan Daniel completó su segundo máster y ya comenzó a trabajar en su doctorado sobre ambientes de aprendizaje digital (especializado en ciencia de datos educativos) en la Universidad de Illinois en Urbana-Champaign. Ahora está en camino de convertirse en un coleccionista de títulos universitarios. 🎓
+- ¡Nos mudamos a Illinois esta semana! Jaime está especialmente emocionada de vivir cerca de su hermana ahora, con quien ya comenzó a hacer caminatas por la mañana.
 
-![](2020-07_2.jpg "Lego festival")
+![](2020-07_2.jpg "Festival de Lego")
 
-Here are some fun things that have recently been said around the house:
+Aquí hay algunas cosas divertidas que se han dicho recientemente en la casa:
 
-- **Lucia, singing:** "Twinkle Twinkle Little Star! How I wonder in the sky!"
-- **Lucia:** "Mama, do you want to hear it in Spanish or English?"
-- **Jaime:** "How about in Spanish?"
-- **Lucia:** "Okay. TWINKLE TWINKLE LITTLE STAR!"
+- **Lucía, cantando:** "Twinkle Twinkle Little Star! How I wonder in the sky!"
+- **Lucía:** "Mamá, ¿quieres escucharlo en español o en inglés?"
+- **Jaime:** "¿Qué tal en español?"
+- **Lucía:** "De acuerdo. TWINKLE TWINKLE LITTLE STAR!"
 
-![](2020-07_3.jpg "The girls")
+![](2020-07_3.jpg "Las chicas")
 
-And a couple other gems:
+Y un par de otras gemas:
 
-- **Ishmael, wrapped up in his blanket:** "I'm a Papa Princess!"
-- **Lucia, pointing to the potty after she's used it:** "That's a papa poop, and there's a mama poop, and that's a baby poop too."
+- **Ishmael, envuelto en su manta:** "¡Soy una princesa de papá!"
+- **Lucía, señalando la bacinilla después de haberla usado:** "Esa es una caca papa, y hay una caca mamá, y también hay una caca bebé".
+- A nuestros amigos estadounidenses, *¡Feliz 4 de julio, día de la independencia!* Tomémonos este tiempo para agradecer por nuestras libertades y al mismo tiempo reflexionar sobre las muchas personas que no han tenido acceso a estas mismas libertades en el pasado o en el presente, debido a su color de piel, género, orientación sexual, situación económica, lugar de origen, o cualquier otro factor.
 
-To our American friends, *happy 4th of July*! 🇺🇸 Let's take this time to be grateful for our freedoms while also reflecting on the many people who haven't had access to these freedoms—past or present—because of their skin color, gender, sexual orientation, economic situation, place of origin, or any other factor.
+![](2020-07_4.jpg "Salida familiar a una marcha local por la comunidad negra (manteniendo distancia social, por supuesto)")
 
-![](2020-07_4.jpg "Family outing at our local, socially distanced march for black lives")
+Por último, ¡a este pequeño y lindo chico de abajo le encantaría saber de ti! (Y a nosotros también). ¡Escríbannos!
 
-Lastly, this cute little guy below would love to hear from you! (And we would too.)
+![](2020-07_5.jpg "Joaquín haciendo muecas")
 
-![](2020-07_5.jpg "Joaquin making faces")
-
-Love,</br>
-**Juan, Jaime, Ishmael, Lucia, and Joaquin**
+Con amor,</br>
+**Juan, Jaime, Ishmael, Lucia, y Joaquin**
