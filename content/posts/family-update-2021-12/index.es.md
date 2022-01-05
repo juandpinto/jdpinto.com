@@ -14,7 +14,7 @@ A medida que el 2021 llega a su fin, quisimos compartir algo de lo que nuestra f
 
 ![](2021-12_1.jpg "Calabazas en todas partes")
 
-**Juan** está ahora en el segundo año de su programa de doctorado en la Universidad de Illinois y continúa aprendiendo cosas nuevas todos los días. Después de probar diferentes tipos de ejercicio para salir de su rutina pandémica, Juan entrenó y completó dos triatlones 🏊🏽‍♂️🚴🏽‍♂️🏃🏾‍♂️ este año y planea participar en algunas carreras de ruta en bicicleta el próximo año. Ha hecho más natación, ciclismo y carrera que nunca, excepto posiblemente durante la temporada de atletismo en la escuela secundaria, pero parece que fue hace mucho tiempo.
+**Juan** está ahora en el segundo año de su programa de doctorado en la Universidad de Illinois y continúa aprendiendo cosas nuevas todos los días. Después de probar diferentes tipos de ejercicio para salir de su rutina pandémica, Juan entrenó y completó dos triatlones 🏊🏽‍♂️🚴🏽‍♂️🏃🏾‍♂️ este año y planea participar en algunas carreras de ruta en bicicleta el próximo año. Ha hecho más natación, ciclismo y carrera que nunca, excepto posiblemente durante la temporada de atletismo en la escuela secundaria, pero eso fue hace ya toda una vida.
 
 **Jaime** tomó algunas clases este año como preparación para un programa de higiene dental que planea completar mientras todavía estemos en Illinois. La Química y la Anatomía han sido un verdadero reto para ella pero también las ha encontrado fascinantes. Continúa trabajando desde casa por las noches, pero puede ver buenas películas (y muchos dramas coreanos 📺) mientras lo hace. Ha elegido el patinaje sobre ruedas 🛼 para mantenerse física y mentalmente sana, y ahora le encanta mostrar sus nuevos movimientos mientras se balancea con la música de los 80.
 
@@ -31,7 +31,7 @@ A medida que el 2021 llega a su fin, quisimos compartir algo de lo que nuestra f
 
 - Además de obligarnos a ser mucho más activos físicamente y hacer más cosas al aire libre, la pandemia también nos llevó a adoptar un gato siamés 🐱 y más tarde un perro Shih Tzu 🐶. Y como si nuestra pequeña casa no tuviera ya suficientes seres vivos, ahora también tenemos más plantas que nunca. Siguiente escena de la película: Familia Pinto viviendo en la jungla.
 - A los niños les encantó conocer mejor a sus primos este año y ser más bulliciosos que nunca con ellos. Sus primos vinieron de Texas en el verano y bajamos a visitarlos durante las vacaciones de invierno. El tiempo en familia es el mejor.
-- Actualmente estamos obsesionados con la nueva película de Disney Encanto (y su música), lo que nos da muchas ganas de visitar a nuestra familia en Colombia 🇨🇴. Si aún no lo ha visto, ¡lo recomendamos encarecidamente!
+- Actualmente estamos obsesionados con la nueva película de Disney Encanto (y su música), lo que nos da muchas ganas de visitar a nuestra familia en Colombia 🇨🇴. Si aún no la ha visto, ¡lo recomendamos encarecidamente!
 - En nuestro intento de crear (y continuar) nuestras propias tradiciones familiares, celebramos el Día de los Muertos por primera vez este año y también modificamos nuestra comida de Acción de Gracias para que encajara con nuestras sensibilidades colombianas y veganas.
 
 ![](2021-12_3.jpg "Ciclismo en la pradera")
@@ -41,7 +41,7 @@ Y, como de costumbre, adjuntamos nuestro video de recuerdos de fin de año para 
 
 {{< youtube LluJFo1gQZ8 >}}
 
-Parece que cada año tomamos menos fotos / videos de cualquier otra cosa que no sean nuestros hijos. Y ahora también tenemos algunos animales lindos para agregar a la mezcla.
+Parece que cada año tomamos menos fotos/videos de cualquier otra cosa que no sean nuestros hijos. Y ahora también tenemos algunos animales lindos para agregar a la mezcla.
 
 ¡Deseamos a todos nuestros amigos y familiares un feliz año nuevo 🎉🍾! ¡El año del 2022 será el mejor año hasta ahora!
 
