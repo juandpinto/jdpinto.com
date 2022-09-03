@@ -16,7 +16,7 @@ comments:
 
 ¡Hola, soy Juan! Me encanta aprender sobre todo, probar cosas nuevas y vivir aventuras. He incursionado en muchas áreas y pasatiempos a lo largo de los años, adquiriendo una amplia gama de habilidades en cosas como enseñanza, diseño gráfico, idiomas extranjeros, [programación](https://github.com/juandpinto), edición, fotografía, lo que sea.
 
-Pero ante todo, soy un hombre de familia 👨🏽👩🏼👦🏻👧🏻👶🏻🐱🐶. También soy un educador apasionado por el potencial de usar la tecnología de manera efectiva para aumentar el acceso a la educación de alta calidad en todo el mundo. Este interés me ha llevado al programa [DELTA](https://education.illinois.edu/ci/programs-degrees/delta) en la [Universidad de Illinois en Urbana-Champaign](https://illinois.edu) , donde puedo aprender todo sobre la ciencia de datos educativos y sus usos en el diseño de entornos de aprendizaje digital.
+Pero ante todo, soy un hombre de familia 👨🏽👩🏼👦🏻👧🏻👶🏻🐱🐱. También soy un educador apasionado por el potencial de usar la tecnología de manera efectiva para aumentar el acceso a la educación de alta calidad en todo el mundo. Este interés me ha llevado al programa [DELTA](https://education.illinois.edu/ci/programs-degrees/delta) en la [Universidad de Illinois en Urbana-Champaign](https://illinois.edu) , donde puedo aprender todo sobre la ciencia de datos educativos y sus usos en el diseño de entornos de aprendizaje digital.
 
 {{< image src="family.jpg" caption="Excursion familiar" width=60% >}}
 

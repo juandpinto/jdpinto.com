@@ -1,4 +1,4 @@
-baseURL = "https://juandpinto.com"
+baseURL = "https://jdpinto.com"
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "en"
 # theme
@@ -144,7 +144,7 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.en.params.social]
-        Email = "juan@juandpinto.com"
+        Email = "juan@jdpinto.com"
         Googlescholar = "user=dzeXpP8AAAAJ"
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
@@ -279,7 +279,7 @@ enableEmoji = true
           paginate = 6
       # Social config in home page
       [languages.es.params.social]
-        Email = "juan@juandpinto.com"
+        Email = "juan@jdpinto.com"
         Googlescholar = "user=dzeXpP8AAAAJ"
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
@@ -720,8 +720,8 @@ enableEmoji = true
 # 作者配置
 [author]
   name = "Juan D. Pinto"
-  email = "juan@juandpinto.com"
-  link = "https://juandpinto.com"
+  email = "juan@jdpinto.com"
+  link = "https://jdpinto.com"
 
 # Sitemap config
 # 网站地图配置
