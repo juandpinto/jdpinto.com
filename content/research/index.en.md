@@ -30,7 +30,7 @@ Quintana, R. M., **Pinto, J. D.**, & Tan, Y. (2021). What We Learned When We Com
 
 </br>
 
-## Presentations
+## Academic presentations
 
 **Pinto, J. D.** (2022, October). *Artificial intelligence for equitable global education: A call for more representative adaptive learning research and design practices in low- and middle-income countries* [poster presentation]. 2022 Learning Sciences Graduate Student Conference (LSGSC), Bloomington, IN.
 
