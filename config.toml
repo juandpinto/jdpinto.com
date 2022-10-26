@@ -45,11 +45,11 @@ enableEmoji = true
         title = ""
         weight = 1
       [[languages.en.menu.main]]
-        identifier = "papers"
+        identifier = "research"
         pre = ""
         post = ""
-        name = "Papers"
-        url = "https://scholar.google.com/citations?user=dzeXpP8AAAAJ"
+        name = "Research"
+        url = "/research/"
         title = ""
         weight = 2
       [[languages.en.menu.main]]
