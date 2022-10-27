@@ -20,6 +20,7 @@ comments:
 ## Publications
 
 Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L. (Forthcoming). Using similarity- and order-based weighting to model learner performance in introductory computer science problems. *Journal of Educational Data Mining*."
+
 Zhang, Y., Paquette, L., **Pinto, J. D.**, & Fan, A. (Forthcoming). Utilizing programming traces to explore and model the dimensions of novices’ code writing skill. *Computer Applications in Engineering Education*.
 
 Zhang, Y., Paquette, L., **Pinto, J. D.**, Liu, Q., & Fan, A. X. (2022). Combining latent profile analysis and programming traces to understand novices’ differences in debugging. *Education and Information Technologies*. [doi:10.1007/s10639-022-11343-7](https://doi.org/10.1007/s10639-022-11343-7)
