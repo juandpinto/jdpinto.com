@@ -32,7 +32,7 @@ It's crazy to think that we're now at the end of another year. We hope that 2022
 ![](2022-12_3.jpg "Celebrating victory in the youth run at the Illinois Marathon")
 
 
-To keep our end-of-year tradition going, [here is our memories video for 2022](https://juandpinto.com/videos/Pinto-Memories-2021_720p.mp4), with one second for (almost) every day:
+To keep our end-of-year tradition going, here is our memories video for 2022, with one second for (almost) every day:
 
 {{< youtube dRnOiFaltcQ >}}
 
