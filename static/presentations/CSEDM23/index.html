@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Using problem similarity- and order-based weighting to model learner performance in introductory computer science problems</title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/serif.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Using problem similarity- and order-based weighting to model learner performance in introductory computer science problems
+
+#### CSEDM Workshop @ LAK23
+
+
+<split>
+
+<div class="block">
+
+<!-- .element: style="flex: auto" -->
+Yingbin Zhang\
+South China Normal University\
+yingbinzhang25@hotmail.com
+</div>
+
+
+
+<div class="block">
+
+<!-- .element: style="flex: auto" -->
+Juan D. Pinto\
+University of Illinois Urbana-Champaign\
+jdpinto2@illinois.edu
+</div>
+
+
+
+<div class="block">
+
+<!-- .element: style="flex: auto" -->
+Aysa Xuemo Fan\
+University of Illinois Urbana-Champaign\
+xuemof2@illinois.edu
+</div>
+
+
+
+<div class="block">
+
+<!-- .element: style="flex: auto" -->
+Luc Paquette\
+University of Illinois Urbana-Champaign\
+lpaq@illinois.edu
+</div>
+
+
+
+</split>
+</div></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Introduction
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### The task
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+> Given data on 30 early problems, predict student performance ("struggle") on each of 20 later problems.
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Knowledge tracing and performance prediction are powerful tools in AIED, but the process of defining KCs and mapping them to problems is time- and effort-consuming.</li>
+<li>This paper proposes a set of non-KC based weighting schemes to improve prediction performance.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Data
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- CS1 course from the **2nd CSEDM Data Challenge**
+    - 2 phases, both with same test data (123 students)
+        - Cross-semester: training data = 247 students
+        - Within-semester: training data = 740 students
+
+<img src="05 meta/attachments/Pasted image 20230312201103.png" alt="" style="width: 1000px; object-fit: fill">
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Feature engineering<ul>
+<li>65 total features<ul>
+<li>5 from original challenge repo</li>
+<li>4 from winning entry in 1st CSEDM Challenge</li>
+<li>33 from the literature on programming process analysis</li>
+<li>23 from new features</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Methods
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Application of weights
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+<img src="05 meta/attachments/Pasted image 20230310114356.png" alt="" style="width: 900px; object-fit: fill">
+
+
+<img src="05 meta/attachments/Pasted image 20230310114556.png" alt="" style="margin: 20px 0 0 0; width: 1100px; object-fit: fill">
+
+Example of weighting application. <!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Original response:<ul>
+<li>1 = struggling</li>
+<li>0 = success</li>
+</ul>
+</li>
+<li>Both A and B struggled with 3 problems, so <strong>same unweighted features</strong>. However, <strong>different weighted features</strong>. This is because A struggled with problem 1, which had a low similarity with problem 43 and a small weight, and B struggled with problem 3, which had a high similarity with problem 43 and a large weight. <ul>
+<li>Similarly, student C struggled with two problems, but C’s weighted feature was larger than A’s because C struggled with problems 3 and 13, both of which had large weights.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Weighting schemes
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+1. Source code similarity
+    - *code2vec* (Alon et al., 2019)
+2. Problem prompt similarity
+    - *doc2vec* (Le and Mikolov, 2014)
+3. Struggling similarity
+    - Performance correlation
+4. Problem order
+
+*+ combinations of the above*
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><h5 id="source-code-similarity">Source code similarity</h5>
+<ul>
+<li><em>code2vec</em> (Alon et al., 2019)<ul>
+<li>Weighted based on similarities between <strong>average embeddings</strong>.</li>
+<li>Used single submission from each student-problem pair (final correct or best submission).</li>
+</ul>
+</li>
+</ul>
+<h5 id="by-problem-prompt-similarity">By problem prompt similarity</h5>
+<ul>
+<li><p><em>doc2vec</em> (Le and Mikolov, 2014)</p>
+<ul>
+<li>Captures <strong>semantic concepts</strong> in document. Like <em>word2vec</em> but <strong>document vector</strong> instead of word vector.</li>
+</ul>
+</li>
+<li><p>(above) Measured similarity using three approaches: <em>Euclidean distance</em>, <em>cosine similarity</em>, and <em>Pearson&#39;s correlation</em>.</p>
+<ul>
+<li>Found <strong>no real difference</strong> between the three. Will only use results from Cosine similarity here, though the paper includes the full report.</li>
+</ul>
+</li>
+</ul>
+<h5 id="by-struggling-similarity">By struggling similarity</h5>
+<ul>
+<li><strong>Performance correlation</strong></li>
+<li><strong>Rationale:</strong> <em>if the knowledge and skills required for two problems are related, a student who performs well on one is likely to perform well on the other</em>.<ul>
+<li>Correlation between student performance in the two related problems should be stronger.</li>
+</ul>
+</li>
+<li>Used <strong>&quot;struggling&quot;</strong> as defined by the challenge creators.<ul>
+<li>Used log-odds ratio (contingency table)</li>
+</ul>
+</li>
+</ul>
+<h5 id="by-problem-order">By problem order</h5>
+<ul>
+<li>Accounts for <strong>decay in impact</strong> from past problems.</li>
+<li>Lower weights assigned to earlier problems, higher to later problems.
+  - Based on timestamp of first submission in each problem. Varies by student.</li>
+</ul>
+<h5 id="combining-weighting-schemes">Combining weighting schemes</h5>
+<ul>
+<li><em>Mean of normalized weights.</em><ul>
+<li>All weights were normalized to avoid unreasonable values.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Results
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Comparisons between weighting schemes
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+<img src="05 meta/attachments/Pasted image 20230310151713.png" alt="" style="object-fit: scale-down">
+
+Test AUC of various weighting schemes. <!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Also, <em>comparison under various feature combinations</em> in full paper.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Comparisons with DLKT and IRT (SOTA)
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- 3 DLKT baselines:
+    - LSTM implementation of DKT (Piech et al., 2015)
+    - SAKT (Pandey and Karypis, 2019)
+    - SAINT (Choi et al., 2020)
+- IRT model:
+    - Two-parameter logistic model (2PL; Embretson and Reise, 2000)
+
+<img src="05 meta/attachments/Pasted image 20230313074647.png" alt="" style="margin: 60px 0 0 0; width: 1100px; object-fit: fill">
+
+The test AUC of models with just problem correctness and ID sequences. <!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Only used the two features calculated using response correctness and problem ID to make the comparison fair.</li>
+<li>DLKT: Used 80/20 training/validation split for all models.</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Discussion
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Main findings
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+1. Source code similarity, struggling similarity, and problem order weighting **improved prediction performance consistently**.
+2. *Prompt similarity weighting* **did not** improve prediction performance.
+3. *Combining weighting schemes by taking their average* **did not** improve prediction performance.
+4. *Struggling similarity weighting* in a lasso logistic regression model had **performance comparable** to the SOTA deep learning models.
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ol>
+<li>Regardless of the number of features, but the improvement decreased as the number of features increased.</li>
+<li>Limited vocabulary in problem prompts likely contributed to its poor performance.<ul>
+<li>Short + a third of prompts began with &quot;Write a function in Java that implements the following logic.&quot;</li>
+</ul>
+</li>
+</ol>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Implications
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- **Problem relations** and **temporal order** can be exploited through *weighting schemes*, leveraging some of the same information that deep learning models take advantage of.
+- Can reach the **accuracy** of complex SOTA models while retaining **better interpretability**.
+
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Limitations
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- **Cold start problem** remains since struggling and source code similarity rely on existing data about students' solutions or performance.
+- The struggling weighting scheme **assumes no or little change in students' knowledge states** between related problems.
+- Some added complexity to the process. Though the final models are relatively simple, deciding on *weighting properties*, *how to quantify these properties*, and *similarity measures* can be a complex process.
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto | CSEDM Workshop @ LAK23<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>(After 1) <strong>KC mappings would be better</strong> in this case, if they exist. It would be interesting to see the effect of using a <strong>KC map to create problem similarity weights</strong>.</li>
+</ul>
+</aside></script></section></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Thank you!
+
+🙏🏽
+</div></script></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+				{id: 'toggle-overview',
+				title: 'Toggle overview (O)',
+				icon: '<i class="fa fa-th"></i>',
+				action: 'Reveal.toggleOverview();'
+				},
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1600,"height":900,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
