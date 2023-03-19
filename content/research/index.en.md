@@ -19,9 +19,9 @@ comments:
 
 ## Publications
 
-Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L. (Forthcoming). Using similarity- and order-based weighting to model learner performance in introductory computer science problems. *Journal of Educational Data Mining*."
+Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L. (2023). Using similarity- and order-based weighting to model learner performance in introductory computer science problems. *Journal of Educational Data Mining*." [doi:10.5281/zenodo.7646789](https://doi.org/10.5281/zenodo.7646789)
 
-Zhang, Y., Paquette, L., **Pinto, J. D.**, & Fan, A. (Forthcoming). Utilizing programming traces to explore and model the dimensions of novices’ code writing skill. *Computer Applications in Engineering Education*.
+Zhang, Y., Paquette, L., **Pinto, J. D.**, & Fan, A. (2023). Utilizing programming traces to explore and model the dimensions of novices’ code writing skill. *Computer Applications in Engineering Education*. [doi:10.1002/cae.22622](https://doi.org/10.1002/cae.22622)
 
 Zhang, Y., Paquette, L., **Pinto, J. D.**, Liu, Q., & Fan, A. X. (2022). Combining latent profile analysis and programming traces to understand novices’ differences in debugging. *Education and Information Technologies*. [doi:10.1007/s10639-022-11343-7](https://doi.org/10.1007/s10639-022-11343-7)
 
@@ -32,6 +32,12 @@ Quintana, R. M., **Pinto, J. D.**, & Tan, Y. (2021). What We Learned When We Com
 </br>
 
 ## Academic presentations
+
+**Pinto, J. D.** (2023, June). *Intelligent tutors, cultural blind spots: Implications of underrepresentation in adaptive learning research* [poster presentation]. International Society of the Learning Sciences Annual Meeting (ISLS 2023), Montreal, QC.
+
+[**Pinto, J. D.**, Paquette, L., & Bosch, N. (2023, March). *Interpretable neural networks vs. expert-defined models for learner behavior detection* [poster presentation]. The 13th International Learning Analytics and Knowledge Conference (LAK), Arlington, TX.](https://pnigel.com/papers/pinto-inpress-U8B6F29L.pdf)
+
+Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L. (2023, March). *Using similarity- and order-based weighting to model learner performance in introductory computer science problems* [workshop paper presentation]. 2023 Educational Data Mining in Computer Science Education (CSEDM) Workshop, Arlington, TX.
 
 **Pinto, J. D.** (2022, October). *Artificial intelligence for equitable global education: A call for more representative adaptive learning research and design practices in low- and middle-income countries* [poster presentation]. 2022 Learning Sciences Graduate Student Conference (LSGSC), Bloomington, IN.
 
