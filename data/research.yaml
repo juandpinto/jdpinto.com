@@ -1,0 +1,121 @@
+publications:
+  - title: Using problem similarity- and order-based weighting to model learner performance in introductory computer science problems
+    year: 2023
+    authors: "Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L."
+    pub: Journal of Educational Data Mining
+    volume_pages: ", 15(1), 63–99"
+    doi: https://doi.org/10.5281/zenodo.7646789
+    pdf: /papers/Zhang et al 2023_Using problem similarity- and order-based weighting to model learner.pdf
+  - title: Utilizing programming traces to explore and model the dimensions of novices’ code writing skill
+    year: 2023
+    authors: "Zhang, Y., Paquette, L., **Pinto, J. D.**, & Fan, A."
+    pub: Computer Applications in Engineering Education
+    doi: https://doi.org/10.1002/cae.22622
+    pdf: /papers/Zhang et al 2023_Utilizing programming traces to explore and model the dimensions of novices'.pdf
+  - title: Combining latent profile analysis and programming traces to understand novices’ differences in debugging
+    year: 2022
+    authors: "Zhang, Y., Paquette, L., **Pinto, J. D.**, Liu, Q., & Fan, A. X."
+    pub: Education and Information Technologies
+    doi: https://doi.org/10.1007/s10639-022-11343-7
+    pdf: "/papers/Zhang et al 2022_Combining latent profile analysis and programming traces to understand novices’.pdf"
+  - title: What We Learned When We Compared Discussion Posts from One MOOC Hosted on Two Platforms
+    year: 2021
+    authors: "Quintana, R. M., **Pinto, J. D.**, & Tan, Y."
+    pub: Online Learning Journal
+    volume_pages: ", 25(4), 101–118"
+    doi: https://doi.org/10.24059/olj.v25i4.2897
+    pdf: /papers/Quintana et al 2021_What we learned when we compared discussion posts from one MOOC hosted on two.pdf
+  - title: "Exemplifying Computational Thinking Scenarios in the Age of COVID-19: Examining the Pandemic’s Effects in a Project-Based MOOC"
+    year: 2020
+    authors: "**Pinto, J. D.**, Quintana, C., & Quintana, R. M."
+    pub: Computing in Science & Engineering
+    volume_pages: ", 22(6), 97–102"
+    doi: https://doi.org/10.1109/MCSE.2020.3024012
+    pdf: /papers/Pinto et al 2020_Exemplifying computational thinking scenarios in the age of COVID-19.pdf
+
+presentations:
+  - title: "Intelligent tutors, cultural blind spots: Implications of underrepresentation in adaptive learning research"
+    year: 2023
+    authors: "**Pinto, J. D.**"
+    pub: "International Society of the Learning Sciences Annual Meeting (ISLS 2023)"
+    location: Montreal, QC
+    extra: "[poster]"
+  - title: Interpretable neural networks vs. expert-defined models for learner behavior detection
+    year: 2023
+    authors: "**Pinto, J. D.**, Paquette, L., & Bosch, N."
+    pub: The 13th International Learning Analytics and Knowledge Conference (LAK)
+    location: Arlington, TX
+    pdf: /papers/Pinto et al 2023_Interpretable neural networks vs.pdf
+    extra: "[poster]"
+  - title: Using problem similarity- and order-based weighting to model learner performance in introductory computer science problems
+    year: 2023
+    authors: "Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L."
+    pub: Educational Data Mining in Computer Science Education (CSEDM) Workshop
+    slides: /presentations/CSEDM23
+    extra: "[workshop paper]"
+  - title: "Artificial intelligence for equitable global education: A call for more representative adaptive learning research and design practices in low- and middle-income countries"
+    year: 2022
+    authors: "**Pinto, J. D.**"
+    pub: 2022 Learning Sciences Graduate Student Conference (LSGSC)
+    location: Bloomington, IN
+    pdf: /papers/Pinto 2022_Artificial intelligence for equitable global education.pdf
+    extra: "[poster]"
+  - title: "Utilizing programming traces to explore the dimensions of novice programmers' code writing skill"
+    year: 2022
+    authors: Zhang, Y., Paquette, L., **Pinto, J. D.**, & Fan, A.
+    pub: Educational Data Mining in Computer Science Education (CSEDM) Workshop
+    location: Online
+    doi: https://doi.org/10.5281/zenodo.6983207
+    extra: "[workshop paper]"
+  - title: Investigating elements of student persistence in an introductory computer science course
+    year: 2021
+    authors: "**Pinto, J. D.**, Zhang, Y., Paquette, L., & Fan, A. X."
+    pub: 2021 Educational Data Mining in Computer Science Education (CSEDM) Workshop
+    location: Online
+    pdf: /papers/Pinto et al 2021_Investigating elements of student persistence in an introductory computer.pdf
+    extra: "[workshop paper]"
+  - title: Exploring how learners integrate personally meaningful issues in a project-based MOOC
+    year: 2021
+    authors: "**Pinto, J. D.**, Quintana, C., & Quintana, R. M."
+    pub: 2021 American Educational Research Association (AERA) Annual Meeting
+    location: Online
+    pdf: "/papers/Pinto et al 2021_Exploring how learners integrate personally meaningful issues in a.pdf"
+  - title: What we learned when we compared discussion posts from one mooc hosted on two platforms
+    year: 2021
+    authors: "Quintana, R. M., **Pinto, J. D.**, & Tan, Y."
+    pub: 2021 American Educational Research Association (AERA) Annual Meeting
+    location: Online
+    pdf: /papers/Quintana et al 2021_What we learned when we compared discussion posts from one MOOC hosted on two_AERA.pdf
+  - title: Personalizing digital learning environments
+    year: 2020
+    authors: "**Pinto, J. D.**"
+    pub: Research Evaluation and Action Plan (REAP) Symposium
+    location: Urbana-Champaign, IL
+  - title: Using data to inform learning experience design
+    year: 2020
+    authors: "**Pinto, J. D.**"
+    pub: Academic Innovation 2020 Student Showcase
+    location: Ann Arbor, MI
+  - title: The role students should play in the design, collection, and analysis of learning analytics
+    year: 2020
+    authors: "**Pinto, J. D.**"
+    pub: Academic Innovation Data Showcase
+    location: Ann Arbor, MI
+    extra: "[panel participant]"
+  - title: "Language learning for the 21st century: Interpersonal communication through digital communities"
+    year: 2018
+    authors: "**Pinto, J. D.**"
+    pub: 'Texas Language Center: "Language Matters!" Lecture Series'
+    location: Austin, TX
+    video: https://www.youtube.com/watch?v=h9B8IBJ5BOA
+    extra: "[invited lecture]"
+  - title: "Creating a conversational Hebrew vocabulary list: A reproducible use of technology to overcome scarcity of data"
+    year: 2018
+    authors: "**Pinto, J. D.**"
+    pub: National Council of Less Commonly Taught Languages (NCOLCTL) 21st Annual Conference
+    location: Herndon, VA
+  - title: Transitional semi-allophonic spirantization in Tiberian Hebrew
+    year: 2018
+    authors: "**Pinto, J. D.**"
+    pub: Jil Jadid Graduate Student Conference in Middle Eastern Languages and Literatures
+    location: Austin, TX
