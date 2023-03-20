@@ -1,5 +1,4 @@
 ---
-title: "Contácteme"
 date: 2021-07-20
 draft: false
 
@@ -9,8 +8,13 @@ math:
   enable: true
 ---
 
-### Interesado/a en colaborar?
+### Correo electronico
 
-- :(far fa-envelope fa-fw): [jdpinto2@illinois.edu](mailto:jdpinto2@illinois.edu)
-- :(fab fa-twitter fa-fw): [@thejuanpinto](https://twitter.com/thejuanpinto)
-- :(fab fa-linkedin fa-fw): [juandpinto](https://linkedin.com/in/juandpinto)
+:(far fa-envelope fa-fw): [jdpinto2@illinois.edu](mailto:jdpinto2@illinois.edu)
+
+</br>
+
+### Otros metodos de contacto
+
+:(fab fa-twitter fa-fw): [@thejuanpinto](https://twitter.com/thejuanpinto)\
+:(fab fa-linkedin fa-fw): [juandpinto](https://linkedin.com/in/juandpinto)
