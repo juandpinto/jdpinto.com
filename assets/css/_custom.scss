@@ -2,3 +2,34 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+div.pubs-grid {
+    display: grid;
+    grid-template-columns: 4rem 1fr;
+    column-gap: .5rem;
+}
+
+p.pubs-p {
+    margin: .7rem 0 !important;
+}
+
+span.pub-title {
+    font-weight: bold;
+    display: block;
+}
+
+span.pub-authors {
+    display: block;
+}
+span.pub-pub, span.pub-volume-pages, span.pub-doi, span.pub-extra {
+    font-size: .75em;
+    line-height: 1.25rem;
+}
+
+span.pub-pub {
+    font-style: italic;
+}
+
+span.pub-extra {
+    display: block;
+}

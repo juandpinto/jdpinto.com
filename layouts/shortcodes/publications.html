@@ -1,0 +1,44 @@
+{{ $data := index $.Site.Data.research (.Get 0)}}
+{{ $years := slice }}
+{{ range $data }}
+{{ $years = append .year $years }}
+{{ end }}
+{{ $years = uniq $years }}
+{{ $years := sort $years "value" "desc" }}
+
+<div class="pubs-grid">
+    {{ range $year := $years }}
+    <div><h3>{{ $year }}</h3></div>
+    <div>
+        {{ range where $data ".year" $year }}
+        <p class="pubs-p">
+            {{ with .pdf}}
+            <a href="{{.}}">
+            {{ end }}
+            <span class="pub-title">{{ .title }}</span>
+            {{ with .pdf }}</a>{{ end }}
+            <span class="pub-authors">{{ .authors | markdownify }}</span>
+            <span class="pub-pub">{{ .pub }}</span>
+            {{ with .volume_pages }}
+                <span class="pub-volume-pages">{{ . }}</span>
+            {{ end }}
+            {{ with .doi }}
+                <span class="pub-doi">[<a href="{{ . }}">DOI</a>]</span>
+            {{ end }}
+            {{ with .pdf }}
+                <span class="pub-doi">[<a href="{{ . }}">PDF</a>]</span>
+            {{ end }}
+            {{ with .slides }}
+                <span class="pub-doi">[<a href="{{ . }}">slides</a>]</span>
+            {{ end }}
+            {{ with .video }}
+                <span class="pub-doi">[<a href="{{ . }}">video</a>]</span>
+            {{ end }}
+            {{ with .extra }}
+                <span class="pub-extra">{{ . }}</span>
+            {{ end }}
+        </p>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
