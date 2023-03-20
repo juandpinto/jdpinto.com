@@ -149,6 +149,7 @@ enableEmoji = true
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
         Twitter = "thejuanpinto"
+        ORCID = "0000-0002-2972-485X"
         Strava = "2609385"
         Goodreads = ""
         RSS = true
@@ -184,7 +185,7 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "Investigación"
-        url = "https://scholar.google.com/citations?user=dzeXpP8AAAAJ"
+        url = "/research/"
         title = ""
         weight = 2
       [[languages.es.menu.main]]
@@ -192,7 +193,7 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "CV"
-        url = "/Pinto-CV.pdf"
+        url = "https://jdpinto.com/Pinto-CV.pdf"
         title = ""
         weight = 3
       [[languages.es.menu.main]]
@@ -284,6 +285,7 @@ enableEmoji = true
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
         Twitter = "thejuanpinto"
+        ORCID = "0000-0002-2972-485X"
         Strava = "2609385"
         Goodreads = ""
         RSS = true
@@ -316,7 +318,7 @@ enableEmoji = true
       # title name
       name = "Juan D. Pinto"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='fa fa-user-astronaut fa-fw'></i>"
+    #   pre = "<i class='fa fa-user-astronaut fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
