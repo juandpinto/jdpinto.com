@@ -39,6 +39,7 @@ presentations:
     authors: "**Pinto, J. D.**"
     pub: "International Society of the Learning Sciences Annual Meeting (ISLS 2023)"
     location: Montreal, QC
+    pdf: /papers/Pinto 2023_Intelligent tutors, cultural blind spots.pdf
     extra: "[poster]"
   - title: Interpretable neural networks vs. expert-defined models for learner behavior detection
     year: 2023
@@ -58,7 +59,6 @@ presentations:
     authors: "**Pinto, J. D.**"
     pub: 2022 Learning Sciences Graduate Student Conference (LSGSC)
     location: Bloomington, IN
-    pdf: /papers/Pinto 2022_Artificial intelligence for equitable global education.pdf
     extra: "[poster]"
   - title: "Utilizing programming traces to explore the dimensions of novice programmers' code writing skill"
     year: 2022
