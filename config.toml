@@ -136,7 +136,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Graduate student at the University of Illinois at Urbana-Champaign studying digital environments for learning, teaching, and agency. My research specializes in educational data science, adaptive learning systems, and the use of machine learning in educational settings."
+          disclaimer = "Ph.D. candidate at the University of Illinois Urbana-Champaign studying digital environments for learning, teaching, and agency. My research specializes in educational data science, adaptive learning systems, and the use of machine learning in educational settings."
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -272,7 +272,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Estudiante de posgrado en la Universidad de Illinois en Urbana-Champaign que estudia entornos digitales para el aprendizaje, la enseñanza, y la agencia. Mi investigación se especializa en ciencia de datos educativos, sistemas de aprendizaje adaptativo y el uso del aprendizaje automático en entornos educativos."
+          disclaimer = "Candidato a doctorado en la Universidad de Illinois Urbana-Champaign que estudia entornos digitales para el aprendizaje, la enseñanza, y la agencia. Mi investigación se especializa en ciencia de datos educativos, sistemas de aprendizaje adaptativo y el uso del aprendizaje automático en entornos educativos."
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
