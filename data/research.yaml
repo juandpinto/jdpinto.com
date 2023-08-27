@@ -34,6 +34,13 @@ publications:
     pdf: /papers/Pinto et al 2020_Exemplifying computational thinking scenarios in the age of COVID-19.pdf
 
 presentations:
+  - title: "Investigating the relationship between programming experience and debugging behaviors in an introductory computer science course"
+    year: 2023
+    authors: "**Pinto, J. D.**, Liu, Q., Paquette, L., Zhang, Y., & Fan, A."
+    pub: "International Conference on Quantitative Ethnography 2023"
+    location: Melbourne, Australia
+    pdf: /papers/Pinto et al 2023_Investigating the relationship between programming experience and debugging behaviors in an introductory computer science course.pdf
+    extra: "[nominated for best student paper]"
   - title: "Intelligent tutors, cultural blind spots: Implications of underrepresentation in adaptive learning research"
     year: 2023
     authors: "**Pinto, J. D.**"
