@@ -1,4 +1,14 @@
 publications:
+  - title: "[FORTHCOMING] Deep learning for educational data science"
+    year: 2024
+    authors: "**Pinto, J. D.** & Paquette, L."
+    pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
+    volume_pages: ". Springer International Publishing."
+  - title: "[FORTHCOMING] Applications of explainable AI (XAI) in education"
+    year: 2024
+    authors: "Liu, Q., **Pinto, J. D.**, & Paquette, L."
+    pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
+    volume_pages: ". Springer International Publishing."
   - title: Using problem similarity- and order-based weighting to model learner performance in introductory computer science problems
     year: 2023
     authors: "Zhang, Y., **Pinto, J. D.**, Fan, A., & Paquette, L."

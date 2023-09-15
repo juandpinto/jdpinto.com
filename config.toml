@@ -35,6 +35,16 @@ enableEmoji = true
     # Menu config
     [languages.en.menu]
       [[languages.en.menu.main]]
+        identifier = "home"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        post = ""
+        name = "Home"
+        url = "/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.en.menu.main]]
         identifier = "about"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
@@ -43,7 +53,7 @@ enableEmoji = true
         url = "/about/"
         # title will be shown when you hover on this menu link.
         title = ""
-        weight = 1
+        weight = 2
       [[languages.en.menu.main]]
         identifier = "research"
         pre = ""
@@ -51,7 +61,7 @@ enableEmoji = true
         name = "Research"
         url = "/research/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "CV"
         pre = ""
@@ -59,15 +69,15 @@ enableEmoji = true
         name = "CV"
         url = "/Pinto-CV.pdf"
         title = ""
-        weight = 3
-      [[languages.en.menu.main]]
-        identifier = "contact"
-        pre = ""
-        post = ""
-        name = "Contact"
-        url = "/contact/"
-        title = ""
         weight = 4
+    #   [[languages.en.menu.main]]
+    #     identifier = "contact"
+    #     pre = ""
+    #     post = ""
+    #     name = "Contact"
+    #     url = "/contact/"
+    #     title = ""
+    #     weight = 4
     #   [[languages.en.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -80,7 +90,7 @@ enableEmoji = true
       # site description
       description = "Juan D. Pinto"
       # site keywords
-      keywords = ["Juan Pinto", "UIUC", "educational data mining", "learning analytics", "learning science"]
+      keywords = ["Juan Pinto", "UIUC", "educational data mining", "learning analytics", "learning science", "AI in education", "Illinois", "machine learning"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -130,7 +140,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Juan D. Pinto"
           # subtitle shown in home page
-          subtitle = "Learning Scientist 🧠 ∙ Educator 🎓 ∙ Data Ninja 🥷"
+          subtitle = "Learning Scientist 🧠 ∙ Educator 🎓 ∙ AI Researcher 🤖"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -148,10 +158,10 @@ enableEmoji = true
         Googlescholar = "user=dzeXpP8AAAAJ"
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
-        Twitter = "thejuanpinto"
+        # Twitter = "thejuanpinto"
         ORCID = "0000-0002-2972-485X"
-        Strava = "2609385"
-        Goodreads = ""
+        # Strava = "2609385"
+        # Goodreads = ""
         RSS = true
 
   [languages.es]
@@ -171,6 +181,16 @@ enableEmoji = true
     # Menu config
     [languages.es.menu]
       [[languages.es.menu.main]]
+        identifier = "inicio"
+        # you can add extra information before the name (HTML format is supported), such as icons
+        pre = ""
+        post = ""
+        name = "Inicio"
+        url = "/"
+        # title will be shown when you hover on this menu link.
+        title = ""
+        weight = 1
+      [[languages.es.menu.main]]
         identifier = "quien"
         # you can add extra information before the name (HTML format is supported), such as icons
         pre = ""
@@ -179,7 +199,7 @@ enableEmoji = true
         url = "/about/"
         # title will be shown when you hover on this menu link.
         title = ""
-        weight = 1
+        weight = 2
       [[languages.es.menu.main]]
         identifier = "investigación"
         pre = ""
@@ -187,7 +207,7 @@ enableEmoji = true
         name = "Investigación"
         url = "/research/"
         title = ""
-        weight = 2
+        weight = 3
       [[languages.es.menu.main]]
         identifier = "CV"
         pre = ""
@@ -195,15 +215,15 @@ enableEmoji = true
         name = "CV"
         url = "https://jdpinto.com/Pinto-CV.pdf"
         title = ""
-        weight = 3
-      [[languages.es.menu.main]]
-        identifier = "contacto"
-        pre = ""
-        post = ""
-        name = "Contacto"
-        url = "/contact/"
-        title = ""
         weight = 4
+    #   [[languages.es.menu.main]]
+    #     identifier = "contacto"
+    #     pre = ""
+    #     post = ""
+    #     name = "Contacto"
+    #     url = "/contact/"
+    #     title = ""
+    #     weight = 4
     #   [[languages.es.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -216,7 +236,7 @@ enableEmoji = true
       # site description
       description = "Juan D. Pinto"
       # site keywords
-      keywords = ["Juan Pinto", "UIUC", "minería de datos educativos", "analítica de aprendizaje", "ciencia del aprendizaje"]
+      keywords = ["Juan Pinto", "UIUC", "minería de datos educativos", "analítica de aprendizaje", "ciencia del aprendizaje", "inteligencia artificial", "Illinois", "machine learning"]
       # App icon config
       [languages.es.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -266,7 +286,7 @@ enableEmoji = true
           # title shown in home page (HTML format is supported)
           title = "Juan D. Pinto"
           # subtitle shown in home page
-          subtitle = "Científico de Aprendizaje 🧠 ∙ Educador 🎓 ∙ Ninja de Datos 🥷"
+          subtitle = "Científico de Aprendizaje 🧠 ∙ Educador 🎓 ∙ Investigador de Inteligencia Artificial 🤖"
           # whether to use typeit animation for subtitle
           typeit = true
           # whether to show social links
@@ -284,10 +304,10 @@ enableEmoji = true
         Googlescholar = "user=dzeXpP8AAAAJ"
         GitHub = "juandpinto"
         Linkedin = "juandpinto"
-        Twitter = "thejuanpinto"
+        # Twitter = "thejuanpinto"
         ORCID = "0000-0002-2972-485X"
-        Strava = "2609385"
-        Goodreads = ""
+        # Strava = "2609385"
+        # Goodreads = ""
         RSS = true
 
 [params]
