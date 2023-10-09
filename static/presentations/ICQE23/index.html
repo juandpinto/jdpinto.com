@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Investigating the Relationship Between Programming Experience and Debugging Behaviors in an Introductory Computer Science Course</title>
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/serif.css" id="theme" />
+    <link rel="stylesheet" href="plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="plugin/customcontrols/style.css">
+
+
+
+    <script defer src="dist/fontawesome/all.min.js"></script>
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Investigating the relationship between programming experience and debugging behaviors in an introductory computer science course
+
+#### ICQE 2023 @ Melbourne, Australia
+
+
+Juan D. Pinto<sup>1</sup>, Qianhui Liu<sup>1</sup>, Luc Paquette<sup>1</sup>, Yingbin Zhang<sup>2</sup>, Aysa Xuemo Fan<sup>1</sup>
+
+<sup>1</sup>University of Illinois Urbana-Champaign\
+<sup>2</sup>South China Normal University
+
+*jdpinto2@illinois.edu*
+
+####
+</div>
+
+<aside class="notes"><ul>
+<li>Used ENA, though originally <strong>designed for discourse data</strong>, has been used for a variety of <strong>purposes</strong> and in different <strong>contexts</strong>.</li>
+<li>Present how it can be used for <strong>exploration</strong>, leading to <strong>deeper questions</strong> that may otherwise be missed.</li>
+<li>Will focus presentation mainly on this.</li>
+</ul>
+</aside></script></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Background
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Research questions
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+1. How does the use of ENA allow us to better understand students’ debugging behaviors when solving computer programming problems?
+2. How does the debugging behavior of students differ based on their prior computer programming experience?
+3. How does debugging behavior evolve over the duration of the semester, as students gain more computer programming experience?
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Investigated the <strong>relationship</strong> between computer programming <strong>experience</strong> and <strong>debugging behaviors</strong>.<ul>
+<li><strong>Debugging</strong> is an important component of computer programming where students “<em>find out exactly where the error is and how to fix it</em>”</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Learning context and data
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- System checks for **checkstyle**, **syntax**, and **test** errors.
+
+<div>
+<img src="02 project notes/ICQE presentation/images/prairielearn1.png" alt="" style="margin: 20px 0 0 0; width: 800px; object-fit: fill">
+
+<img src="02 project notes/ICQE presentation/images/prairielearn.png" alt="" style="margin: 20px 0 0 0; width: 620px; object-fit: fill">
+
+</div>
+
+*Coding exercise output on PrairieLearn platform.*<!-- .element: style="font-size: .7em; margin: 0" -->
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>We collected data from an online learning platform ...</li>
+<li>Error types and order<ul>
+<li><strong>Syntax error =</strong> incorrect Java code</li>
+<li><strong>Checkstyle error =</strong> the code did not follow course specific formatting rules</li>
+<li><strong>Test error =</strong> from problem-specific specific cases. No message if all passed.</li>
+</ul>
+</li>
+<li>Data collected: <ul>
+<li>Code, timestamp, and  syntax/checkstyle/test error messages. </li>
+<li>Prior programming experience (pre-course surveys).</li>
+</ul>
+</li>
+</ul>
+</br>
+
+<ul>
+<li><strong>Separated episodes</strong> and conducted <strong>separate analyses</strong> for checkstyle/syntax and for test errors.<ul>
+<li>Debugging different kinds of errors <strong>requires different techniques</strong>.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Eliciting constituents
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- "Constituents" = *expert-derived* codes/variables/features.
+- Elicited from CS education experts.
+
+<img src="02 project notes/ICQE presentation/images/tool.jpg" alt="" style="margin: 20px 0 0 0; width: 900px; object-fit: fill">
+
+Coding exercise output on PrairieLearn platform.<!-- .element: style="font-size: .7em; margin: 0; border: 0" -->
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>In order to use this data ...</li>
+<li>Tool that shows changes between student code submissions ...</li>
+<li>We interviewed two CS education experts ...</li>
+<li>Steps:<ul>
+<li>Experts would <strong>think aloud</strong> when interpreting submissions, allowing us to pick out <strong>elements of debugging behavior</strong> identified as <strong>meaningful</strong>.</li>
+<li>Used these to <strong>operationalize binary &quot;constituents&quot;</strong> of experts’ interpretation of debugging behaviors.</li>
+</ul>
+</li>
+</ul>
+<br>
+
+<ul>
+<li>Experts: <strong>CS grad students</strong> with research focus on CS education. Prior teaching experience.</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Debugging constituents
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+<div style="font-size: 0.5em">
+
+| Constituent                             | Operationalization                                                                                                                                   |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| MASSIVE DELETION                        | The student deleted 4 or more lines of code, and at least 30% of all the lines from the previous submission were deleted                             |
+| SUBMISSION UNDO                         | This is not the first submission, and the code is the same as a submission at least 2 submissions back                                               |
+| DELETED LINE W/ ERROR                   | At least one line with a checkstyle/syntax error from the previous submission was deleted                                                            |
+| MODIFIED LINE W/ SYNTAX ERROR           | At least one line with a syntax error from the previous submission was modified                                                                      |
+| CHANGED VAR NAME                        | The name of a variable was modified                                                                                                                  |
+| REPEATED CHANGE                         | At least one identical change (deletion/addition/modification) was made on multiple lines. E.g., submission added the same word on two or more lines |
+| IGNORED CHECKSTYLE BUT ADDRESSED SYNTAX | Lines with syntax errors in previous submission were altered but lines with checkstyle errors were not                                               |
+| REDUCED SYNTAX ERRORS                   | The current submission has less total syntax errors than the previous submission                                                                     |
+| REDUCED CHECKSTYLE ERRORS               | The current submission has less total checkstyle errors than the previous submission                                                                 |
+| CHANGE IN TEST ERROR                    | The provided test error for the current submission is different than the test error that was provided from the previous submission                   |
+| NEW ERROR                               | The current submission is not the first and has at least 1 error that was not present in the immediately preceding submission                        |
+| REPEATED NEW ERROR                      | At least 1 error identified as new (NEW ERROR) is the same as one of the errors in the previous submissions                                          |
+
+Debugging constituents based on the experts’ interpretation.
+
+</div>
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>MASSIVE DELETION</li>
+<li>IGNORED CHECKSTYLE BUT ADDRESSED SYNTAX</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Methods and results
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Comparison dimensions for ENA
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+<img src="02 project notes/ICQE presentation/images/dimensions.png" alt="" style="object-fit: scale-down">
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li><p>Compared debugging behavior <strong>across two dimensions</strong>.</p>
+</li>
+<li><p>Within &quot;experience&quot;, we used <strong>two fundamentally different ways of measuring experience</strong>:</p>
+<ul>
+<li>Prior programming experience (T1)<ul>
+<li>Self-rated programming ability</li>
+<li>Knowledge of Java language</li>
+</ul>
+</li>
+<li>Experience gained during semester<ul>
+<li>T1, T2, T3</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>Used window size of 2 (3 revealed no meaningful differences).</p>
+</li>
+<li><p>ENA was conducted using the rENA package [26].</p>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Prior experience & syntax/checkstyle errors
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- **Checkstyle-focused** constituents on *left*.
+- **Syntax-focused** constituents on *right*.
+
+<img src="02 project notes/ICQE presentation/images/diff p5-p1.png" alt="" style="margin: 40px 0 0 0; width: 800px; object-fit: fill">
+
+Difference network between ability levels 5 and 1 in first third of semester.<!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>Consistent pattern when comparing <strong>network means</strong> (see paper).<ul>
+<li>Same observation for <em>ability level</em> and <em>prior Java experience</em>.</li>
+</ul>
+</li>
+<li>Diving deeper, we found that <strong>experienced students</strong> on average made <em>more checkstyle errors</em> while <strong>novices</strong> made <em>more syntax errors</em>.</li>
+</ul>
+</br>
+
+<ul>
+<li>Ratio of checkstyle to syntax errors:<ul>
+<li>Experienced students: 1.71</li>
+<li>Novice students: 0.69</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### Prior experience & test errors
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+
+<img src="02 project notes/ICQE presentation/images/test-diff p4-p1.png" alt="" style="object-fit: scale-down">
+
+Difference network between ability levels 4 and 1 for test error debugging.<!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li><strong>Again</strong> consistent difference between student groups.</li>
+<li>Curious <strong>experience co-occurrence with MASSIVE DELETION</strong>.<ul>
+<li>More confident?</li>
+</ul>
+</li>
+<li><strong>Novices</strong> more likely to make <em>new syntax/checkstyle errors while debugging for test errors</em>.<ul>
+<li>Based on nature of constituents: then either <strong>gave up</strong> or <strong>successfully solved problem without making more test errors</strong>.</li>
+<li><em>Diving deeper:</em> solved the problem in most cases, indicating that they <strong>simultaneously fixed both types of errors</strong>.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+#### In-course experience & syntax/checkstyle errors
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- Opposite observation: 
+    - More experience = more focus on debugging syntax errors.
+
+<img src="02 project notes/ICQE presentation/images/syncheck-time-diff t1-t3.png" alt="" style="width: 700px; object-fit: fill">
+
+Syntax/checkstyle debugging episodes. Difference network between semester time 1 and 3.<!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li><strong>Opposite observation</strong></li>
+<li>Experience = more focus on debugging syntax errors<ul>
+<li>Made less checkstyle errors later in the semester or just chose to address syntax errors first?<ul>
+<li><strong>Diving deeper: checkstyle errors per submission did decrease</strong>: 1.18 - 0.43 - 0.73</li>
+<li>Syntax errors per submission: 1.27 - 1.67 - 2.07</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+### In-course experience & test errors
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+<img src="02 project notes/ICQE presentation/images/test-time-diff t1-t3.png" alt="" style="margin: 60px 0 0 0; object-fit: scale-down">
+
+Test debugging episodes. Difference network between semester time 1 and 3.<!-- .element: style="font-size: .7em; margin: 0" -->
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>2 observations consistent with previous:<ul>
+<li><strong>Experienced</strong> students re. MASSIVE DELETION</li>
+<li><strong>Novice</strong> students made <em>new syntax/checkstyle errors while debugging a test error</em>.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="has-dark-background drop" data-background-color="#895859" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="position: absolute; left: 0%; top: 0%; height: 100%; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+
+
+
+
+## Findings and implications
+<!-- .element: style="color: white" -->
+
+</div>
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+## Some findings
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- Early in the semester, experienced students made more checkstyle errors than syntax and vice versa.
+- As students progressed through the semester, they made significantly fewer checkstyle errors, leading them to focus on debugging syntax errors.
+- When debugging test errors, more experienced students performed massive deletion than novice students.
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>&quot;<strong>Not going into details</strong> because of <strong>time constraint</strong>&quot;<ul>
+<li>Open questions</li>
+<li>Future iterations of work: <strong>go back to qualitative data</strong> to <strong>review the questions</strong> that came up from ENA.</li>
+</ul>
+</li>
+</ul>
+</br>
+
+<ul>
+<li>#1: Greater familiarity with Java and its syntax, and less knowledge of course-specific checkstyle rules?</li>
+<li>#2: Even when confronted with checkstyle errors, they more often chose to tackle syntax errors first.</li>
+<li>#3: More confidence?</li>
+</ul>
+</aside></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ <div class="block">
+
+## Limitations
+</div>
+
+
+
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+
+
+- Particularities of the platform and data.
+- Inaccuracies of self-reported survey data.
+- No sense of order in ENA, losing information from sequential data.
+
+
+#### 
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div>
+
+<aside class="notes"><ul>
+<li>#3: Because we&#39;re only looking at <strong>co-occurences</strong> with ENA.<ul>
+<li><strong>Directed ENA</strong> could be an option to address this.</li>
+</ul>
+</li>
+</ul>
+</aside></script></section></section><section ><section data-markdown><script type="text/template"><!-- .slide: class="drop" template="" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+## Thank you!
+
+🙏🏽
+</div></script></section><section data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 900px; width: 1600px; min-height: 900px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+<div class="" style="border-bottom: 1px solid red; padding: 0 20px; box-sizing: border-box; position: absolute; left: 10%; top: 0%; height: 10%; width: 80%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+ 
+</div>
+
+<div class="" style="position: absolute; left: 5%; top: 17%; height: 66%; width: 90%; display: flex; flex-direction: column; align-items: center; justify-content: center" align="center">
+
+
+
+
+<img src="02 project notes/ICQE presentation/images/ability confusion matrix.png" alt="" style="object-fit: scale-down">
+
+Confusion matrix for prior ability and prior programming languages. Lighter color indicates more instances.<!-- .element: style="font-size: .7em; margin: 0" -->
+
+</div>
+
+<div class="" style="padding: 0 30px; box-sizing: border-box; position: absolute; left: 0%; top: 64%; height: 30%; width: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-end" align="left">
+
+
+</div>
+
+<div class="" style="border-top: 1px solid red; position: absolute; left: 25%; top: 94%; height: 6%; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center" >
+
+###### Juan D. Pinto · *jdpinto.com*<!-- .element: style="font-weight: 300" -->
+</div>
+</div></script></section></section></div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script src="plugin/zoom/zoom.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/math/math.js"></script>
+	<script src="plugin/mermaid/mermaid.js"></script>
+	<script src="plugin/chart/chart.min.js"></script>
+	<script src="plugin/chart/plugin.js"></script>
+	<script src="plugin/menu/menu.js"></script>
+	<script src="plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+		  RevealCustomControls,
+		  RevealMenu,
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+		customcontrols: {
+			controls: [
+				{id: 'toggle-overview',
+				title: 'Toggle overview (O)',
+				icon: '<i class="fa fa-th"></i>',
+				action: 'Reveal.toggleOverview();'
+				},
+			]
+		},
+		menu: {
+			loadIcons: false
+		}
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":1600,"height":900,"margin":0.04,"controls":true,"progress":true,"slideNumber":true,"transition":"slide","transitionSpeed":"default"}, queryOptions);
+    </script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+
+  <!-- created with Advanced Slides -->
+</html>
