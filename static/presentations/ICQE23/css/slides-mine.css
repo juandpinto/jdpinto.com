@@ -1,0 +1,28 @@
+div.img-container {
+    flex:1;
+    position:relative;
+    width:100%;
+    display: flex;
+    justify-content:center;
+}
+
+div.img-container img {
+    position:absolute;
+    height:100%;
+}
+
+:root {
+    --r-main-font-size: 22px;
+}
+
+section.present > div {
+    /* justify-content: flex-start !important; */
+}
+
+img {
+    margin: 0px;
+}
+
+img:hover {
+    transform: scale(1.5);
+}
