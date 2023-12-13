@@ -26,13 +26,16 @@
                 <span class="pub-doi">[<a href="{{ . }}">DOI</a>]</span>
             {{ end }}
             {{ with .pdf }}
-                <span class="pub-doi">[<a href="{{ . }}">PDF</a>]</span>
+                <span class="pub-pdf">[<a href="{{ . }}">PDF</a>]</span>
+                {{ end }}
+            {{ with .poster }}
+                <span class="pub-poster">[<a href="{{ . }}">poster</a>]</span>
             {{ end }}
             {{ with .slides }}
-                <span class="pub-doi">[<a href="{{ . }}">slides</a>]</span>
+                <span class="pub-slides">[<a href="{{ . }}">slides</a>]</span>
             {{ end }}
             {{ with .video }}
-                <span class="pub-doi">[<a href="{{ . }}">video</a>]</span>
+                <span class="pub-video">[<a href="{{ . }}">video</a>]</span>
             {{ end }}
             {{ with .extra }}
                 <span class="pub-extra">{{ . }}</span>
