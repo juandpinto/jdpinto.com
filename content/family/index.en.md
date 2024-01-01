@@ -50,6 +50,11 @@ In an effort to keep family and friends up to date with our lives (without havin
 We have an end-of-year family tradition in which we put together one second of video for each day of the year—or at least the days we have video footage (or occasionally still photos) from. We love making these and hope you enjoy them as well!
 
 
+## Pinto Memories 2023
+
+{{< youtube 1VFfr-O-m6U >}}
+
+
 ## Pinto Memories 2022
 
 {{< youtube dRnOiFaltcQ >}}
