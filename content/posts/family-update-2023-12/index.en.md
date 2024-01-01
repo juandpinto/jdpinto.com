@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Pinto Family Update | December 2023"
-date: 2023-12-24
+date: 2023-12-27
 draft: false
 categories: ["family newsletter"]
 lightgallery: true
@@ -24,7 +24,7 @@ Here we are again, at the end of yet another year full of adventures and growth.
 
 **Joaquin** is now the last of the kiddos in preschool, but he has so much fun there that he sometimes doesn't want to go home! Contrary to our expectations, he loves trains 🚂 even *MORE* than before. He's more picky with his food than he used to be, but when he finds something he likes, he *really* enjoys it 🌮. More than anything else, though, he loves to play with his big brother and sister.
 
-![](2023-12_2.jpg "A grocery run on our new family vehicle (sans kiddos).")
+![](2023-12_2.jpg "Just another weekend grocery run on our new family vehicle (sans kiddos).")
 
 
 **Some additional updates:**
@@ -37,9 +37,9 @@ Here we are again, at the end of yet another year full of adventures and growth.
 
 And now---for the 7th year in a row---here's our 2023 memories video:
 
-{{< youtube 9Z3Z3Z3Z3Z3 >}}
+{{< youtube 1VFfr-O-m6U >}}
 
-As always, **we would love to hear from you**! Please feel free to reply to this email with as long or short of an update as you want. We wish you all a happy, fulfilling, and exciting new year---have an awesome 2024 🎉🍾!
+As always, **we would love to hear from you**! Please feel free to [email us](mailto:family@jdpinto.com) with as long or short of an update as you want. We wish you all a happy, fulfilling, and exciting new year---have an awesome 2024 🎉🍾!
 
 
 Love,\

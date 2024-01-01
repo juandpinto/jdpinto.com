@@ -16,6 +16,8 @@ comments:
 
 En un esfuerzo por mantener a familiares y amigos al día con nuestras vidas (sin tener que depender de las redes sociales), hemos creado este boletín ocasional. Consulte nuestras actualizaciones anteriores a continuación, o siéntase libre de suscribirse (o cancelar la suscripción) para recibirlas por correo electrónico.
 
+- [Diciembre 2023](/es/family-update-2023-12)
+- [Diciembre 2022](/en/family-update-2022-12)
 - [Diciembre 2021](/es/family-update-2021-12)
 - [Diciembre 2020](/es/family-update-2020-12)
 - [Julio 2020](/es/family-update-2020-07)
