@@ -16,6 +16,7 @@ comments:
 
 In an effort to keep family and friends up to date with our lives (without having to rely on social media), we've created this occasional newsletter. Check out our past updates below, or feel free to subscribe to (or unsubscribe from) getting these through email.
 
+- [December 2023](/family-update-2023-12)
 - [December 2022](/family-update-2022-12)
 - [December 2021](/family-update-2021-12)
 - [December 2020](/family-update-2020-12)
