@@ -50,6 +50,16 @@ En un esfuerzo por mantener a familiares y amigos al día con nuestras vidas (si
 Tenemos una tradición familiar de fin de año en la que juntamos un segundo de video para cada día del año, o al menos los días de los que tenemos imágenes de video (u ocasionalmente fotos fijas). ¡Nos encanta hacerlos y esperamos que también los disfrute!
 
 
+## Recuerdos Pinto 2023
+
+{{< youtube 1VFfr-O-m6U >}}
+
+
+## Recuerdos Pinto 2022
+
+{{< youtube dRnOiFaltcQ >}}
+
+
 ## Recuerdos Pinto 2021
 
 {{< youtube LluJFo1gQZ8 >}}
