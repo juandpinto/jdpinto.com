@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Actualización de la Familia Pinto | Diciembre 2023"
-date: 2023-12-27
+date: 2023-12-31
 draft: false
 categories: ["family newsletter"]
 lightgallery: true

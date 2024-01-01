@@ -1,7 +1,7 @@
 ---
 weight: 1
 title: "Pinto Family Update | December 2023"
-date: 2023-12-27
+date: 2023-12-31
 draft: false
 categories: ["family newsletter"]
 lightgallery: true
