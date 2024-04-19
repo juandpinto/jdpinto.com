@@ -136,7 +136,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/juandpinto-small.jpg"
+          avatarURL = "/images/portrait_small.jpg"
           # title shown in home page (HTML format is supported)
           title = "Juan D. Pinto"
           # subtitle shown in home page
@@ -282,7 +282,7 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/juandpinto-small.jpg"
+          avatarURL = "/images/portrait_small.jpg"
           # title shown in home page (HTML format is supported)
           title = "Juan D. Pinto"
           # subtitle shown in home page
