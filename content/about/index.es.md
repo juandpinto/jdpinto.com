@@ -20,6 +20,6 @@ Pero ante todo, soy un hombre de familia 👨🏽👩🏼👦🏻👧🏻👶�
 
 {{< image src="family.jpg" caption="Excursion familiar" width=60% >}}
 
-Soy originario del hermoso país de Colombia 🇨🇴, que menciono para que sepas a qué equipo de fútbol estaré apoyando. Ahora he pasado la mayor parte de mi vida en los Estados Unidos, aunque he viajado bastante y me encanta la diversidad de este planeta. Cuando no estoy frente a una computadora tratando de obtener información de grandes conjuntos de datos, generalmente me encontrarás corriendo con mis hijos o en un [paseo largo en bicicleta](https://www.strava.com/athletes/2609385) 🚴🏽‍♂️ a través de los campos de maíz del centro de Illinois.
+Soy originario del hermoso país de Colombia 🇨🇴---en caso de que se pregunten a qué equipo de fútbol estaré apoyando. Ahora he pasado la mayor parte de mi vida en los Estados Unidos, aunque he viajado bastante y me encanta la diversidad de este planeta. Cuando no estoy frente a una computadora procesando grandes conjuntos de datos, generalmente me encontrarán jugando con mis hijos, montando bicicleta 🚴🏽‍♂️ a través de los campos de maíz del centro de Illinois, o buscando pájaros 🦜 en un parque cercano.
 
 ![](bike.jpg "¡Amo mi bicicleta de grava!")
