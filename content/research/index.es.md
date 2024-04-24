@@ -12,20 +12,20 @@ comments:
   enable: false
 ---
 
-- [Curriculum vitate (CV)](/pinto-cv.pdf)
+<!-- - [Curriculum vitate (CV)](/pinto-cv.pdf)
 - [Google Scholar](https://scholar.google.com/citations?user=dzeXpP8AAAAJ)
 
 </br>
 
 
-## Publicaciones
+## Publicaciones -->
 
 {{< publications "publications" >}}
 
 
-## Presentaciones
+<!-- ## Presentaciones
 
 {{< publications "presentations" >}}
 
 
-</br>
+</br> -->
