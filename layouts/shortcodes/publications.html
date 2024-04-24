@@ -1,10 +1,18 @@
 {{ $data := index $.Site.Data.research (.Get 0)}}
 {{ $years := slice }}
+{{ $inPress := slice }}
 {{ range $data }}
-{{ $years = append .year $years }}
+{{ if eq .year "in press" }}
+{{ if not (in $inPress "in press") }}
+{{ $inPress = $inPress | append .year }}
+{{ end }}
+{{ else }}
+{{ $years = $years | append .year }}
+{{ end }}
 {{ end }}
 {{ $years = uniq $years }}
-{{ $years := sort $years "value" "desc" }}
+{{ $years = sort $years "value" "desc" }}
+{{ $years = $inPress | append $years }}
 
 <div class="pubs-grid">
     {{ range $year := $years }}
