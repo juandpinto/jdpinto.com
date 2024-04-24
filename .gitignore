@@ -14,3 +14,5 @@ npm-debug.log*
 NOTES.md
 email.html
 *.eml
+public/
+.hugo_build.lock
