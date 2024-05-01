@@ -5,6 +5,8 @@ publications:
     pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
     volume_pages: ". Springer International Publishing."
     extra: "[book chapter]"
+    pdf: "https://arxiv.org/pdf/2404.19675"
+    arxiv: "https://arxiv.org/abs/2404.19675"
   - title: "Applications of explainable AI (XAI) in education"
     year: in press
     authors: "Liu, Q., **Pinto, J. D.**, & Paquette, L."

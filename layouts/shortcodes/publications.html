@@ -35,7 +35,10 @@
             {{ end }}
             {{ with .pdf }}
                 <span class="pub-pdf">[<a href="{{ . }}">PDF</a>]</span>
-                {{ end }}
+            {{ end }}
+            {{ with .arxiv }}
+                <span class="pub-arxiv">[<a href="{{ . }}">arXiv</a>]</span>
+            {{ end }}
             {{ with .poster }}
                 <span class="pub-poster">[<a href="{{ . }}">poster</a>]</span>
             {{ end }}
