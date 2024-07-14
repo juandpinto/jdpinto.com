@@ -160,7 +160,7 @@ enableEmoji = true
         ORCID = "0000-0002-2972-485X"
         # Strava = "2609385"
         # Goodreads = ""
-        RSS = true
+        # RSS = true
 
   [languages.es]
     weight = 2
@@ -304,7 +304,7 @@ enableEmoji = true
         ORCID = "0000-0002-2972-485X"
         # Strava = "2609385"
         # Goodreads = ""
-        RSS = true
+        # RSS = true
 
 [params]
   # LoveIt theme version
