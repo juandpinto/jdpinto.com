@@ -13,10 +13,16 @@ publications:
     pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
     volume_pages: ". Springer International Publishing."
     extra: "[book chapter]"
+  # - title: "Large language models for whole-learner support: Opportunities and challenges"
+  #   year: in press
+  #   authors: "Mannekote, A., Davies, A., **Pinto, J. D.**, Zhang, S., Olds, D., Schroeder, N. L., Lehman, B., Zapata-Rivera, D., & Zhai, C."
+  #   pub: "Frontiers in Artificial Intelligence"
+  - title: "Towards a unified framework for evaluating explanations"
   - title: "Using LLM-based filtering to develop reliable coding schemes for rare debugging strategies"
-    year: in press
+    year: 2024
     authors: "Fan, A., Liu, Q., Paquette, L., & **Pinto, J. D.**"
     pub: "International Conference on Quantitative Ethnography 2024"
+    pdf: /papers/Fan et al. 2024_Using LLM-based filtering to develop reliable codi.pdf
   - title: "Towards a unified framework for evaluating explanations"
     year: 2024
     authors: "**Pinto, J. D.**, & Paquette, L."
