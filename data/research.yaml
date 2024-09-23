@@ -35,6 +35,7 @@ publications:
     authors: "**Pinto, J. D.**, Paquette, L., & Bosch, N."
     pub: International Conference on Educational Data Mining 2024
     extra: [doctoral consortium]
+    pdf: /papers/Pinto et al. 2024_Intrinsically Interpretable Artificial Neural Netw.pdf
   - title: "The imperative of explainability: Increasing transparency in educational AI"
     year: 2024
     authors: "**Pinto, J. D.** & Liu, Q."
