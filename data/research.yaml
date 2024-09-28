@@ -1,23 +1,25 @@
 publications:
   - title: "Deep learning for educational data science"
-    year: in press
+    year: 2024
     authors: "**Pinto, J. D.** & Paquette, L."
     pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
-    volume_pages: ". Springer International Publishing."
+    volume_pages: "(pp. 111–139). Springer Nature Switzerland."
     extra: "[book chapter]"
-    pdf: "https://arxiv.org/pdf/2404.19675"
+    doi: https://doi.org/10.1007/978-3-031-64487-0_6
     arxiv: "https://arxiv.org/abs/2404.19675"
+    pdf: "https://arxiv.org/pdf/2404.19675"
   - title: "Applications of explainable AI (XAI) in education"
-    year: in press
+    year: 2024
     authors: "Liu, Q., **Pinto, J. D.**, & Paquette, L."
     pub: "Trust and Inclusion in AI-Mediated Education: Where Human Learning Meets Learning Machines"
-    volume_pages: ". Springer International Publishing."
+    volume_pages: "(pp. 93–109). Springer Nature Switzerland."
     extra: "[book chapter]"
+    doi: https://doi.org/10.1007/978-3-031-64487-0_5
+    # pdf: "https://link.springer.com/chapter/10.1007/978-3-031-64487-0_5"
   # - title: "Large language models for whole-learner support: Opportunities and challenges"
   #   year: in press
   #   authors: "Mannekote, A., Davies, A., **Pinto, J. D.**, Zhang, S., Olds, D., Schroeder, N. L., Lehman, B., Zapata-Rivera, D., & Zhai, C."
   #   pub: "Frontiers in Artificial Intelligence"
-  - title: "Towards a unified framework for evaluating explanations"
   - title: "Using LLM-based filtering to develop reliable coding schemes for rare debugging strategies"
     year: 2024
     authors: "Fan, A., Liu, Q., Paquette, L., & **Pinto, J. D.**"
