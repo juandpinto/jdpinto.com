@@ -1,4 +1,8 @@
 publications:
+  - title: "Large language models for whole-learner support: Opportunities and challenges"
+    year: in press
+    authors: "Mannekote, A., Davies, A., **Pinto, J. D.**, Zhang, S., Olds, D., Schroeder, N. L., Lehman, B., Zapata-Rivera, D., & Zhai, C."
+    pub: "Frontiers in Artificial Intelligence"
   - title: "Deep learning for educational data science"
     year: 2024
     authors: "**Pinto, J. D.** & Paquette, L."
@@ -16,10 +20,6 @@ publications:
     extra: "[book chapter]"
     doi: https://doi.org/10.1007/978-3-031-64487-0_5
     # pdf: "https://link.springer.com/chapter/10.1007/978-3-031-64487-0_5"
-  # - title: "Large language models for whole-learner support: Opportunities and challenges"
-  #   year: in press
-  #   authors: "Mannekote, A., Davies, A., **Pinto, J. D.**, Zhang, S., Olds, D., Schroeder, N. L., Lehman, B., Zapata-Rivera, D., & Zhai, C."
-  #   pub: "Frontiers in Artificial Intelligence"
   - title: "Using LLM-based filtering to develop reliable coding schemes for rare debugging strategies"
     year: 2024
     authors: "Fan, A., Liu, Q., Paquette, L., & **Pinto, J. D.**"
