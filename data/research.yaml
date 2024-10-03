@@ -19,7 +19,7 @@ publications:
     volume_pages: "(pp. 93–109). Springer Nature Switzerland."
     extra: "[book chapter]"
     doi: https://doi.org/10.1007/978-3-031-64487-0_5
-    # pdf: "https://link.springer.com/chapter/10.1007/978-3-031-64487-0_5"
+    pdf: /papers/Qianhui et al 2024_Applications of explainable AI (XAI) in education.pdf
   - title: "Using LLM-based filtering to develop reliable coding schemes for rare debugging strategies"
     year: 2024
     authors: "Fan, A., Liu, Q., Paquette, L., & **Pinto, J. D.**"
