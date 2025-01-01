@@ -16,6 +16,7 @@ comments:
 
 In an effort to keep family and friends up to date with our lives (without having to rely on social media), we've created this occasional newsletter. Check out our past updates below, or feel free to subscribe to (or unsubscribe from) getting these through email.
 
+- [December 2024](/family-update-2024-12)
 - [December 2023](/family-update-2023-12)
 - [December 2022](/family-update-2022-12)
 - [December 2021](/family-update-2021-12)
@@ -48,6 +49,11 @@ In an effort to keep family and friends up to date with our lives (without havin
 # Annual memories videos
 
 We have an end-of-year family tradition in which we put together one second of video for each day of the year—or at least the days we have video footage (or occasionally still photos) from. We love making these and hope you enjoy them as well!
+
+
+## Pinto Memories 2024
+
+{{< youtube tuC47k6fcWs >}}
 
 
 ## Pinto Memories 2023
