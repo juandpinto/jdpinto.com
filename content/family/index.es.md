@@ -16,6 +16,7 @@ comments:
 
 En un esfuerzo por mantener a familiares y amigos al día con nuestras vidas (sin tener que depender de las redes sociales), hemos creado este boletín ocasional. Consulte nuestras actualizaciones anteriores a continuación, o siéntase libre de suscribirse (o cancelar la suscripción) para recibirlas por correo electrónico.
 
+- [Diciembre 2024](/es/family-update-2024-12)
 - [Diciembre 2023](/es/family-update-2023-12)
 - [Diciembre 2022](/en/family-update-2022-12)
 - [Diciembre 2021](/es/family-update-2021-12)
@@ -48,6 +49,11 @@ En un esfuerzo por mantener a familiares y amigos al día con nuestras vidas (si
 # Vídeos de memorias anuales
 
 Tenemos una tradición familiar de fin de año en la que juntamos un segundo de video para cada día del año, o al menos los días de los que tenemos imágenes de video (u ocasionalmente fotos fijas). ¡Nos encanta hacerlos y esperamos que también los disfrute!
+
+
+## Recuerdos Pinto 2024
+
+{{< youtube tuC47k6fcWs >}}
 
 
 ## Recuerdos Pinto 2023
