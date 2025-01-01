@@ -34,7 +34,7 @@ toc: false
 
 ![](2024-12_3.jpg "¡Cita en kayak a la hora del almuerzo!")
 
-Y, por supuesto, como ya es tradición, aquí está nuestro video de recuerdos de 2024, con un segundo para (casi) cada día (pueden ver nuestros videos anteriores [aquí](https://jdpinto.com/family/)):
+Y, por supuesto, como ya es tradición, aquí está nuestro video de recuerdos de 2024, con un segundo para (casi) cada día (pueden ver nuestros videos anteriores [aquí](https://jdpinto.com/es/family/)):
 
 {{< youtube tuC47k6fcWs >}}
 
