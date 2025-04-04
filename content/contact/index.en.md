@@ -17,4 +17,4 @@ math:
 ### Other
 
 :(fab fa-twitter fa-fw): [@thejuanpinto](https://twitter.com/thejuanpinto)\
-:(fab fa-linkedin fa-fw): [juandpinto](https://linkedin.com/in/juandpinto)
+:(fab fa-linkedin fa-fw): [jdpinto](https://linkedin.com/in/jdpinto)
