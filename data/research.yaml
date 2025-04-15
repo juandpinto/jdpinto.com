@@ -1,6 +1,11 @@
 publications:
+  - title: "A constraints-based approach to fully interpretable neural networks for detecting learner behaviors"
+    year: 2025
+    authors: "**Pinto, J. D.** & Paquette, L."
+    pub: International Conference on Educational Data Mining (EDM) 2025
+    location: Palermo, Italy
   - title: "Micro-models of student engagement: A bottom-up approach to learner modeling"
-    year: in press
+    year: 2025
     authors: "**Pinto, J. D.**, Tenison, C., Lehman, B., Beigman Klebanov, B., Zapata-Rivera, D."
     pub: 2025 American Educational Research Association (AERA) Annual Meeting
   - title: "Large language models for whole-learner support: Opportunities and challenges"
@@ -43,7 +48,7 @@ publications:
   - title: "Intrinsically interpretable artificial neural networks for learner modeling"
     year: 2024
     authors: "**Pinto, J. D.**, Paquette, L., & Bosch, N."
-    pub: International Conference on Educational Data Mining 2024
+    pub: International Conference on Educational Data Mining (EDM) 2024
     extra: [doctoral consortium]
     pdf: /papers/Pinto et al. 2024_Intrinsically Interpretable Artificial Neural Netw.pdf
   - title: "The imperative of explainability: Increasing transparency in educational AI"
