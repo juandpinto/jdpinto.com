@@ -4,6 +4,7 @@ publications:
     authors: "**Pinto, J. D.** & Paquette, L."
     pub: International Conference on Educational Data Mining (EDM) 2025
     location: Palermo, Italy
+    arxiv: https://arxiv.org/abs/2504.20055
     pdf: /papers/Pinto & Paquette 2025_A constraints-based approach to fully interpretable neural networks.pdf
   - title: "Micro-models of student engagement: A bottom-up approach to learner modeling"
     year: 2025
