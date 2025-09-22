@@ -1,4 +1,11 @@
 publications:
+  - title: "Human-grounded XAI: An evaluation of explanation faithfulness and intelligibility for interpretable neural networks"
+    year: 2025
+    authors: "**Pinto, J. D.** & Paquette, L."
+    pub: "2nd Human-Centric eXplainable AI in Education Workshop (HEXED 2025)"
+    extra: "[workshop paper]"
+    location: Palermo, Italy
+    pdf: /papers/Pinto & Paquette 2025_Human-grounded XAI.pdf
   - title: "A constraints-based approach to fully interpretable neural networks for detecting learner behaviors"
     year: 2025
     authors: "**Pinto, J. D.** & Paquette, L."
