@@ -1,7 +1,7 @@
 ---
 weight: 1
-title: "Actualización de la Familia Pinto | Diciembre 2024"
-date: 2024-12-31
+title: "Actualización de la Familia Pinto | Diciembre 2025"
+date: 2025-12-31
 draft: false
 categories: ["family newsletter"]
 lightgallery: true
