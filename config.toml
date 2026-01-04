@@ -152,7 +152,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Ph.D. candidate at the University of Illinois Urbana-Champaign studying digital environments for learning, teaching, and agency. My research specializes in educational data science, adaptive learning systems, and the use of machine learning in educational settings."
+          disclaimer = "Data Scientist at McGraw Hill with a Ph.D. from the University of Illinois Urbana-Champaign. I combine my experience in data science with my passion for worthy causes to bring technological advances in machine learning and AI to education."
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -296,7 +296,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Candidato a doctorado en la Universidad de Illinois Urbana-Champaign que estudia entornos digitales para el aprendizaje, la enseñanza, y la agencia. Mi investigación se especializa en ciencia de datos educativos, sistemas de aprendizaje adaptativo y el uso del aprendizaje automático en entornos educativos."
+          disclaimer = "Científico de datos en McGraw Hill con un doctorado de la Universidad de Illinois Urbana-Champaign. Combino mi experiencia en ciencia de datos con mi pasión por las buenas causas para aplicar los avances tecnológicos en aprendizaje automático e inteligencia artificial al ámbito de la educación."
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
