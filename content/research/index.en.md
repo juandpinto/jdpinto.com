@@ -1,5 +1,6 @@
 ---
 title: "My research"
+description: "Selected research by Juan D. Pinto on interpretable AI, learner modeling, learning analytics, and educational data science."
 date: 2022-10-26T11:21:49+08:00
 draft: false
 

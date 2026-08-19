@@ -15,4 +15,5 @@ NOTES.md
 email.html
 *.eml
 public/
+resources/
 .hugo_build.lock

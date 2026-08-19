@@ -7,6 +7,9 @@ theme = "LoveIt"
 # website title
 title = "Juan D. Pinto"
 
+# Email templates are source artifacts for family newsletters, not site content.
+ignoreFiles = ["(?:^|/)email\\.html$"]
+
 # whether to use robots.txt
 # 是否使用 robots.txt
 enableRobotsTXT = true
@@ -21,37 +24,15 @@ enableEmoji = true
   [languages.en]
     weight = 1
     # language code
-    languageCode = "en"
+    locale = "en"
     # language name
-    languageName = "🇺🇸 English"
+    label = "🇺🇸 English"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
     paginate = 12
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "home"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        post = ""
-        name = "Home"
-        url = "/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.en.menu.main]]
-        identifier = "about"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        post = ""
-        name = "About"
-        url = "/about/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 2
       [[languages.en.menu.main]]
         identifier = "research"
         pre = ""
@@ -59,31 +40,31 @@ enableEmoji = true
         name = "Research"
         url = "/research/"
         title = ""
-        weight = 3
+        weight = 1
       [[languages.en.menu.main]]
-        identifier = "CV"
+        identifier = "about"
         pre = ""
         post = ""
-        name = "CV"
-        url = "/Pinto-CV.pdf"
+        name = "About"
+        url = "/about/"
+        title = ""
+        weight = 2
+      [[languages.en.menu.main]]
+        identifier = "resume"
+        pre = ""
+        post = ""
+        name = "Resume"
+        url = "https://jdpinto.com/pinto-resume.pdf"
+        title = ""
+        weight = 3
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        pre = ""
+        post = ""
+        name = "Contact"
+        url = "/contact/"
         title = ""
         weight = 4
-    #   [[languages.en.menu.main]]
-    #     identifier = "resume"
-    #     pre = ""
-    #     post = ""
-    #     name = "Resume"
-    #     url = "/Pinto-resume.pdf"
-    #     title = ""
-    #     weight = 5
-    #   [[languages.en.menu.main]]
-    #     identifier = "contact"
-    #     pre = ""
-    #     post = ""
-    #     name = "Contact"
-    #     url = "/contact/"
-    #     title = ""
-    #     weight = 4
     #   [[languages.en.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -94,9 +75,9 @@ enableEmoji = true
     #     weight = 5
     [languages.en.params]
       # site description
-      description = "Juan D. Pinto"
+      description = "Juan D. Pinto is a data scientist specializing in AI evaluation, causal inference, and behavioral analytics."
       # site keywords
-      keywords = ["Juan Pinto", "UIUC", "educational data mining", "learning analytics", "learning science", "AI in education", "Illinois", "machine learning"]
+      keywords = ["Juan Pinto", "data scientist", "AI evaluation", "causal inference", "behavioral analytics", "educational data mining", "learning analytics", "machine learning"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -114,24 +95,6 @@ enableEmoji = true
       # Search config
       [languages.en.params.search]
         enable = false
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.en.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
       [languages.en.params.home]
         # amount of RSS pages
@@ -152,7 +115,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Data Scientist at McGraw Hill with a Ph.D. from the University of Illinois Urbana-Champaign. I combine my experience in data science with my passion for worthy causes to bring technological advances in machine learning and AI to education."
+          disclaimer = "Data scientist in education technology with a Ph.D. from the University of Illinois Urbana-Champaign. I combine my experience in data science with my passion for worthy causes to bring technological advances in machine learning and AI to education."
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -173,61 +136,47 @@ enableEmoji = true
   [languages.es]
     weight = 2
     # language code
-    languageCode = "es"
+    locale = "es"
     # language name
-    languageName = "🇪🇸 Español"
+    label = "🇪🇸 Español"
     # whether to include Chinese/Japanese/Korean
     hasCJKLanguage = false
     # default amount of posts in each pages
     paginate = 12
-    # copyright description used only for seo schema
-    copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
     # Menu config
     [languages.es.menu]
       [[languages.es.menu.main]]
-        identifier = "inicio"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        post = ""
-        name = "Inicio"
-        url = "/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 1
-      [[languages.es.menu.main]]
-        identifier = "quien"
-        # you can add extra information before the name (HTML format is supported), such as icons
-        pre = ""
-        post = ""
-        name = "Quien soy"
-        url = "/about/"
-        # title will be shown when you hover on this menu link.
-        title = ""
-        weight = 2
-      [[languages.es.menu.main]]
-        identifier = "investigación"
+        identifier = "research"
         pre = ""
         post = ""
         name = "Investigación"
         url = "/research/"
         title = ""
-        weight = 3
+        weight = 1
       [[languages.es.menu.main]]
-        identifier = "CV"
+        identifier = "about"
         pre = ""
         post = ""
-        name = "CV"
-        url = "https://jdpinto.com/Pinto-CV.pdf"
+        name = "Quién soy"
+        url = "/about/"
+        title = ""
+        weight = 2
+      [[languages.es.menu.main]]
+        identifier = "resume"
+        pre = ""
+        post = ""
+        name = "Currículum"
+        url = "https://jdpinto.com/pinto-resume.pdf"
+        title = ""
+        weight = 3
+      [[languages.es.menu.main]]
+        identifier = "contact"
+        pre = ""
+        post = ""
+        name = "Contacto"
+        url = "/contact/"
         title = ""
         weight = 4
-    #   [[languages.es.menu.main]]
-    #     identifier = "contacto"
-    #     pre = ""
-    #     post = ""
-    #     name = "Contacto"
-    #     url = "/contact/"
-    #     title = ""
-    #     weight = 4
     #   [[languages.es.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -238,9 +187,9 @@ enableEmoji = true
     #     weight = 5
     [languages.es.params]
       # site description
-      description = "Juan D. Pinto"
+      description = "Juan D. Pinto es un científico de datos especializado en evaluación de IA, inferencia causal y analítica del comportamiento."
       # site keywords
-      keywords = ["Juan Pinto", "UIUC", "minería de datos educativos", "analítica de aprendizaje", "ciencia del aprendizaje", "inteligencia artificial", "Illinois", "machine learning"]
+      keywords = ["Juan Pinto", "científico de datos", "evaluación de IA", "inferencia causal", "analítica del comportamiento", "minería de datos educativos", "analítica de aprendizaje", "aprendizaje automático"]
       # App icon config
       [languages.es.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -258,24 +207,6 @@ enableEmoji = true
       # Search config
       [languages.es.params.search]
         enable = false
-        # type of search engine ("lunr", "algolia")
-        type = "algolia"
-        # max index length of the chunked content
-        contentLength = 4000
-        # placeholder of the search bar
-        placeholder = ""
-        # max number of results length
-        maxResultLength = 10
-        # snippet length of the result
-        snippetLength = 30
-        # HTML tag name of the highlight part in results
-        highlightTag = "em"
-        # whether to use the absolute URL based on the baseURL in search index
-        absoluteURL = false
-        [languages.es.params.search.algolia]
-          index = "index.en"
-          appID = "PASDMWALPK"
-          searchKey = "b42948e51daaa93df92381c8e2ac0f93"
       # Home page config
       [languages.es.params.home]
         # amount of RSS pages
@@ -296,7 +227,7 @@ enableEmoji = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Científico de datos en McGraw Hill con un doctorado de la Universidad de Illinois Urbana-Champaign. Combino mi experiencia en ciencia de datos con mi pasión por las buenas causas para aplicar los avances tecnológicos en aprendizaje automático e inteligencia artificial al ámbito de la educación."
+          disclaimer = "Científico de datos en el sector de la tecnología educativa con un doctorado de la Universidad de Illinois Urbana-Champaign. Combino mi experiencia en ciencia de datos con mi pasión por las buenas causas para aplicar los avances tecnológicos en aprendizaje automático e inteligencia artificial al ámbito de la educación."
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
@@ -315,18 +246,16 @@ enableEmoji = true
         # RSS = true
 
 [params]
-  # LoveIt theme version
-  version = "0.2.X"
   # site default theme ("light", "dark", "auto")
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
-  gitRepo = "https://github.com/dillonzq/LoveIt"
+  gitRepo = "https://github.com/juandpinto/jdpinto.com"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
   # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
+  images = ["/images/juandpinto.jpg"]
 
   # Header config
   [params.header]
@@ -363,8 +292,6 @@ enableEmoji = true
     since = 2021
     # ICP info only in China (HTML format is supported)
     icp = ""
-    # license info (HTML format is supported)
-    license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -463,28 +390,6 @@ enableEmoji = true
       mhchem = true
     # Mapbox GL JS config (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
     # Mapbox GL JS 配置 (Mapbox GL JS https://docs.mapbox.com/mapbox-gl-js)
-    [params.page.mapbox]
-      # access token of Mapbox GL JS
-      # Mapbox GL JS 的 access token
-      accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
-      # style for the light theme
-      # 浅色主题的地图样式
-      lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
-      # style for the dark theme
-      # 深色主题的地图样式
-      darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
-      # whether to add NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
-      # 是否添加 NavigationControl (https://docs.mapbox.com/mapbox-gl-js/api/#navigationcontrol)
-      navigation = true
-      # whether to add GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
-      # 是否添加 GeolocateControl (https://docs.mapbox.com/mapbox-gl-js/api/#geolocatecontrol)
-      geolocate = true
-      # whether to add ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
-      # 是否添加 ScaleControl (https://docs.mapbox.com/mapbox-gl-js/api/#scalecontrol)
-      scale = true
-      # whether to add FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
-      # 是否添加 FullscreenControl (https://docs.mapbox.com/mapbox-gl-js/api/#fullscreencontrol)
-      fullscreen = true
     # Social share links in post page
     # 文章页面的分享信息设置
     [params.page.share]
@@ -537,20 +442,6 @@ enableEmoji = true
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       # Valine 评论系统设置 (https://github.com/xCss/Valine)
-      [params.page.comment.valine]
-        enable = false
-        appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
-        appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
-        placeholder = ""
-        avatar = "mp"
-        meta= ""
-        pageSize = 10
-        lang = ""
-        visitor = true
-        recordIP = true
-        highlight = true
-        enableQQ = false
-        serverURLs = "https://leancloud.hugoloveit.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/LoveIt/assets/data/emoji/" directory
@@ -561,7 +452,6 @@ enableEmoji = true
         # 位于 "themes/LoveIt/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
         # "assets/data/emoji/"
-        emoji = ""
       # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
       # Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
       [params.page.comment.facebook]
@@ -618,7 +508,7 @@ enableEmoji = true
       # 出版者信息
       [params.page.seo.publisher]
         name = "Juan D. Pinto"
-        logoUrl = "/images/avatar.png"
+        logoUrl = "/images/juandpinto.jpg"
 
   # TypeIt config
   # TypeIt 配置
@@ -650,10 +540,10 @@ enableEmoji = true
   [params.seo]
     # image URL
     # 图片 URL
-    image = "/images/Apple-Devices-Preview.png"
+    image = "/images/juandpinto.jpg"
     # thumbnail URL
     # 缩略图 URL
-    thumbnailUrl = "/images/screenshot.png"
+    thumbnailUrl = "/images/juandpinto.jpg"
 
   # Cookie consent config
   # Cookie 许可配置
@@ -727,7 +617,7 @@ enableEmoji = true
 
 # Author config
 # 作者配置
-[author]
+[params.author]
   name = "Juan D. Pinto"
   email = "juan@jdpinto.com"
   link = "https://jdpinto.com"
@@ -743,14 +633,14 @@ enableEmoji = true
 # Permalinks 配置 (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = ":contentbasename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 # 隐私信息配置 (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
   # privacy of the Google Analytics (replaced by params.analytics.google)
   # Google Analytics 相关隐私 (被 params.analytics.google 替代)
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true

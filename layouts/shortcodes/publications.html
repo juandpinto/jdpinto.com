@@ -1,4 +1,4 @@
-{{ $data := index $.Site.Data.research (.Get 0)}}
+{{ $data := index hugo.Data.research (.Get 0) }}
 {{ $years := slice }}
 {{ $inPress := slice }}
 {{ range $data }}

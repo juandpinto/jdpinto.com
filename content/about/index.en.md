@@ -1,5 +1,6 @@
 ---
 title: "About me"
+description: "Learn about Juan D. Pinto, a data scientist working at the intersection of AI, education, and learning analytics."
 date: 2019-08-02T11:04:49+08:00
 draft: false
 
@@ -16,7 +17,7 @@ comments:
 
 Hi, I’m Juan! I love learning about anything and everything, trying out new things, and going on adventures. I’ve dabbled in many areas and hobbies over the years, acquiring a wide range of skills in areas like data science, teaching, graphic design, foreign languages, [coding](https://github.com/juandpinto), editing, photography---you name it.
 
-But first and foremost, I’m a family man 🧔🏾‍♂️👱🏼‍♀️🧑🏽👧🏽👦🏽🐈🐈‍⬛. I’m also passionate about the potential of effectively using technology to increase access to high-quality education around the world. This interest has brought me to my current position as a data scientist at McGraw Hill, where I work at the exciting intersection of AI and education. I have a PhD from the University of Illinois Urbana-Champaign.
+But first and foremost, I’m a family man 🧔🏾‍♂️👱🏼‍♀️🧑🏽👧🏽👦🏽🐈🐈‍⬛. I’m also passionate about the potential of effectively using technology to increase access to high-quality education around the world. This interest has brought me to my current position as a data scientist in the education technology industry, where I work at the exciting intersection of AI and education. I have a PhD from the University of Illinois Urbana-Champaign.
 
 {{< image src="family.jpg" caption="Family outing" width=60% >}}
 

@@ -1,5 +1,6 @@
 ---
-title: "Quien soy"
+title: "Quién soy"
+description: "Conoce a Juan D. Pinto, un científico de datos que trabaja en la intersección de la IA, la educación y la analítica del aprendizaje."
 date: 2019-08-02T11:04:49+08:00
 draft: false
 
@@ -16,7 +17,7 @@ comments:
 
 ¡Hola, soy Juan! Me encanta aprender sobre todo, probar cosas nuevas y vivir aventuras. He incursionado en muchas áreas y pasatiempos a lo largo de los años, adquiriendo una amplia gama de habilidades en cosas como ciencia de datos, enseñanza, diseño gráfico, idiomas extranjeros, [programación](https://github.com/juandpinto), edición, fotografía, lo que sea.
 
-Pero ante todo, soy un hombre de familia 🧔🏾‍♂️👱🏼‍♀️🧑🏽👧🏽👦🏽🐈🐈‍⬛. También soy apasionado por el potencial de usar la tecnología de manera efectiva para aumentar el acceso a la educación de alta calidad en todo el mundo. Este interés me ha llevado a mi puesto actual como científico de datos en McGraw Hill, donde trabajo en la apasionante intersección de la inteligencia artificial y la educación. Tengo un doctorado de la Universidad de Illinois Urbana-Champaign.
+Pero ante todo, soy un hombre de familia 🧔🏾‍♂️👱🏼‍♀️🧑🏽👧🏽👦🏽🐈🐈‍⬛. También soy apasionado por el potencial de usar la tecnología de manera efectiva para aumentar el acceso a la educación de alta calidad en todo el mundo. Este interés me ha llevado a mi puesto actual como científico de datos en el sector de la tecnología educativa, donde trabajo en la apasionante intersección de la inteligencia artificial y la educación. Tengo un doctorado de la Universidad de Illinois Urbana-Champaign.
 
 {{< image src="family.jpg" caption="Excursion familiar" width=60% >}}
 

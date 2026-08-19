@@ -1,4 +1,6 @@
 ---
+title: "Contacto"
+description: "Contacta a Juan D. Pinto sobre ciencia de datos, IA, investigación y colaboración."
 date: 2021-07-20
 draft: false
 
@@ -10,7 +12,7 @@ math:
 
 ### Correo electronico
 
-:(far fa-envelope fa-fw): [jdpinto2@illinois.edu](mailto:jdpinto2@illinois.edu)
+:(far fa-envelope fa-fw): [juan@jdpinto.com](mailto:juan@jdpinto.com)
 
 </br>
 

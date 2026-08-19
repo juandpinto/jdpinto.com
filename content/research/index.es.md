@@ -1,5 +1,6 @@
 ---
 title: "Mis investigaciones"
+description: "Investigaciones seleccionadas de Juan D. Pinto sobre IA interpretable, modelado de estudiantes, analítica del aprendizaje y ciencia de datos educativos."
 date: 2022-10-26T11:21:49+08:00
 draft: false
 
