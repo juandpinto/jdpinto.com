@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "Contact Juan D. Pinto about data science, AI, research, and collaboration."
+description: "Contact Juan D. Pinto about data science roles, research collaboration, AI evaluation, causal inference, and behavioral analytics."
 date: 2021-07-20
 draft: false
 
@@ -10,13 +10,6 @@ math:
   enable: true
 ---
 
-### Email
+For data science roles, research collaborations, and professional conversations about AI evaluation, causal inference, or behavioral analytics, email me at [juan@jdpinto.com](mailto:juan@jdpinto.com).
 
-:(far fa-envelope fa-fw): [juan@jdpinto.com](mailto:juan@jdpinto.com)
-
-</br>
-
-### Other
-
-:(fab fa-twitter fa-fw): [@thejuanpinto](https://twitter.com/thejuanpinto)\
-:(fab fa-linkedin fa-fw): [jdpinto](https://linkedin.com/in/jdpinto)
+Email is the best way to reach me.

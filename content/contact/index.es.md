@@ -1,6 +1,6 @@
 ---
 title: "Contacto"
-description: "Contacta a Juan D. Pinto sobre ciencia de datos, IA, investigación y colaboración."
+description: "Contacta a Juan D. Pinto sobre oportunidades en ciencia de datos, colaboración en investigación, evaluación de IA, inferencia causal y analítica del comportamiento."
 date: 2021-07-20
 draft: false
 
@@ -10,13 +10,6 @@ math:
   enable: true
 ---
 
-### Correo electronico
+Para oportunidades en ciencia de datos, colaboraciones de investigación y conversaciones profesionales sobre evaluación de IA, inferencia causal o analítica del comportamiento, escríbeme a [juan@jdpinto.com](mailto:juan@jdpinto.com).
 
-:(far fa-envelope fa-fw): [juan@jdpinto.com](mailto:juan@jdpinto.com)
-
-</br>
-
-### Otros metodos de contacto
-
-:(fab fa-twitter fa-fw): [@thejuanpinto](https://twitter.com/thejuanpinto)\
-:(fab fa-linkedin fa-fw): [jdpinto](https://linkedin.com/in/jdpinto)
+El correo electrónico es la mejor forma de contactarme.

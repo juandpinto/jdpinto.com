@@ -1,32 +1,16 @@
 ---
 title: "Mis investigaciones"
 description: "Investigaciones seleccionadas de Juan D. Pinto sobre IA interpretable, modelado de estudiantes, analítica del aprendizaje y ciencia de datos educativos."
-date: 2022-10-26T11:21:49+08:00
 draft: false
-
-lightgallery: true
-
-math:
-  enable: true
 
 comments:
   enable: false
 ---
 
-<!-- - [Curriculum vitate (CV)](/pinto-cv.pdf)
-- [Google Scholar](https://scholar.google.com/citations?user=dzeXpP8AAAAJ)
+Mi investigación abarca la IA interpretable, el modelado de estudiantes, la analítica del aprendizaje y la ciencia de datos educativa.
 
-</br>
+{{< research-profile label="Ver el registro completo de mis publicaciones en Google Scholar" >}}
 
-
-## Publicaciones -->
+## Publicaciones
 
 {{< publications "publications" >}}
-
-
-<!-- ## Presentaciones
-
-{{< publications "presentations" >}}
-
-
-</br> -->

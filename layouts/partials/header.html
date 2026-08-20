@@ -14,6 +14,8 @@
                         {{- $id := dict "Content" .name "Scratch" $.Scratch | partial "function/id.html" -}}
                         <span id="{{ $id }}" class="typeit"></span>
                         {{- dict $id (slice $id) | dict "typeitMap" | merge ($.Scratch.Get "this") | $.Scratch.Set "this" -}}
+                    {{- else if .wordmark -}}
+                        <span class="header-wordmark" aria-label="Juan D. Pinto"><span class="header-initial header-initial-j" aria-hidden="true">J</span>uan <span class="header-initial header-initial-d" aria-hidden="true">D</span>. <span class="header-initial header-initial-p" aria-hidden="true">P</span>into</span>
                     {{- else -}}
                         {{- .name -}}
                     {{- end -}}
@@ -104,6 +106,8 @@
                             {{- $id := dict "Content" .name "Scratch" $.Scratch | partial "function/id.html" -}}
                             <span id="{{ $id }}" class="typeit"></span>
                             {{- dict $id (slice $id) | dict "typeitMap" | merge ($.Scratch.Get "this") | $.Scratch.Set "this" -}}
+                        {{- else if .wordmark -}}
+                            <span class="header-wordmark" aria-label="Juan D. Pinto"><span class="header-initial header-initial-j" aria-hidden="true">J</span>uan <span class="header-initial header-initial-d" aria-hidden="true">D</span>. <span class="header-initial header-initial-p" aria-hidden="true">P</span>into</span>
                         {{- else -}}
                             {{- .name -}}
                         {{- end -}}
@@ -190,3 +194,7 @@
         <div id="search-dropdown-mobile"></div>
     </div>
 {{- end -}}
+<script src="/js/anchor-scroll.js" defer></script>
+<script src="/js/greeting-cycle.js" defer></script>
+<script src="/js/scroll-spy.js" defer></script>
+<script src="/js/header-elevation.js" defer></script>

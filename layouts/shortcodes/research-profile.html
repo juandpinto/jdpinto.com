@@ -1,0 +1,11 @@
+{{- $label := .Get "label" | default "Google Scholar" -}}
+{{- $url := .Get "url" | default "https://scholar.google.com/citations?user=dzeXpP8AAAAJ" -}}
+{{- $cdn := .Page.Scratch.Get "cdn" | default dict -}}
+
+<p class="research-profile-action">
+    <a href="{{ $url }}" rel="noopener noreferrer" target="_blank">
+        {{- dict "Simpleicons" "googlescholar" "Prefix" $cdn.simpleIconsPrefix | partial "plugin/icon.html" -}}
+        <span>{{ $label }}</span>
+        <span class="research-profile-external" aria-hidden="true">↗</span>
+    </a>
+</p>

@@ -34,11 +34,11 @@ enableEmoji = true
     # Menu config
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "research"
+        identifier = "work"
         pre = ""
         post = ""
-        name = "Research"
-        url = "/research/"
+        name = "Work"
+        url = "/#work"
         title = ""
         weight = 1
       [[languages.en.menu.main]]
@@ -46,9 +46,17 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "About"
-        url = "/about/"
+        url = "/#about"
         title = ""
         weight = 2
+      [[languages.en.menu.main]]
+        identifier = "research"
+        pre = ""
+        post = ""
+        name = "Research"
+        url = "/#research"
+        title = ""
+        weight = 3
       [[languages.en.menu.main]]
         identifier = "resume"
         pre = ""
@@ -56,15 +64,15 @@ enableEmoji = true
         name = "Resume"
         url = "https://jdpinto.com/pinto-resume.pdf"
         title = ""
-        weight = 3
+        weight = 4
       [[languages.en.menu.main]]
         identifier = "contact"
         pre = ""
         post = ""
         name = "Contact"
-        url = "/contact/"
+        url = "/#contact"
         title = ""
-        weight = 4
+        weight = 5
     #   [[languages.en.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -75,9 +83,9 @@ enableEmoji = true
     #     weight = 5
     [languages.en.params]
       # site description
-      description = "Juan D. Pinto is a data scientist specializing in AI evaluation, causal inference, and behavioral analytics."
+      description = "Juan D. Pinto is a data scientist building and evaluating reliable machine learning and AI systems."
       # site keywords
-      keywords = ["Juan Pinto", "data scientist", "AI evaluation", "causal inference", "behavioral analytics", "educational data mining", "learning analytics", "machine learning"]
+      keywords = ["Juan Pinto", "data scientist", "LLM systems", "AI evaluation", "LLM evaluation", "machine learning", "RAG", "agentic workflows"]
       # App icon config
       [languages.en.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -85,13 +93,13 @@ enableEmoji = true
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
+        svgFavicon = "/favicon.svg"
         # Android browser theme color
-        themeColor = "#ffffff"
+        themeColor = "#2d353b"
         # Safari mask icon color
-        iconColor = "#5bbad5"
+        iconColor = "#a7c080"
         # Windows v8-10 tile color
-        tileColor = "#da532c"
+        tileColor = "#2d353b"
       # Search config
       [languages.en.params.search]
         enable = false
@@ -105,17 +113,30 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/portrait_small.jpg"
+          avatarURL = "/images/pinto_profile.jpg"
+          greetings = ["Hello 👋", "Hola 👋", "Bonjour 👋", "Hallo 👋", "Ciao 👋", "👋 שלום", "👋 مرحبا", "こんにちは 👋", "안녕하세요 👋"]
           # title shown in home page (HTML format is supported)
-          title = "Juan D. Pinto"
+          # title = "I'm Juan D. Pinto"
           # subtitle shown in home page
-          subtitle = "Learning Scientist 🧠 ∙ Educator 🎓 ∙ AI Researcher 🤖"
+          subtitle = "I'm <em>Juan</em>, a data scientist building and evaluating reliable machine learning and AI systems"
           # whether to use typeit animation for subtitle
-          typeit = true
+          typeit = false
+          tagline = "Researcher at heart 🧠 · builder in practice 🛠️ · lifelong learner 🌎"
+          taglineTypeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Data scientist in education technology with a Ph.D. from the University of Illinois Urbana-Champaign. I combine my experience in data science with my passion for worthy causes to bring technological advances in machine learning and AI to education."
+          disclaimer = "PhD data scientist with experience in education technology, assessment, and AI research. I build rigorous approaches to develop and evaluate machine learning and AI systems, measure product impact, and understand learner behavior."
+        [[languages.en.params.home.profile.actions]]
+          label = "Explore selected work"
+          url = "#work"
+          primary = true
+        [[languages.en.params.home.profile.actions]]
+          label = "Download Resume"
+          url = "https://jdpinto.com/pinto-resume.pdf"
+        [[languages.en.params.home.profile.actions]]
+          label = "Get in touch"
+          url = "#contact"
         # Home page posts
         [languages.en.params.home.posts]
           enable = false
@@ -124,10 +145,9 @@ enableEmoji = true
       # Social config in home page
       [languages.en.params.social]
         Email = "juan@jdpinto.com"
-        Googlescholar = "user=dzeXpP8AAAAJ"
-        GitHub = "juandpinto"
         Linkedin = "jdpinto"
-        # Twitter = "thejuanpinto"
+        GitHub = "juandpinto"
+        Googlescholar = "user=dzeXpP8AAAAJ"
         ORCID = "0000-0002-2972-485X"
         # Strava = "2609385"
         # Goodreads = ""
@@ -146,11 +166,11 @@ enableEmoji = true
     # Menu config
     [languages.es.menu]
       [[languages.es.menu.main]]
-        identifier = "research"
+        identifier = "work"
         pre = ""
         post = ""
-        name = "Investigación"
-        url = "/research/"
+        name = "Trabajo"
+        url = "/#work"
         title = ""
         weight = 1
       [[languages.es.menu.main]]
@@ -158,9 +178,17 @@ enableEmoji = true
         pre = ""
         post = ""
         name = "Quién soy"
-        url = "/about/"
+        url = "/#about"
         title = ""
         weight = 2
+      [[languages.es.menu.main]]
+        identifier = "research"
+        pre = ""
+        post = ""
+        name = "Investigación"
+        url = "/#research"
+        title = ""
+        weight = 3
       [[languages.es.menu.main]]
         identifier = "resume"
         pre = ""
@@ -168,15 +196,15 @@ enableEmoji = true
         name = "Currículum"
         url = "https://jdpinto.com/pinto-resume.pdf"
         title = ""
-        weight = 3
+        weight = 4
       [[languages.es.menu.main]]
         identifier = "contact"
         pre = ""
         post = ""
         name = "Contacto"
-        url = "/contact/"
+        url = "/#contact"
         title = ""
-        weight = 4
+        weight = 5
     #   [[languages.es.menu.main]]
     #     identifier = "family"
     #     pre = ""
@@ -187,9 +215,9 @@ enableEmoji = true
     #     weight = 5
     [languages.es.params]
       # site description
-      description = "Juan D. Pinto es un científico de datos especializado en evaluación de IA, inferencia causal y analítica del comportamiento."
+      description = "Juan D. Pinto es un científico de datos que desarrolla y evalúa sistemas confiables de aprendizaje automático e IA."
       # site keywords
-      keywords = ["Juan Pinto", "científico de datos", "evaluación de IA", "inferencia causal", "analítica del comportamiento", "minería de datos educativos", "analítica de aprendizaje", "aprendizaje automático"]
+      keywords = ["Juan Pinto", "científico de datos", "sistemas LLM", "evaluación de IA", "evaluación de LLM", "aprendizaje automático", "RAG", "flujos de trabajo con agentes"]
       # App icon config
       [languages.es.params.app]
         # optional site title override for the app when added to an iOS home screen or Android launcher
@@ -197,13 +225,13 @@ enableEmoji = true
         # whether to omit favicon resource links
         noFavicon = false
         # modern SVG favicon to use in place of older style .png and .ico files
-        svgFavicon = ""
+        svgFavicon = "/favicon.svg"
         # Android browser theme color
-        themeColor = "#ffffff"
+        themeColor = "#2d353b"
         # Safari mask icon color
-        iconColor = "#5bbad5"
+        iconColor = "#a7c080"
         # Windows v8-10 tile color
-        tileColor = "#da532c"
+        tileColor = "#2d353b"
       # Search config
       [languages.es.params.search]
         enable = false
@@ -217,17 +245,30 @@ enableEmoji = true
           # Gravatar Email for preferred avatar in home page
           gravatarEmail = ""
           # URL of avatar shown in home page
-          avatarURL = "/images/portrait_small.jpg"
+          avatarURL = "/images/pinto_profile.jpg"
+          greetings = ["Hola 👋", "Hello 👋", "Bonjour 👋", "Hallo 👋", "Ciao 👋", "שלום 👋", "مرحبا 👋", "こんにちは 👋", "안녕하세요 👋"]
           # title shown in home page (HTML format is supported)
-          title = "Juan D. Pinto"
+          # title = "Soy Juan D. Pinto"
           # subtitle shown in home page
-          subtitle = "Científico de Aprendizaje 🧠 ∙ Educador 🎓 ∙ Investigador de Inteligencia Artificial 🤖"
+          subtitle = "Soy <em>Juan</em>, un científico de datos que desarrolla y evalúa sistemas confiables de aprendizaje automático e IA"
           # whether to use typeit animation for subtitle
-          typeit = true
+          typeit = false
+          tagline = "Investigador de corazón 🧠 · creador en la práctica 🛠️ · aprendiz de por vida 🌎"
+          taglineTypeit = true
           # whether to show social links
           social = true
           # disclaimer (HTML format is supported)
-          disclaimer = "Científico de datos en el sector de la tecnología educativa con un doctorado de la Universidad de Illinois Urbana-Champaign. Combino mi experiencia en ciencia de datos con mi pasión por las buenas causas para aplicar los avances tecnológicos en aprendizaje automático e inteligencia artificial al ámbito de la educación."
+          disclaimer = "Científico de datos con doctorado y experiencia en tecnología educativa, evaluación e investigación en IA. Desarrollo enfoques rigurosos para crear y evaluar sistemas de aprendizaje automático e IA, medir el impacto de productos y comprender el comportamiento de los estudiantes."
+        [[languages.es.params.home.profile.actions]]
+          label = "Explorar trabajo seleccionado"
+          url = "#work"
+          primary = true
+        [[languages.es.params.home.profile.actions]]
+          label = "Descargar currículum"
+          url = "https://jdpinto.com/pinto-resume.pdf"
+        [[languages.es.params.home.profile.actions]]
+          label = "Contactarme"
+          url = "#contact"
         # Home page posts
         [languages.es.params.home.posts]
           enable = false
@@ -239,7 +280,6 @@ enableEmoji = true
         Googlescholar = "user=dzeXpP8AAAAJ"
         GitHub = "juandpinto"
         Linkedin = "jdpinto"
-        # Twitter = "thejuanpinto"
         ORCID = "0000-0002-2972-485X"
         # Strava = "2609385"
         # Goodreads = ""
@@ -262,7 +302,7 @@ enableEmoji = true
     # desktop header mode ("fixed", "normal", "auto")
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
+    mobileMode = "fixed"
     # Header title config
     # 页面头部导航栏标题配置
     [params.header.title]
@@ -270,6 +310,7 @@ enableEmoji = true
       logo = ""
       # title name
       name = "Juan D. Pinto"
+      wordmark = true
       # you can add extra information before the name (HTML format is supported), such as icons
     #   pre = "<i class='fa fa-user-astronaut fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -515,13 +556,13 @@ enableEmoji = true
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     # 每一步的打字速度 (单位是毫秒)
-    speed = 100
+    speed = 90
     # blinking speed of the cursor (measured in milliseconds)
     # 光标的闪烁速度 (单位是毫秒)
     cursorSpeed = 1000
     # character used for the cursor (HTML format is supported)
     # 光标的字符 (支持 HTML 格式)
-    cursorChar = "|"
+    cursorChar = "▍"
     # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
     # 打字结束之后光标的持续时间 (单位是毫秒, "-1" 代表无限大)
     duration = -1

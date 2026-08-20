@@ -1,10 +1,48 @@
 // ==============================
-// Override Variables
+// Everforest-derived theme variables
 // ==============================
+$global-background-color: #fdf6e3;
+$global-background-color-dark: #2d353b;
+$global-font-color: #4f585e;
+$global-font-color-dark: #d3c6aa;
+$global-font-secondary-color: #7a8478;
+$global-font-secondary-color-dark: #9da9a0;
+$global-link-color: #5f7c53;
+$global-link-color-dark: #a7c080;
+$global-link-hover-color: #3d5f4a;
+$global-link-hover-color-dark: #dbbc7f;
+$global-border-color: #e8dfc9;
+$global-border-color-dark: #4f585e;
+$scrollbar-color: #a6b084;
+$scrollbar-hover-color: #7a9657;
+$selection-color: rgba(167, 192, 128, 0.35);
+$selection-color-dark: rgba(131, 192, 146, 0.35);
+$header-background-color: #f4f0d9;
+$header-background-color-dark: #343f44;
+$header-hover-color: #3d5f4a;
+$header-hover-color-dark: #dbbc7f;
+$search-background-color: #ece4cf;
+$search-background-color-dark: #3d484d;
+$single-link-color: #5f7c53;
+$single-link-color-dark: #a7c080;
+$single-link-hover-color: #3d5f4a;
+$single-link-hover-color-dark: #dbbc7f;
+$table-background-color: #f8f1dd;
+$table-background-color-dark: #343f44;
+$table-thead-color: #ece4cf;
+$table-thead-color-dark: #3d484d;
+$blockquote-color: #83c092;
+$blockquote-color-dark: #83c092;
+$code-color: #9d6a3d;
+$code-color-dark: #dbbc7f;
+$code-background-color: #f4f0d9;
+$code-background-color-dark: #343f44;
+
 .home {
     .home-profile {
         .home-disclaimer {
             color: $global-font-color !important;
+
             [theme=dark] & {
                 color: $global-font-color-dark !important;
             }
